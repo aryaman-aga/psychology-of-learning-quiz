@@ -8,14 +8,14 @@
   const AUTO_NEXT_MS = 650;
 
   const $app = document.getElementById("app");
-  const $bar = document.getElementById("bottombar");
   const $tabs = document.getElementById("tabs");
+  const $modes = document.getElementById("modes");
+  const root = document.documentElement;
 
   // iOS Safari only fires :active styles when a touch listener exists
   document.addEventListener("touchstart", () => {}, { passive: true });
 
   /* ---------- Collapsing header: hide on scroll down, reveal on scroll up ---------- */
-  const root = document.documentElement;
   let lastY = window.scrollY, ticking = false;
   const showHeader = () => root.classList.remove("hdr-hidden");
   window.addEventListener("scroll", () => {
@@ -24,7 +24,7 @@
     requestAnimationFrame(() => {
       ticking = false;
       const y = window.scrollY;
-      const max = document.documentElement.scrollHeight - window.innerHeight;
+      const max = root.scrollHeight - window.innerHeight;
       // ignore Safari's rubber-band overscroll at either end
       if (y <= 60) showHeader();
       else if (y < max - 2) {
@@ -39,26 +39,27 @@
 
   /* ---------- Storage (guarded: Safari private mode can throw) ---------- */
   const store = {
-    get(k, d) { try { const v = localStorage.getItem("plq:" + k); return v ? JSON.parse(v) : d; } catch { return d; } },
-    set(k, v) { try { localStorage.setItem("plq:" + k, JSON.stringify(v)); } catch {} },
-    del(k) { try { localStorage.removeItem("plq:" + k); } catch {} },
+    get(k, d) { try { const v = localStorage.getItem("plq2:" + k); return v ? JSON.parse(v) : d; } catch { return d; } },
+    set(k, v) { try { localStorage.setItem("plq2:" + k, JSON.stringify(v)); } catch {} },
   };
 
-  let settings = Object.assign({ weeks: WEEKS.slice(), shuffleQ: true, shuffleO: true }, store.get("settings", {}));
-  settings.weeks = settings.weeks.filter(w => WEEKS.includes(w));
+  const settings = Object.assign({ shuffleQ: true, shuffleO: true, mix: [] }, store.get("settings", {}));
+  settings.mix = settings.mix.filter(w => WEEKS.includes(w));
   let stats = Object.assign({ correct: 0, wrong: 0 }, store.get("stats", {}));
-  let session = store.get("session", null);
-  if (session && !session.order.every(id => BY_ID[id])) session = null;
+  let sessions = store.get("sessions", {});
+  for (const k in sessions) if (!sessions[k].order.every(id => BY_ID[id])) delete sessions[k];
+  let key = store.get("key", "all");
+  if (!validKey(key)) key = "all";
 
-  let view = "home";          // home | quiz | results | study
-  let practiceView = "home";
-  let pending = [];           // MSQ selections (original indices)
-  let advanceTimer = 0;
+  let mode = "quiz";           // quiz | study | settings
+  let studyWeek = "all";
   let studyQuery = "";
+  let pending = [];            // MSQ selections (original indices)
+  let advanceTimer = 0;
 
   const saveSettings = () => store.set("settings", settings);
   const saveStats = () => store.set("stats", stats);
-  const saveSession = () => session ? store.set("session", session) : store.del("session");
+  const saveSessions = () => { store.set("sessions", sessions); store.set("key", key); };
 
   /* ---------- Helpers ---------- */
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -66,470 +67,424 @@
   const range = n => Array.from({ length: n }, (_, i) => i);
   const sameSet = (a, b) => a.length === b.length && a.every(x => b.includes(x));
   const isMulti = q => q.answer.length > 1;
-  const weekLabel = w => `Week ${w}`;
-  const haptic = ms => { try { navigator.vibrate && navigator.vibrate(ms); } catch {} };
+  const haptic = p => { try { navigator.vibrate && navigator.vibrate(p); } catch {} };
+  const byOrder = (a, b) => BY_ID[a].week - BY_ID[b].week || BY_ID[a].n - BY_ID[b].n;
+  const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
 
   const ICON = {
-    check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
-    x: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg>',
-    left: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>',
-    right: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>',
-    play: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.6-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg>',
-    search: '<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>',
-    info: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.5v.5"/></svg>',
+    check: '<svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
+    x: '<svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg>',
+    left: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>',
+    right: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
   };
 
   function toast(msg) {
     const t = document.createElement("div");
-    t.className = "toast glass";
+    t.className = "toast";
     t.textContent = msg;
     document.body.appendChild(t);
     setTimeout(() => t.remove(), 1900);
   }
 
-  function setBar(html) {
-    if (!html) { $bar.hidden = true; $bar.innerHTML = ""; return; }
-    $bar.innerHTML = html;
-    $bar.hidden = false;
+  /* ---------- Sets & sessions ---------- */
+  function validKey(k) {
+    return k === "all" || (k === "mix" && settings.mix.length > 0) || (/^w\d+$/.test(k) && WEEKS.includes(+k.slice(1)));
   }
-
-  function go(v, { scroll = true } = {}) {
-    clearTimeout(advanceTimer);
-    view = v;
-    if (v !== "study") practiceView = v;
-    if (scroll) showHeader();
-    $tabs.querySelectorAll("button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === (v === "study" ? "study" : "practice"))));
-    render();
-    if (scroll) window.scrollTo(0, 0);
+  function idsFor(k) {
+    const weeks = k === "all" ? WEEKS : k === "mix" ? settings.mix : [+k.slice(1)];
+    return QS.filter(q => weeks.includes(q.week)).map(q => q.id).sort(byOrder);
   }
-
-  function render() {
-    ({ home: renderHome, quiz: renderQuiz, results: renderResults, study: renderStudy })[view]();
+  function labelFor(k) {
+    return k === "all" ? "All weeks" : k === "mix" ? "Mix · weeks " + settings.mix.join(", ") : "Week " + k.slice(1);
   }
-
-  /* ---------- Session ---------- */
-  function poolForWeeks(weeks) {
-    return QS.filter(q => weeks.includes(q.week)).sort((a, b) => a.week - b.week || a.n - b.n).map(q => q.id);
-  }
-
-  function startSession(ids) {
-    const order = settings.shuffleQ ? shuffle(ids) : ids.slice();
+  function newSession(ids, retry = false) {
+    const order = settings.shuffleQ ? shuffle(ids) : ids.slice().sort(byOrder);
     const perms = {};
     for (const id of order) {
-      const n = BY_ID[id].options.length;
+      const opts = BY_ID[id].options;
       // keep True/False in natural order — shuffling them is just confusing
-      const tf = n === 2 && /^true$/i.test(BY_ID[id].options[0]);
-      perms[id] = settings.shuffleO && !tf ? shuffle(range(n)) : range(n);
+      const tf = opts.length === 2 && /^true$/i.test(opts[0]);
+      perms[id] = settings.shuffleO && !tf ? shuffle(range(opts.length)) : range(opts.length);
     }
-    session = { order, idx: 0, perms, res: {}, finished: false };
-    saveSession();
-    pending = [];
-    go("quiz");
+    return { order, idx: 0, perms, res: {}, finished: false, retry };
   }
-
-  const tally = () => {
+  function cur() {
+    if (!sessions[key]) { sessions[key] = newSession(idsFor(key)); saveSessions(); }
+    return sessions[key];
+  }
+  function tally(s) {
     let c = 0, w = 0;
-    for (const id of session.order) { const r = session.res[id]; if (r) r.ok ? c++ : w++; }
+    for (const id of s.order) { const r = s.res[id]; if (r) r.ok ? c++ : w++; }
     return { c, w };
-  };
-
-  /* ---------- Home ---------- */
-  function renderHome() {
-    const pool = poolForWeeks(settings.weeks);
-    const total = stats.correct + stats.wrong;
-    const acc = total ? Math.round((stats.correct / total) * 100) + "%" : "—";
-    const canResume = session && !session.finished;
-    const t = canResume ? tally() : null;
-
-    $app.innerHTML = `
-      <section class="view">
-        <div class="hero">
-          <h1>Psychology of Learning</h1>
-          <p>NPTEL weekly assignments · Weeks ${WEEKS[0]}–${WEEKS[WEEKS.length - 1]} · ${QS.length} questions</p>
-        </div>
-
-        ${canResume ? `
-        <div class="card glass resume">
-          <div class="grow">
-            <b>Continue where you left off</b>
-            <p>Question ${Math.min(session.idx + 1, session.order.length)} of ${session.order.length} · ${t.c} right · ${t.w} wrong</p>
-          </div>
-          <button class="btn btn-ghost" data-act="resume">Resume</button>
-        </div>` : ""}
-
-        <div class="card glass">
-          <div class="card-head">
-            <div><h2>Weeks</h2><div class="sub">${settings.weeks.length} of ${WEEKS.length} selected</div></div>
-            <div class="link-btns">
-              <button class="link-btn" data-act="all">All</button>
-              <button class="link-btn" data-act="none">None</button>
-            </div>
-          </div>
-          <div class="weeks">
-            ${WEEKS.map(w => `
-              <button class="chip" data-week="${w}" aria-pressed="${settings.weeks.includes(w)}">
-                <b>${weekLabel(w)}</b><small>${QS.filter(q => q.week === w).length} Qs</small>
-              </button>`).join("")}
-          </div>
-        </div>
-
-        <div class="card glass">
-          <div class="toggles">
-            ${toggleHTML("shuffleQ", "Shuffle questions", "Off = week-wise in original order")}
-            ${toggleHTML("shuffleO", "Shuffle options", "Randomise A/B/C/D each time")}
-          </div>
-        </div>
-
-        <div class="card glass">
-          <div class="card-head">
-            <div><h2>Your score</h2><div class="sub">All attempts so far</div></div>
-            ${total ? `<button class="link-btn" data-act="reset">Reset</button>` : ""}
-          </div>
-          <div class="stats">
-            <div class="stat good"><b>${stats.correct}</b><span>Correct</span></div>
-            <div class="stat bad"><b>${stats.wrong}</b><span>Wrong</span></div>
-            <div class="stat"><b>${acc}</b><span>Accuracy</span></div>
-          </div>
-        </div>
-      </section>`;
-
-    setBar(`<button class="btn btn-primary" data-act="start" ${pool.length ? "" : "disabled"}>
-      ${ICON.play}<span>${pool.length ? `Start · ${pool.length} question${pool.length === 1 ? "" : "s"}` : "Select at least one week"}</span>
-    </button>`);
   }
 
-  function toggleHTML(key, label, desc) {
-    return `<button class="toggle" role="switch" data-toggle="${key}" aria-checked="${!!settings[key]}">
-      <span><span class="t-label">${label}</span><span class="t-desc">${desc}</span></span>
-      <span class="switch" aria-hidden="true"></span>
-    </button>`;
+  /* ---------- Shell ---------- */
+  function go(m, { scroll = true } = {}) {
+    clearTimeout(advanceTimer);
+    mode = m;
+    pending = [];
+    $modes.querySelectorAll("button").forEach(b => b.setAttribute("aria-current", String(b.dataset.mode === m)));
+    renderTabs();
+    ({ quiz: renderQuiz, study: renderStudy, settings: renderSettings })[m]();
+    if (scroll) { window.scrollTo(0, 0); showHeader(); }
+  }
+
+  function renderTabs() {
+    const items = [{ id: "all", label: "All" }, ...WEEKS.map(w => ({ id: "w" + w, label: String(w) }))];
+    if (mode !== "study" && settings.mix.length) items.push({ id: "mix", label: "Mix" });
+    const active = mode === "study" ? (studyWeek === "all" ? "all" : "w" + studyWeek) : mode === "quiz" ? key : null;
+    $tabs.innerHTML = items.map(t =>
+      `<button class="tab" role="tab" data-tab="${t.id}" aria-selected="${t.id === active}" aria-label="${t.id === "all" ? "All weeks" : t.id === "mix" ? "Custom mix" : "Week " + t.label}">${t.label}</button>`
+    ).join("");
+    // keep the active tab visible inside the horizontal strip without scrolling the page
+    const a = $tabs.querySelector('[aria-selected="true"]');
+    if (a) {
+      const l = a.offsetLeft - $tabs.offsetLeft, r = l + a.offsetWidth;
+      if (l < $tabs.scrollLeft + 40) $tabs.scrollLeft = l - 40;
+      else if (r > $tabs.scrollLeft + $tabs.clientWidth - 40) $tabs.scrollLeft = r - $tabs.clientWidth + 40;
+    }
   }
 
   /* ---------- Quiz ---------- */
   function renderQuiz() {
-    if (!session) return go("home");
-    const id = session.order[session.idx];
+    const s = cur();
+    if (s.finished) return renderResults();
+    const id = s.order[s.idx];
     const q = BY_ID[id];
-    const perm = session.perms[id];
-    const res = session.res[id];
-    const t = tally();
-    const answered = Object.keys(session.res).length;
-    const pct = (answered / session.order.length) * 100;
-    const multi = isMulti(q);
-    if (res) pending = [];
+    const perm = s.perms[id];
+    const res = s.res[id];
+    const t = tally(s);
+    const answered = Object.keys(s.res).length;
 
     $app.innerHTML = `
-      <section class="view quiz">
-        <div class="qmeta">
-          <div style="display:flex;align-items:center;gap:8px;min-width:0">
-            <span class="pill week">${weekLabel(q.week)} · Q${q.n}</span>
-            <span class="qcount">${session.idx + 1}/${session.order.length}</span>
-          </div>
-          <div class="score">
-            <span class="pill good" id="pGood">${ICON.check}${t.c}</span>
-            <span class="pill bad" id="pBad">${ICON.x}${t.w}</span>
-          </div>
+      <section class="view">
+        <div class="meta">
+          <span>${s.idx + 1} / ${s.order.length} · Week ${q.week}${s.retry ? " · retry" : ""}</span>
+          <span class="score"><span class="c"><b id="nC">${t.c}</b> correct</span><span class="w"><b id="nW">${t.w}</b> wrong</span></span>
         </div>
-        <div class="progress"><i style="width:${pct}%"></i></div>
+        <div class="progress"><i id="prog" style="width:${(answered / s.order.length) * 100}%"></i></div>
 
-        <h2 class="question">${esc(q.q)}</h2>
-        <div class="qhint">${multi ? "Select all that apply, then check." : "&nbsp;"}</div>
+        <h1 class="question">${esc(q.q)}</h1>
+        ${isMulti(q) ? `<p class="qhint">Select all that apply, then check.</p>` : ""}
 
         <div class="options" id="opts">
-          ${perm.map((orig, k) => `
-            <button class="opt glass" data-orig="${orig}">
-              <span class="key">${LETTERS[k]}</span>
-              <span class="txt">${esc(q.options[orig])}</span>
-              <span class="mark">${ICON.check}</span>
-            </button>`).join("")}
+          ${perm.map(orig => `
+            <button class="opt" data-orig="${orig}"><span class="txt">${esc(q.options[orig])}</span></button>`).join("")}
         </div>
-        <div id="explainSlot"></div>
-        <div class="kbd-hint"><kbd>1</kbd>–<kbd>${perm.length}</kbd> or <kbd>A</kbd>–<kbd>${LETTERS[perm.length - 1]}</kbd> to answer · <kbd>Enter</kbd> next · <kbd>←</kbd> back</div>
+        <div id="after"></div>
+        <div class="actions" id="actions"></div>
+        <div class="kbd-hint"><kbd>1</kbd>–<kbd>${perm.length}</kbd> answer · <kbd>Enter</kbd> next · <kbd>←</kbd> back · ${esc(labelFor(key))}</div>
       </section>`;
 
     if (res) paintResult(q, res, false);
-    else if (multi) paintPending();
-    quizBar();
+    renderAfter(); renderActions();
   }
 
-  function quizBar() {
-    const id = session.order[session.idx];
+  function renderAfter() {
+    const s = cur();
+    const id = s.order[s.idx];
     const q = BY_ID[id];
-    const res = session.res[id];
-    const last = session.idx === session.order.length - 1;
-    let primary;
-    if (res) primary = `<button class="btn btn-primary" data-act="next"><span>${last ? "See results" : "Next"}</span>${ICON.right}</button>`;
-    else if (isMulti(q)) primary = `<button class="btn btn-primary" data-act="check" ${pending.length ? "" : "disabled"}>Check answer</button>`;
-    else primary = `<button class="btn btn-ghost" style="flex:1" data-act="next"><span>${last ? "Finish" : "Skip"}</span>${ICON.right}</button>`;
-
-    setBar(`
-      <button class="btn btn-ghost btn-icon" data-act="prev" aria-label="Previous" ${session.idx ? "" : "disabled style='opacity:.4'"}>${ICON.left}</button>
-      <button class="btn btn-ghost" data-act="end">End</button>
-      ${primary}`);
+    const res = s.res[id];
+    const last = s.idx === s.order.length - 1;
+    const el = document.getElementById("after");
+    if (res) {
+      el.innerHTML = `
+        ${explainHTML(q, res)}
+        <div class="next-wrap"><button class="btn btn-solid btn-block" data-act="next">${last ? "See results" : "Next question"} ${ICON.right}</button></div>`;
+    } else if (isMulti(q)) {
+      el.innerHTML = `<div class="next-wrap"><button class="btn btn-solid btn-block" data-act="check" ${pending.length ? "" : "disabled"}>Check answer</button></div>`;
+    } else el.innerHTML = "";
   }
 
-  function paintPending() {
-    document.querySelectorAll("#opts .opt").forEach(b => b.classList.toggle("sel", pending.includes(+b.dataset.orig)));
+  function renderActions() {
+    const s = cur();
+    const res = s.res[s.order[s.idx]];
+    const last = s.idx === s.order.length - 1;
+    document.getElementById("actions").innerHTML = `
+      <button class="textbtn" data-act="prev" ${s.idx ? "" : "disabled"}>${ICON.left} Back</button>
+      <span style="display:flex;gap:20px">
+        <button class="textbtn" data-act="restart">Restart</button>
+        <button class="textbtn" data-act="end">End</button>
+      </span>
+      ${res ? `<span style="width:58px"></span>` : `<button class="textbtn" data-act="next">${last ? "Finish" : "Skip"} ${ICON.right}</button>`}`;
+  }
+
+  function explainHTML(q, res) {
+    const ans = q.answer.map(a => esc(q.options[a])).join(", ");
+    return `
+      <div class="explain">
+        <div class="lbl">${res.ok ? "Correct" : "Answer"}</div>
+        <div class="ans">${ans}</div>
+        <p>${esc(q.explanation)}</p>
+        ${q.note ? `<div class="note"><b>Answer-key note:</b> ${esc(q.note)}</div>` : ""}
+      </div>`;
   }
 
   function paintResult(q, res, animate) {
-    const opts = document.querySelectorAll("#opts .opt");
-    opts.forEach(b => {
+    document.querySelectorAll("#opts .opt").forEach(b => {
       const o = +b.dataset.orig;
       const isAns = q.answer.includes(o);
       const picked = res.chosen.includes(o);
       b.disabled = true;
       b.classList.remove("sel");
-      if (isAns && picked) b.classList.add("correct");
-      else if (isAns) b.classList.add("correct");
-      else if (picked) { b.classList.add("wrong"); b.querySelector(".mark").innerHTML = ICON.x; }
+      if (isAns) { b.classList.add("correct"); b.insertAdjacentHTML("beforeend", ICON.check); }
+      else if (picked) { b.classList.add("wrong"); b.insertAdjacentHTML("beforeend", ICON.x); if (animate) b.classList.add("shake"); }
       else b.classList.add("dim");
-      if (animate && picked) b.classList.add(res.ok ? "pop" : "shake");
     });
-
-    const slot = document.getElementById("explainSlot");
-    // Explanation shows on wrong answers (and when revisiting a past question)
-    if (!res.ok || !animate) {
-      const ansText = q.answer.map(a => esc(q.options[a])).join(", ");
-      slot.innerHTML = `
-        <div class="explain glass ${res.ok ? "ok" : ""}">
-          <h4>${res.ok ? "Correct" : "Correct answer"}</h4>
-          <p class="ans">${ansText}</p>
-          <p>${esc(q.explanation)}</p>
-          ${q.note ? `<div class="note">${ICON.info}<span>Answer-key note: ${esc(q.note)}</span></div>` : ""}
-        </div>`;
-      if (animate) {
-        const el = slot.firstElementChild;
-        requestAnimationFrame(() => {
-          const r = el.getBoundingClientRect();
-          const barTop = $bar.getBoundingClientRect().top || window.innerHeight;
-          if (r.bottom > barTop - 8) window.scrollBy({ top: r.bottom - barTop + 24, behavior: "smooth" });
-        });
-      }
-    }
   }
 
-  function bump(id) {
-    const el = document.getElementById(id);
-    if (!el) return;
-    el.classList.remove("bump"); void el.offsetWidth; el.classList.add("bump");
-  }
+  function bump(el) { el.classList.remove("bump"); void el.offsetWidth; el.classList.add("bump"); }
 
   function submit(chosen) {
-    const id = session.order[session.idx];
+    const s = cur();
+    const id = s.order[s.idx];
     const q = BY_ID[id];
-    if (session.res[id]) return;
+    if (s.res[id]) return;
     const ok = sameSet(chosen, q.answer);
-    session.res[id] = { chosen, ok };
+    s.res[id] = { chosen, ok };
     ok ? stats.correct++ : stats.wrong++;
-    saveSession(); saveStats();
+    saveSessions(); saveStats();
     pending = [];
 
-    const t = tally();
-    document.getElementById("pGood").innerHTML = ICON.check + t.c;
-    document.getElementById("pBad").innerHTML = ICON.x + t.w;
-    bump(ok ? "pGood" : "pBad");
-    const bar = document.querySelector(".progress i");
-    if (bar) bar.style.width = (Object.keys(session.res).length / session.order.length) * 100 + "%";
-
+    const t = tally(s);
+    const nC = document.getElementById("nC"), nW = document.getElementById("nW");
+    nC.textContent = t.c; nW.textContent = t.w;
+    bump(ok ? nC : nW);
+    document.getElementById("prog").style.width = (Object.keys(s.res).length / s.order.length) * 100 + "%";
     paintResult(q, { chosen, ok }, true);
-    quizBar();
     haptic(ok ? 12 : [20, 60, 20]);
 
     if (ok) {
-      const at = session.idx;
-      advanceTimer = setTimeout(() => { if (view === "quiz" && session.idx === at) next(); }, AUTO_NEXT_MS);
+      const at = s.idx, k = key;
+      advanceTimer = setTimeout(() => { if (mode === "quiz" && key === k && cur().idx === at) next(); }, AUTO_NEXT_MS);
+      return;
     }
+    renderAfter(); renderActions();
+    // bring the explanation + Next button into view
+    requestAnimationFrame(() => {
+      const btn = document.querySelector("#after .next-wrap");
+      if (!btn) return;
+      const r = btn.getBoundingClientRect();
+      if (r.bottom > window.innerHeight - 12) window.scrollBy({ top: r.bottom - window.innerHeight + 24, behavior: "smooth" });
+    });
   }
 
   function choose(orig) {
-    const id = session.order[session.idx];
-    const q = BY_ID[id];
-    if (session.res[id]) return;
+    const s = cur();
+    const q = BY_ID[s.order[s.idx]];
+    if (s.res[q.id]) return;
     if (isMulti(q)) {
       pending = pending.includes(orig) ? pending.filter(x => x !== orig) : [...pending, orig];
-      paintPending(); quizBar();
+      document.querySelectorAll("#opts .opt").forEach(b => b.classList.toggle("sel", pending.includes(+b.dataset.orig)));
+      renderAfter();
     } else submit([orig]);
   }
 
   function next() {
     clearTimeout(advanceTimer);
-    pending = [];
-    if (session.idx < session.order.length - 1) { session.idx++; saveSession(); go("quiz"); }
+    const s = cur();
+    if (s.idx < s.order.length - 1) { s.idx++; saveSessions(); go("quiz"); }
     else finish();
   }
   function prev() {
     clearTimeout(advanceTimer);
-    if (session.idx > 0) { session.idx--; pending = []; saveSession(); go("quiz"); }
+    const s = cur();
+    if (s.idx > 0) { s.idx--; saveSessions(); go("quiz"); }
   }
   function finish() {
-    session.finished = true;
-    saveSession();
-    go("results");
+    cur().finished = true;
+    saveSessions();
+    go("quiz");
   }
 
   /* ---------- Results ---------- */
   function renderResults() {
-    if (!session) return go("home");
-    const t = tally();
+    const s = cur();
+    const t = tally(s);
     const answered = t.c + t.w;
-    const skipped = session.order.length - answered;
+    const skipped = s.order.length - answered;
     const pct = answered ? Math.round((t.c / answered) * 100) : 0;
-    const C = 2 * Math.PI * 64;
-    const wrongIds = session.order.filter(id => session.res[id] && !session.res[id].ok);
-    const weeks = [...new Set(session.order.map(id => BY_ID[id].week))].sort((a, b) => a - b);
-    const msg = pct >= 90 ? "Outstanding!" : pct >= 75 ? "Great work" : pct >= 50 ? "Good effort" : "Keep practising";
+    const wrongIds = s.order.filter(id => s.res[id] && !s.res[id].ok);
+    const weeks = [...new Set(s.order.map(id => BY_ID[id].week))].sort((a, b) => a - b);
+    const msg = !answered ? "Nothing answered yet" : pct >= 90 ? "Outstanding." : pct >= 75 ? "Great work." : pct >= 50 ? "Good effort." : "Keep practising.";
 
     $app.innerHTML = `
       <section class="view">
-        <div class="card glass result-top">
-          <div class="ring">
-            <svg viewBox="0 0 148 148"><circle class="track" cx="74" cy="74" r="64"/><circle class="val" id="ringVal" cx="74" cy="74" r="64" stroke-dasharray="${C}" stroke-dashoffset="${C}"/></svg>
-            <div class="pct">${pct}%</div>
-          </div>
-          <h2>${msg}</h2>
-          <p>${t.c} correct · ${t.w} wrong${skipped ? ` · ${skipped} skipped` : ""}</p>
-        </div>
-
-        <div class="result-actions">
-          ${wrongIds.length ? `<button class="btn btn-primary" data-act="retryWrong">Retry ${wrongIds.length} wrong</button>` : ""}
-          <button class="btn btn-ghost" data-act="again">Restart same set</button>
-          <button class="btn btn-ghost" data-act="home">New quiz</button>
+        <div class="meta"><span>${esc(labelFor(key))}${s.retry ? " · retry" : ""}</span><span>Finished</span></div>
+        <div class="big">${pct}%</div>
+        <div class="result-sub">${msg}</div>
+        <p class="result-line">${t.c} correct · ${t.w} wrong${skipped ? ` · ${skipped} skipped` : ""}</p>
+        <div class="stack">
+          ${wrongIds.length ? `<button class="btn btn-solid btn-block" data-act="retryWrong">Retry ${plural(wrongIds.length, "mistake")}</button>` : ""}
+          <button class="btn ${wrongIds.length ? "btn-line" : "btn-solid"} btn-block" data-act="restartNow">Restart ${esc(labelFor(key).split(" · ")[0].toLowerCase())}</button>
         </div>
 
         ${weeks.length > 1 ? `
-        <div class="card glass">
-          <div class="card-head"><h2>By week</h2></div>
-          <div class="wk-break">
-            ${weeks.map(w => {
-              const ids = session.order.filter(id => BY_ID[id].week === w);
-              const c = ids.filter(id => session.res[id] && session.res[id].ok).length;
-              return `<div class="wk-row"><span>${weekLabel(w)}</span><span class="bar"><i style="width:${(c / ids.length) * 100}%"></i></span><span class="n">${c}/${ids.length}</span></div>`;
-            }).join("")}
-          </div>
-        </div>` : ""}
+          <h2 class="h2">By week</h2>
+          ${weeks.map(w => {
+            const ids = s.order.filter(id => BY_ID[id].week === w);
+            const c = ids.filter(id => s.res[id] && s.res[id].ok).length;
+            return `<div class="wk-row"><span>Week ${w}</span><span class="bar"><i style="width:${(c / ids.length) * 100}%"></i></span><span class="n">${c}/${ids.length}</span></div>`;
+          }).join("")}` : ""}
 
         ${wrongIds.length ? `
-        <div class="wk-title"><h2>Review mistakes</h2><span>${wrongIds.length}</span></div>
-        ${wrongIds.map(id => studyCard(BY_ID[id], session.res[id].chosen)).join("")}` : ""}
+          <h2 class="h2">Review mistakes</h2>
+          ${wrongIds.map(id => studyCard(BY_ID[id], s.res[id].chosen)).join("")}` : ""}
       </section>`;
-    setBar("");
-    requestAnimationFrame(() => requestAnimationFrame(() => {
-      const r = document.getElementById("ringVal");
-      if (r) r.style.strokeDashoffset = C * (1 - pct / 100);
-    }));
   }
 
   /* ---------- Study ---------- */
   function studyCard(q, chosen) {
     return `
-      <article class="sq glass">
-        <div class="n">${weekLabel(q.week)} · Question ${q.n}</div>
+      <article class="sq">
+        <div class="n">Week ${q.week} · Question ${q.n}</div>
         <h3>${esc(q.q)}</h3>
-        <ol>${q.options.map((o, i) => `<li class="${q.answer.includes(i) ? "ok" : ""}" ${chosen && chosen.includes(i) && !q.answer.includes(i) ? 'style="background:var(--bad-soft)"' : ""}><b>${LETTERS[i]}</b><span>${esc(o)}</span></li>`).join("")}</ol>
-        <div class="answer">
-          <strong>Answer: ${q.answer.map(a => LETTERS[a]).join(", ")}</strong> — ${q.answer.map(a => esc(q.options[a])).join(", ")}
-          <p>${esc(q.explanation)}</p>
-          ${q.note ? `<div class="note">${ICON.info}<span>Answer-key note: ${esc(q.note)}</span></div>` : ""}
-        </div>
+        <ol>${q.options.map((o, i) => {
+          const cls = q.answer.includes(i) ? "ok" : chosen && chosen.includes(i) ? "picked" : "";
+          return `<li class="${cls}"><b>${LETTERS[i]}</b><span>${esc(o)}</span></li>`;
+        }).join("")}</ol>
+        <p class="why">${esc(q.explanation)}</p>
+        ${q.note ? `<div class="note"><b>Answer-key note:</b> ${esc(q.note)}</div>` : ""}
       </article>`;
   }
 
   function renderStudy() {
     $app.innerHTML = `
       <section class="view">
-        <div class="search glass" style="border-width:0 0 1px;border-radius:0;box-shadow:none">
-          <div class="search-wrap">
-            ${ICON.search}
-            <input id="q" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocorrect="off" spellcheck="false" placeholder="Search ${QS.length} questions & answers" value="${esc(studyQuery)}">
-          </div>
-          <div class="jump">${WEEKS.map(w => `<button data-jump="${w}">${weekLabel(w)}</button>`).join("")}</div>
-        </div>
+        <input id="q" class="search" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocorrect="off" spellcheck="false"
+          placeholder="Search questions and answers" value="${esc(studyQuery)}">
         <div id="studyList"></div>
       </section>`;
-    setBar("");
     renderStudyList();
   }
 
   function renderStudyList() {
     const term = studyQuery.trim().toLowerCase();
+    const weeks = studyWeek === "all" ? WEEKS : [studyWeek];
     const match = q => !term || (q.q + " " + q.options.join(" ") + " " + q.explanation).toLowerCase().includes(term);
-    const html = WEEKS.map(w => {
+    let total = 0;
+    const html = weeks.map(w => {
       const qs = QS.filter(q => q.week === w && match(q));
+      total += qs.length;
       if (!qs.length) return "";
-      return `<section class="wk-section" id="wk-${w}">
-        <div class="wk-title"><h2>${weekLabel(w)}</h2><span>${qs.length} question${qs.length === 1 ? "" : "s"}</span></div>
-        ${qs.map(q => studyCard(q)).join("")}
-      </section>`;
+      return `<h2 class="wk-head">Week ${w}</h2>${qs.map(q => studyCard(q)).join("")}`;
     }).join("");
-    document.getElementById("studyList").innerHTML = html || `<div class="empty">No questions match “${esc(studyQuery)}”.</div>`;
+    document.getElementById("studyList").innerHTML = total
+      ? `<div class="study-count">${plural(total, "question")}${term ? " match" : ""} · correct answers in green</div>${html}`
+      : `<div class="empty">No questions match “${esc(studyQuery)}”.</div>`;
+  }
+
+  /* ---------- Settings ---------- */
+  function renderSettings() {
+    const draft = settings.mix.length ? settings.mix : [];
+    const n = QS.filter(q => draft.includes(q.week)).length;
+    const total = stats.correct + stats.wrong;
+    $app.innerHTML = `
+      <section class="view">
+        <h1 class="h2" style="margin-top:0">Mix weeks</h1>
+        <p class="lead">Pick any weeks to practise together. It shows up as the “Mix” tab.</p>
+        <div class="wgrid">
+          ${WEEKS.map(w => `<button class="wbox" data-week="${w}" aria-pressed="${draft.includes(w)}">Week ${w}<small>10 Qs</small></button>`).join("")}
+        </div>
+        <div class="row-btns">
+          <button class="textbtn" data-act="mixAll">Select all</button>
+          <button class="textbtn" data-act="mixNone">Clear</button>
+        </div>
+        <button class="btn btn-solid btn-block" data-act="startMix" ${n ? "" : "disabled"}>${n ? `Start mix · ${plural(n, "question")}` : "Pick at least one week"}</button>
+
+        <h2 class="h2">Order</h2>
+        ${toggleHTML("shuffleQ", "Shuffle questions", "Off = week-wise, in the original order")}
+        ${toggleHTML("shuffleO", "Shuffle options", "Randomise the answer order")}
+
+        <h2 class="h2">Your score</h2>
+        <div class="stats">
+          <div class="stat c"><b>${stats.correct}</b><span>Correct</span></div>
+          <div class="stat"><b>${stats.wrong}</b><span>Wrong</span></div>
+          <div class="stat"><b>${total ? Math.round((stats.correct / total) * 100) + "%" : "–"}</b><span>Accuracy</span></div>
+        </div>
+        <div class="row-btns">
+          <button class="textbtn" data-act="resetStats">Reset score</button>
+          <button class="textbtn" data-act="resetAll">Reset all progress</button>
+        </div>
+      </section>`;
+  }
+
+  function toggleHTML(k, label, desc) {
+    return `<button class="toggle" role="switch" data-toggle="${k}" aria-checked="${!!settings[k]}">
+      <span><span class="t">${label}</span><span class="d">${desc}</span></span><span class="switch" aria-hidden="true"></span>
+    </button>`;
   }
 
   /* ---------- Events ---------- */
   $tabs.addEventListener("click", e => {
-    const b = e.target.closest("button[data-tab]");
+    const b = e.target.closest("[data-tab]");
     if (!b) return;
-    if (b.dataset.tab === "study") go("study");
-    else go(practiceView === "quiz" && session && !session.finished ? "quiz" : practiceView === "results" && session ? "results" : "home");
+    haptic(5);
+    if (mode === "study") {
+      studyWeek = b.dataset.tab === "all" ? "all" : +b.dataset.tab.slice(1);
+      return go("study");
+    }
+    key = b.dataset.tab;
+    store.set("key", key);
+    go("quiz");
   });
-  document.getElementById("homeBtn").addEventListener("click", () => go("home"));
 
   document.addEventListener("click", e => {
-    const opt = e.target.closest("#opts .opt");
-    if (opt && !opt.disabled) {
-      // don't treat a text-selection drag as an answer
-      if (String(window.getSelection && window.getSelection()).length) return;
-      return choose(+opt.dataset.orig);
-    }
+    const m = e.target.closest("[data-mode]");
+    if (m) return go(m.dataset.mode);
 
-    const chip = e.target.closest(".chip[data-week]");
-    if (chip) {
-      const w = +chip.dataset.week;
-      settings.weeks = settings.weeks.includes(w) ? settings.weeks.filter(x => x !== w) : [...settings.weeks, w].sort((a, b) => a - b);
-      saveSettings(); haptic(5);
-      return go("home", { scroll: false });
+    const opt = e.target.closest("#opts .opt");
+    if (opt && !opt.disabled) return choose(+opt.dataset.orig);
+
+    const wb = e.target.closest(".wbox[data-week]");
+    if (wb) {
+      const w = +wb.dataset.week;
+      settings.mix = settings.mix.includes(w) ? settings.mix.filter(x => x !== w) : [...settings.mix, w].sort((a, b) => a - b);
+      delete sessions.mix;
+      if (key === "mix" && !settings.mix.length) key = "all";
+      saveSettings(); saveSessions(); haptic(5);
+      return go("settings", { scroll: false });
     }
 
     const tg = e.target.closest("[data-toggle]");
     if (tg) {
       settings[tg.dataset.toggle] = !settings[tg.dataset.toggle];
-      saveSettings(); haptic(5);
       tg.setAttribute("aria-checked", String(settings[tg.dataset.toggle]));
-      return;
-    }
-
-    const jb = e.target.closest("[data-jump]");
-    if (jb) {
-      const el = document.getElementById("wk-" + jb.dataset.jump);
-      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-      else toast("No matches in " + weekLabel(+jb.dataset.jump));
+      // rebuild sets you haven't started yet so the change applies right away
+      for (const k in sessions) if (!Object.keys(sessions[k].res).length) delete sessions[k];
+      saveSettings(); saveSessions(); haptic(5);
       return;
     }
 
     const a = e.target.closest("[data-act]");
     if (!a || a.disabled) return;
+    const s = sessions[key];
     switch (a.dataset.act) {
-      case "all": settings.weeks = WEEKS.slice(); saveSettings(); go("home", { scroll: false }); break;
-      case "none": settings.weeks = []; saveSettings(); go("home", { scroll: false }); break;
-      case "start": {
-        const pool = poolForWeeks(settings.weeks);
-        if (!pool.length) return;
-        if (session && !session.finished && Object.keys(session.res).length && !confirm("Start a new quiz? Your current progress will be replaced.")) return;
-        startSession(pool); break;
-      }
-      case "resume": go("quiz"); break;
-      case "reset":
-        if (confirm("Reset your all-time correct/wrong counts?")) { stats = { correct: 0, wrong: 0 }; saveStats(); go("home", { scroll: false }); }
-        break;
       case "next": next(); break;
       case "prev": prev(); break;
       case "check": if (pending.length) submit(pending.slice()); break;
       case "end":
-        if (!Object.keys(session.res).length || confirm("End this quiz and see your results?")) finish();
+        if (!Object.keys(s.res).length || confirm("End this round and see your results?")) finish();
         break;
-      case "retryWrong": startSession(session.order.filter(id => session.res[id] && !session.res[id].ok)); break;
-      case "again": startSession(session.order.slice().sort((x, y) => BY_ID[x].week - BY_ID[y].week || BY_ID[x].n - BY_ID[y].n)); break;
-      case "home": go("home"); break;
+      case "restart":
+        if (!Object.keys(s.res).length || confirm(`Restart ${labelFor(key)}? Progress in this set will be cleared.`)) {
+          sessions[key] = newSession(idsFor(key)); saveSessions(); go("quiz");
+        }
+        break;
+      case "restartNow": sessions[key] = newSession(idsFor(key)); saveSessions(); go("quiz"); break;
+      case "retryWrong":
+        sessions[key] = newSession(s.order.filter(id => s.res[id] && !s.res[id].ok), true); saveSessions(); go("quiz"); break;
+      case "mixAll": settings.mix = WEEKS.slice(); delete sessions.mix; saveSettings(); go("settings", { scroll: false }); break;
+      case "mixNone": settings.mix = []; delete sessions.mix; if (key === "mix") key = "all"; saveSettings(); saveSessions(); go("settings", { scroll: false }); break;
+      case "startMix": key = "mix"; sessions.mix = newSession(idsFor("mix")); saveSessions(); go("quiz"); break;
+      case "resetStats":
+        if (confirm("Reset your all-time correct/wrong counts?")) { stats = { correct: 0, wrong: 0 }; saveStats(); go("settings", { scroll: false }); }
+        break;
+      case "resetAll":
+        if (confirm("Clear progress in every week and reset your score?")) {
+          sessions = {}; stats = { correct: 0, wrong: 0 }; saveSessions(); saveStats(); toast("All progress cleared"); go("settings", { scroll: false });
+        }
+        break;
     }
   });
 
@@ -543,10 +498,11 @@
       if (e.key === "Escape") e.target.blur();
       return;
     }
-    if (view !== "quiz" || !session) return;
-    const id = session.order[session.idx];
-    const q = BY_ID[id];
-    const perm = session.perms[id];
+    if (mode !== "quiz") return;
+    const s = cur();
+    if (s.finished) return;
+    const id = s.order[s.idx];
+    const perm = s.perms[id];
     const k = e.key.toLowerCase();
     let pos = -1;
     if (/^[1-9]$/.test(k)) pos = +k - 1;
@@ -554,12 +510,11 @@
     if (pos >= 0 && pos < perm.length) { e.preventDefault(); return choose(perm[pos]); }
     if (k === "enter" || k === "arrowright") {
       e.preventDefault();
-      if (!session.res[id] && isMulti(q) && pending.length) submit(pending.slice());
+      if (!s.res[id] && pending.length) submit(pending.slice());
       else next();
     } else if (k === "arrowleft") { e.preventDefault(); prev(); }
-    else if (k === "escape") go("home");
   });
 
   /* ---------- Boot ---------- */
-  go("home");
+  go("quiz");
 })();

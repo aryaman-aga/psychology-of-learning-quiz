@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Psychology of Learning Quiz</title>
 <meta name="description" content="NPTEL Psychology of Learning — practice every weekly assignment question, weeks 0–12.">
-<meta name="theme-color" content="#F5F4EE" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#262624" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#7A0B14" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#3E060B" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Psych Quiz">
 <meta name="format-detection" content="telephone=no">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -17,28 +17,31 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="backdrop" aria-hidden="true"><span></span><span></span><span></span></div>
 
-<header class="topbar glass">
+<header class="topbar">
   <div class="topbar-inner">
-    <button class="brand" id="homeBtn" aria-label="Home">
-      <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l1.6 6.1 5.6-3-3 5.6 6.1 1.6-6.1 1.6 3 5.6-5.6-3L12 21.5l-1.6-6.1-5.6 3 3-5.6L1.7 11.2l6.1-1.6-3-5.6 5.6 3z"/></svg>
-      <span class="long">Psychology of Learning</span><span class="short">Psych Quiz</span>
+    <button class="brand" data-mode="quiz" aria-label="Quiz">
+      <span class="long">Psychology of Learning</span><span class="short">Psych of Learning</span>
     </button>
-    <nav class="seg" id="tabs" role="tablist">
-      <button role="tab" data-tab="practice" aria-selected="true">Practice</button>
-      <button role="tab" data-tab="study" aria-selected="false">Study</button>
+    <nav class="modes" id="modes">
+      <button data-mode="quiz" aria-current="true">Quiz</button>
+      <button data-mode="study">Study</button>
+      <button data-mode="settings" aria-label="Settings">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>
+        <span class="lbl">Settings</span>
+      </button>
     </nav>
   </div>
 </header>
 
-<main id="app"></main>
-
-<div class="bottombar glass" id="bottombar" hidden></div>
+<div class="shell">
+  <nav class="tabs" id="tabs" aria-label="Weeks"></nav>
+  <main class="sheet" id="app"></main>
+</div>
 
 <script src="questions.js"></script>
 <script src="app.js"></script>
