@@ -172,7 +172,8 @@
             <button class="opt" data-orig="${orig}"><span class="txt">${esc(q.options[orig])}</span></button>`).join("")}
         </div>
         <div id="after"></div>
-        <div class="actions" id="actions"></div>
+        <nav class="qnav" id="actions" aria-label="Question navigation"></nav>
+        <div class="links"><button class="textbtn" data-act="restart">Restart this set</button><button class="textbtn" data-act="end">End &amp; see results</button></div>
         <div class="kbd-hint"><kbd>1</kbd>–<kbd>${perm.length}</kbd> answer · <kbd>Enter</kbd> next · <kbd>←</kbd> back · ${esc(labelFor(key))}</div>
       </section>`;
 
@@ -185,12 +186,9 @@
     const id = s.order[s.idx];
     const q = BY_ID[id];
     const res = s.res[id];
-    const last = s.idx === s.order.length - 1;
     const el = document.getElementById("after");
     if (res) {
-      el.innerHTML = `
-        ${explainHTML(q, res)}
-        <div class="next-wrap"><button class="btn btn-solid btn-block" data-act="next">${last ? "See results" : "Next question"} ${ICON.right}</button></div>`;
+      el.innerHTML = explainHTML(q, res);
     } else if (isMulti(q)) {
       el.innerHTML = `<div class="next-wrap"><button class="btn btn-solid btn-block" data-act="check" ${pending.length ? "" : "disabled"}>Check answer</button></div>`;
     } else el.innerHTML = "";
@@ -200,13 +198,10 @@
     const s = cur();
     const res = s.res[s.order[s.idx]];
     const last = s.idx === s.order.length - 1;
+    // Next is filled once the question is answered; before that it works as a skip
     document.getElementById("actions").innerHTML = `
-      <button class="textbtn" data-act="prev" ${s.idx ? "" : "disabled"}>${ICON.left} Back</button>
-      <span style="display:flex;gap:20px">
-        <button class="textbtn" data-act="restart">Restart</button>
-        <button class="textbtn" data-act="end">End</button>
-      </span>
-      ${res ? `<span style="width:58px"></span>` : `<button class="textbtn" data-act="next">${last ? "Finish" : "Skip"} ${ICON.right}</button>`}`;
+      <button class="btn btn-line" data-act="prev" ${s.idx ? "" : "disabled"} aria-label="Previous question">${ICON.left}<span>Previous</span></button>
+      <button class="btn ${res ? "btn-solid" : "btn-line"}" data-act="next" aria-label="${last ? "Finish" : "Next question"}"><span>${last ? (res ? "Results" : "Finish") : "Next"}</span>${ICON.right}</button>`;
   }
 
   function explainHTML(q, res) {
@@ -260,12 +255,13 @@
       return;
     }
     renderAfter(); renderActions();
-    // bring the explanation + Next button into view
+    // bring the explanation into view above the sticky Previous/Next bar
     requestAnimationFrame(() => {
-      const btn = document.querySelector("#after .next-wrap");
-      if (!btn) return;
-      const r = btn.getBoundingClientRect();
-      if (r.bottom > window.innerHeight - 12) window.scrollBy({ top: r.bottom - window.innerHeight + 24, behavior: "smooth" });
+      const ex = document.querySelector("#after .explain");
+      if (!ex) return;
+      const limit = document.getElementById("actions").getBoundingClientRect().top;
+      const r = ex.getBoundingClientRect();
+      if (r.bottom > limit - 8) window.scrollBy({ top: Math.min(r.bottom - limit + 16, r.top - 80), behavior: "smooth" });
     });
   }
 

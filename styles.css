@@ -230,12 +230,26 @@ input { font: inherit; color: inherit; }
 .note { margin-top: 12px; font-size: 14px; color: var(--muted); }
 .note b { color: var(--ink-2); }
 
-.actions {
+/* Previous / Next: sticks to the bottom of the screen while scrolling a long question */
+.qnav {
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 24px calc(-1 * var(--pad)) 0;
+  padding: 10px var(--pad) calc(10px + var(--safe-b));
+  background: var(--sheet);
+  box-shadow: 0 -1px 0 var(--line);
+}
+.qnav .btn { min-height: 54px; padding: 0 16px; }
+.qnav .btn-line:disabled { opacity: .3; }
+.links {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  margin-top: 26px;
+  gap: 16px;
+  margin-top: 10px;
 }
 .textbtn {
   display: inline-flex;
@@ -265,8 +279,8 @@ input { font: inherit; color: inherit; }
 .btn-solid { background: var(--ink); color: var(--sheet); }
 .btn-solid:disabled { opacity: .35; }
 .btn-solid:active { opacity: .85; }
-.btn-line { box-shadow: inset 0 0 0 2px var(--ink); color: var(--ink); }
-.btn-line:active { background: var(--opt); }
+.btn-line { box-shadow: inset 0 0 0 2px var(--ink); color: var(--ink); background: var(--sheet); }
+.btn-line:active:not(:disabled) { background: var(--opt); }
 .btn-block { width: 100%; }
 .next-wrap { margin-top: 22px; }
 
@@ -387,7 +401,7 @@ input { font: inherit; color: inherit; }
   .tab:not([aria-selected="true"]):hover { background: var(--tab-hover); }
   .modes button:hover { opacity: 1; }
   .textbtn:not(:disabled):hover { color: var(--ink); }
-  .btn-line:hover { background: var(--opt); }
+  .btn-line:not(:disabled):hover { background: var(--opt); }
   .wbox:not([aria-pressed="true"]):hover { background: var(--opt-hover); }
   .kbd-hint { display: block; }
 }
