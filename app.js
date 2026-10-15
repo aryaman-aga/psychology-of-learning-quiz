@@ -14,6 +14,29 @@
   // iOS Safari only fires :active styles when a touch listener exists
   document.addEventListener("touchstart", () => {}, { passive: true });
 
+  /* ---------- Collapsing header: hide on scroll down, reveal on scroll up ---------- */
+  const root = document.documentElement;
+  let lastY = window.scrollY, ticking = false;
+  const showHeader = () => root.classList.remove("hdr-hidden");
+  window.addEventListener("scroll", () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      ticking = false;
+      const y = window.scrollY;
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      // ignore Safari's rubber-band overscroll at either end
+      if (y <= 60) showHeader();
+      else if (y < max - 2) {
+        const dy = y - lastY;
+        if (dy > 6) root.classList.add("hdr-hidden");
+        else if (dy < -6) showHeader();
+        else return; // small jitter: keep lastY so slow scrolls still accumulate
+      }
+      lastY = Math.max(0, Math.min(y, max));
+    });
+  }, { passive: true });
+
   /* ---------- Storage (guarded: Safari private mode can throw) ---------- */
   const store = {
     get(k, d) { try { const v = localStorage.getItem("plq:" + k); return v ? JSON.parse(v) : d; } catch { return d; } },
@@ -74,6 +97,7 @@
     clearTimeout(advanceTimer);
     view = v;
     if (v !== "study") practiceView = v;
+    if (scroll) showHeader();
     $tabs.querySelectorAll("button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === (v === "study" ? "study" : "practice"))));
     render();
     if (scroll) window.scrollTo(0, 0);
