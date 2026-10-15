@@ -1,0 +1,133 @@
+{
+  "week": 1,
+  "questions": [
+    {
+      "q": "Learning is often seen as the contiguous causal effect of ____ on behavior.",
+      "options": [
+        "blood",
+        "bone density",
+        "trauma",
+        "experience"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Learning is defined as a relatively permanent change in behavior or behavior potential that results from experience. Trauma can affect behavior, but the general causal factor in learning is experience."
+    },
+    {
+      "q": "In order to say that learning has occurred, a hidden change in behavior must occur.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Learning is inferred from an observable (overt) change in behavior or performance, not a hidden one. A change that cannot be observed in any way cannot be used to say learning has occurred."
+    },
+    {
+      "q": "Which of the following is not a mental construct?",
+      "options": [
+        "skeleton",
+        "knowledge",
+        "representations",
+        "associations"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Knowledge, representations and associations are hypothetical mental constructs used to explain learning. A skeleton is a physical, anatomical structure, not a mental construct."
+    },
+    {
+      "q": "Learning changes the ____ structure of the brain through the process of continuous interactions between the learner and the external environment.",
+      "options": [
+        "physical",
+        "social",
+        "biological",
+        "none of the given"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Learning physically alters the brain (neuroplasticity), for example by forming and strengthening synaptic connections through ongoing interaction with the environment."
+    },
+    {
+      "q": "____ shapes the learning process.",
+      "options": [
+        "Only thoughts",
+        "Only emotions",
+        "Both thoughts and emotions",
+        "Neither thoughts nor emotions"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Learning is influenced by both cognition (attention, beliefs, reasoning) and emotion (motivation, anxiety, interest), so neither alone fully shapes it."
+    },
+    {
+      "q": "Watson's work included the famous Little Albert experiment in which he conditioned a small child to ____ a white rat.",
+      "options": [
+        "fear",
+        "love",
+        "hate",
+        "play with"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Watson and Rayner (1920) paired a white rat with a loud noise until Little Albert showed a conditioned fear response to the rat, demonstrating classical conditioning of emotions."
+    },
+    {
+      "q": "Behaviorism dominated psychology for much of the early ____ century.",
+      "options": [
+        "20th",
+        "19th",
+        "18th",
+        "17th"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Behaviorism, launched by Watson in 1913 and extended by Skinner, dominated psychology from roughly the 1910s to the 1950s, before the cognitive revolution."
+    },
+    {
+      "q": "The state of \"conscious incompetence\" may be valuable ____ of a learning experience.",
+      "options": [
+        "at the end",
+        "in the middle",
+        "2 years after the end",
+        "at the start"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "In the conscious competence model, realizing what you do not know (conscious incompetence) motivates learning, so it is valuable at the start. Ending a learning experience still in this stage would indicate the learning failed."
+    },
+    {
+      "q": "Which of the following is not an outcome of effective e-learning?",
+      "options": [
+        "wider range of strategies",
+        "more reflective approach",
+        "more positive emotions towards learning",
+        "more disconnected knowledge"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Effective e-learning should produce more connected, integrated knowledge along with broader strategies, reflection and positive emotions. Disconnected knowledge is a sign of ineffective learning."
+    },
+    {
+      "q": "Instrumental conditioning is an example of ____ learning.",
+      "options": [
+        "sensitization",
+        "habituation",
+        "associative",
+        "meaningful"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Instrumental (operant) conditioning involves learning an association between a behavior and its consequence, making it associative learning. Habituation and sensitization are non-associative forms of learning."
+    }
+  ]
+}

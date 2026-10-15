@@ -1,0 +1,133 @@
+{
+  "week": 3,
+  "questions": [
+    {
+      "q": "The connections between nerves cells are called ____.",
+      "options": [
+        "systems",
+        "syntaxes",
+        "neurons",
+        "synapses"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Synapses are the junctions where one neuron communicates with another. Neurons are the nerve cells themselves, not the connections between them."
+    },
+    {
+      "q": "In order to create a ____, information must be changed into a usable form, which occurs through a process known as encoding.",
+      "options": [
+        "past memory",
+        "new imagination",
+        "new memory",
+        "past imagination"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Encoding is the first stage of memory formation, transforming incoming information into a form that can be stored as a new memory."
+    },
+    {
+      "q": "Calling back the stored information in response to some cue for use in a process or activity is called ____.",
+      "options": [
+        "Retrieval",
+        "Recall",
+        "Recollection",
+        "All of the given"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Retrieval, recall and recollection all refer to accessing stored information from memory in response to a cue, so all of the given terms apply."
+    },
+    {
+      "q": "For many with ____ deficits, reading facial expressions and knowing how to respond are confusing daily challenges.",
+      "options": [
+        "memory",
+        "intelligence",
+        "social cognition",
+        "biological cognition"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Social cognition covers how people perceive, interpret and respond to social information such as facial expressions. Deficits in it, as seen in some autism spectrum conditions, make reading emotions and responding appropriately difficult."
+    },
+    {
+      "q": "The Information Processing View of Learning assumes that there are limits to how much information can be processed at each stage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "The information processing view treats the mind like a system with limited capacity at each stage, for example short-term memory holding only about 7 plus or minus 2 items."
+    },
+    {
+      "q": "The Information Processing View of Learning assumes that information process is involved in ____",
+      "options": [
+        "forgetting",
+        "remembering",
+        "perceiving",
+        "All of the given"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "The information processing view holds that all cognitive activities, including perceiving, remembering and forgetting, involve processing information."
+    },
+    {
+      "q": "The capacity of the sensory register is ____.",
+      "options": [
+        "very small",
+        "very large",
+        "7+/-2 chunks",
+        "unlimited"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "The sensory register briefly holds a very large amount of incoming sensory information, though only for a fraction of a second to a few seconds. The 7 plus or minus 2 chunks limit applies to short-term memory, not the sensory register."
+    },
+    {
+      "q": "Most children do not begin to engage in the process of rehearsal on their own until about age ____.",
+      "options": [
+        "seven",
+        "two",
+        "thirteen",
+        "one"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Research (e.g., Flavell and colleagues) shows that children rarely use spontaneous rehearsal as a memory strategy before about age seven, after which it becomes common."
+    },
+    {
+      "q": "____ provides an interface between the sub-systems of working memory and the part of long term memory specialized for episodic memory.",
+      "options": [
+        "Phonological loop",
+        "Visuo-spatial sketchpad",
+        "Retrieval buffer",
+        "Episodic buffer"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Baddeley added the episodic buffer to his working memory model in 2000 as a limited-capacity store that integrates information from the phonological loop, visuo-spatial sketchpad and long-term episodic memory."
+    },
+    {
+      "q": "Memories of specific episodes of one's life refers to ____.",
+      "options": [
+        "declarative memory",
+        "experimental episodic memory",
+        "autobiographical episodic memory",
+        "procedural memory"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Autobiographical episodic memory stores personally experienced events from one's own life. Declarative memory is the broader category, and procedural memory concerns skills and how to do things."
+    }
+  ]
+}
