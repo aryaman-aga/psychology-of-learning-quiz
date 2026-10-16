@@ -1,0 +1,138 @@
+{
+  "week": 4,
+  "questions": [
+    {
+      "q": "The three main types of thinking in psychology include the following except",
+      "options": [
+        "symbolic",
+        "creative",
+        "divergent",
+        "convergent"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "In this course the three main types of thinking are symbolic, creative and divergent thinking, so convergent is the option left out.",
+      "flag": "Ambiguous: convergent and divergent thinking are usually presented as a classic pair, so 'convergent' being excluded depends on the course's specific list (symbolic, creative, divergent)."
+    },
+    {
+      "q": "Young children engaging in imaginative play often engage in ___ thinking.",
+      "options": [
+        "creative",
+        "divergent",
+        "symbolic",
+        "convergent"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Imaginative (pretend) play uses one thing to stand for another, such as a stick as a horse, which is symbolic thinking. Piaget linked this symbolic function to the preoperational stage."
+    },
+    {
+      "q": "Which of the following is a way in which we think?",
+      "options": [
+        "in verbal symbols",
+        "in mathematical symbols",
+        "in gestures and movements",
+        "all of the given"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "We think using verbal symbols (words), mathematical symbols, and also gestures, movements and images. Since all are ways of thinking, all of the given is correct."
+    },
+    {
+      "q": "People experience the ___ experience when they find the solution to a problem suddenly that had been in their mind for hours or days, late.",
+      "options": [
+        "\"oh no\"",
+        "\"wow\"",
+        "\"aha\"",
+        "none of the given"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "The 'aha' experience is the sudden insight when a solution to a problem appears after it has been in mind for some time. Kohler's insight learning studies describe this."
+    },
+    {
+      "q": "___ knowledge refers to knowledge of terminology and specific details.",
+      "options": [
+        "factual",
+        "conceptual",
+        "procedural",
+        "metacognitive"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "In Bloom's revised taxonomy, factual knowledge covers basic elements such as terminology and specific details. Conceptual knowledge covers relationships and theories, and procedural knowledge covers how to do things."
+    },
+    {
+      "q": "Which of the following is not true about metacognition?",
+      "options": [
+        "allows people to be dependent on others for their learning",
+        "often referred to as \"thinking about thinking\"",
+        "is crucial for efficient independent learning because it fosters self-reflection",
+        "is a regulatory system that helps a person understand and control his or her own cognitive performance"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Metacognition is thinking about thinking, a regulatory system that supports self-reflection and independent learning. It makes learners less, not more, dependent on others."
+    },
+    {
+      "q": "Which of the following is not an effective way to develop reflective thinking?",
+      "options": [
+        "asking questions",
+        "self-questioning",
+        "negotiated learning",
+        "avoiding reflective discussions"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Asking questions, self-questioning and negotiated learning all encourage reflection. Avoiding reflective discussions prevents reflective thinking, so it is not an effective way."
+    },
+    {
+      "q": "Which of the following is not true about creative thinking?",
+      "options": [
+        "It is the ability to consider something in a new way",
+        "It is not a skill anybody can develop",
+        "It is the process of nurturing our imagination",
+        "It is all about developing innovative solutions to problems.",
+        "It requires a compilation of analytical, problem-solving, organizational and communication skills"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Creative thinking is a skill that can be developed and improved by anyone through practice. The other statements correctly describe creative thinking."
+    },
+    {
+      "q": "The ___ stage of the creative thinking process refers to the \"eureka\" moment.",
+      "options": [
+        "insight",
+        "incubation",
+        "evaluation",
+        "preparation",
+        "elaboration"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "In Wallas's model of creativity (preparation, incubation, illumination/insight, verification), the insight or illumination stage is the sudden 'eureka' moment when the idea appears."
+    },
+    {
+      "q": "In a concept map, two nodes connected with a labeled arrow are called a",
+      "options": [
+        "preposition",
+        "nodal link",
+        "schema",
+        "proposition"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "In a concept map, two concepts (nodes) joined by a labeled linking arrow form a proposition, a meaningful statement. 'Preposition' is a grammatical term and a tempting look-alike."
+    }
+  ]
+}

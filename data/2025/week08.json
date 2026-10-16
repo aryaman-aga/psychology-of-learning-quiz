@@ -1,0 +1,135 @@
+{
+ "week": 8,
+ "questions": [
+  {
+   "q": "Pedagogy can be defined as a way of ____ any theoretical topic or academic subject.",
+   "options": [
+    "forgetting",
+    "teaching",
+    "remembering",
+    "memorizing"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "Pedagogy is the method and practice of teaching, i.e. the way a teacher teaches a theoretical topic or academic subject."
+  },
+  {
+   "q": "Good pedagogy is about ____.",
+   "options": [
+    "enabling self to be good at rote memorization",
+    "eliciting responses that demonstrate understanding",
+    "hampering cognitive development of learners",
+    "None of the above"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "Good pedagogy aims at real understanding, so it elicits responses from learners that demonstrate understanding. Rote memorization and hampering cognitive development are the opposite of good pedagogy."
+  },
+  {
+   "q": "Which of the following is a pedagogical approach in teaching?",
+   "options": [
+    "inductive",
+    "integrative",
+    "instance-based",
+    "intuitive"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "Integrative pedagogy, which connects ideas across topics and disciplines, is one of the pedagogical approaches discussed alongside constructivist, collaborative, reflective and inquiry-based approaches."
+  },
+  {
+   "q": "According to the ____ approach, learners are the makers of meaning and knowledge.",
+   "options": [
+    "solitary learning",
+    "passive learning",
+    "constructivist learning",
+    "metalearning"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "Constructivist learning holds that learners actively construct their own meaning and knowledge from experience rather than passively receiving it."
+  },
+  {
+   "q": "Which of the following is false about inquiry-based learning?",
+   "options": [
+    "is a form of passive learning",
+    "includes problem-based learning",
+    "generally used in small scale investigations",
+    "starts by posing questions"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "Inquiry-based learning is a form of active learning that starts by posing questions or problems and includes problem-based learning, so calling it passive is false."
+  },
+  {
+   "q": "The ____ model describes what effective teachers do in their classrooms to engage students in intellectually challenging work.",
+   "options": [
+    "pedagogical",
+    "systematic",
+    "engagement",
+    "intellectual"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "The Pedagogical Model describes what effective teachers do in their classrooms to engage students in intellectually challenging work, breaking the learning cycle into phases of instruction."
+  },
+  {
+   "q": "In experiential learning, experiences are structured to require the student to ____.",
+   "options": [
+    "take initiative",
+    "make decisions",
+    "be accountable for results",
+    "all of the above"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "Experiential learning structures experiences so that students must take initiative, make decisions and be accountable for the results, so all the options apply."
+  },
+  {
+   "q": "The following are the roles of an instructor in experiential learning, except ____.",
+   "options": [
+    "setting suitable experiences",
+    "posing problems",
+    "supporting students",
+    "blurring the boundaries"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "In experiential learning the instructor sets suitable experiences, poses problems, sets boundaries and supports students. Blurring the boundaries is not one of the instructor's roles; setting clear boundaries is."
+  },
+  {
+   "q": "Kolb's experiential learning style theory is typically represented by a ____-stage learning cycle",
+   "options": [
+    "three",
+    "five",
+    "four",
+    "seven"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "Kolb's cycle has four stages: concrete experience, reflective observation, abstract conceptualization and active experimentation."
+  },
+  {
+   "q": "People with ____ learning style are hands-on learners, and rely on intuition over logic.",
+   "options": [
+    "converging",
+    "accommodating",
+    "integrating",
+    "emotional"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "Kolb's accommodating (doing and feeling) style is hands-on and intuitive; such learners rely on intuition and gut feeling more than logic. Converging learners, by contrast, prefer technical problem solving and practical application of ideas."
+  }
+ ]
+}

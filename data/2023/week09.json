@@ -1,0 +1,143 @@
+{
+  "week": 9,
+  "questions": [
+    {
+      "q": "Which of the following is not a feature of e-learning?",
+      "options": [
+        "individualization",
+        "accessibility",
+        "personalization",
+        "stereotypical",
+        "social justice"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "E-learning is valued for individualization, personalization, accessibility and wider access to education (social justice). 'Stereotypical' is the opposite of its tailored, individualized nature."
+    },
+    {
+      "q": "Many students in the context of a digital classroom regard knowledge of ____ as more important than 'what'.",
+      "options": [
+        "'who'",
+        "'why not'",
+        "'where'",
+        "'how to'",
+        "none of the above"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "In a digital classroom, where facts are easy to look up online, students tend to value knowing 'how to' find, use and apply information over knowing 'what' (factual content)."
+    },
+    {
+      "q": "Which of the following is not a benefit of e-learning?",
+      "options": [
+        "It accommodates everybody's needs",
+        "It is self-paced",
+        "It is motivating and interactive",
+        "It is scalable",
+        "None of the above"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Accommodating everyone's needs, being self-paced and being scalable are standard listed benefits of e-learning. It is not automatically motivating and interactive; keeping learners motivated and engaged is in fact a known challenge, so this is the keyed non-benefit.",
+      "flag": "Ambiguous: being motivating and interactive is often listed as an e-learning benefit; the key presumably treats it as a non-benefit because sustaining motivation is a known e-learning challenge."
+    },
+    {
+      "q": "When we are learning or practicing something, our brain ____",
+      "options": [
+        "does not do anything",
+        "releases hormones",
+        "builds strong connections between the muscles and bones",
+        "builds strong connections between neurons"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Learning and practice strengthen synaptic connections between neurons, and repeated activation makes these neural pathways more efficient (neuroplasticity). It is not about muscles and bones, and hormone release is not the key process."
+    },
+    {
+      "q": "The ____ theory suggests that when we overload our working memory, we are unable to acquire and process new information.",
+      "options": [
+        "cognitive load",
+        "emotional labor",
+        "memory",
+        "psychological stress",
+        "None of the above"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Sweller's cognitive load theory holds that working memory has limited capacity; when it is overloaded, learners cannot process and acquire new information effectively. Good instructional design therefore tries to reduce unnecessary load."
+    },
+    {
+      "q": "The brain often benefits from physically writing in a notebook since it contributes to ____. Learners during e-learning are hence often advised to take notes.",
+      "options": [
+        "emotion",
+        "motivation",
+        "encoding",
+        "forgetting",
+        "decoding"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Writing notes by hand makes learners process and summarize the material, which strengthens encoding into memory. That is why taking notes is recommended during e-learning."
+    },
+    {
+      "q": "In the context of virtual learning, ____ refers to the speed and ease with which a novice user can achieve proficiency with the system.",
+      "options": [
+        "Efficiency",
+        "Memorability",
+        "Novice index",
+        "Learnability",
+        "None of the above"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "In usability terms, learnability is how quickly and easily a new user can become proficient with a system. Efficiency refers to how fast experienced users work, and memorability to how easily users regain proficiency after a break."
+    },
+    {
+      "q": "Which of the following is not a critical factor that impacts e-learning?",
+      "options": [
+        "Motivation",
+        "Self-discipline",
+        "Stress",
+        "Social skills",
+        "Genes"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Motivation, self-discipline, stress and social skills all affect how well learners manage and benefit from e-learning. Genes are not identified as a critical factor."
+    },
+    {
+      "q": "In the context of instructional design, ____ refers to learners' automatic performance on specific procedures with predetermined steps to be followed.",
+      "options": [
+        "chaining",
+        "association",
+        "discrimination",
+        "none of the above"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "In instructional design, chaining means linking a series of steps in a fixed sequence so that the learner performs the whole procedure automatically. Association and discrimination concern linking stimuli and telling stimuli apart, not automatic step-by-step procedures."
+    },
+    {
+      "q": "____ provides the context to learners in the form of simulated job-related situations where learners have to judge a situation, use the information they have at hand, and make the best possible choice to solve the problem.",
+      "options": [
+        "Problem-focused e-learning",
+        "Scenario-based e-learning",
+        "Guided e-learning",
+        "None of the above"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Scenario-based e-learning places learners in realistic, simulated job situations where they must judge the situation, use the information available and choose the best response. This builds decision-making and problem-solving skills in context."
+    }
+  ]
+}

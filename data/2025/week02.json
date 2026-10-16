@@ -1,0 +1,135 @@
+{
+  "week": 2,
+  "questions": [
+    {
+      "q": "According to constructivism, reality is determined by",
+      "options": [
+        "the experiences of the learner",
+        "the blood type of the learner",
+        "the future goals of the learner",
+        "none of the above"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Constructivism holds that learners actively build their own understanding, so reality and knowledge are shaped by the experiences of the learner rather than simply received from outside."
+    },
+    {
+      "q": "Teachers and instructors who understand the constructivist learning theory understand that their students",
+      "options": [
+        "are all the same",
+        "bring their own unique experiences",
+        "do not demand much effort in the classroom",
+        "are careless"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Constructivist teachers recognize that each student brings unique prior experiences and knowledge, which influence how new information is interpreted and constructed."
+    },
+    {
+      "q": "The domain of social constructivism is largely attributed to the work done by ____ by adding the focus on societal and peer influence on learning.",
+      "options": [
+        "Jean Piaget",
+        "Lev Vygotsky",
+        "Sigmund Freud",
+        "John Watson"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Lev Vygotsky emphasized that learning is shaped by social interaction, language and culture (e.g., the zone of proximal development), founding social constructivism. Piaget's constructivism focused more on the individual learner."
+    },
+    {
+      "q": "Which of the following is not a major type of learning described by behavioral psychology?",
+      "options": [
+        "classical conditioning",
+        "operant conditioning",
+        "observational learning",
+        "traditional learning"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Behavioral psychology describes three major types of learning: classical conditioning, operant conditioning and observational learning. 'Traditional learning' is not a recognized type."
+    },
+    {
+      "q": "Which of the following is true according to behaviorism?",
+      "options": [
+        "all behaviors can be unlearned",
+        "all behaviors are directed by one's parents",
+        "all behaviors are fundamentally destructive in nature",
+        "all behaviors are unobservable"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Behaviorism holds that behaviors are learned through conditioning, so they can also be unlearned and replaced through new conditioning. Behaviorism studies observable behavior, so 'all behaviors are unobservable' contradicts it."
+    },
+    {
+      "q": "In ____ conditioning, presentation of unconditioned stimulus precedes the presentation of the conditioned stimulus.",
+      "options": [
+        "backward",
+        "delay",
+        "trace",
+        "simultaneous"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "In backward conditioning the unconditioned stimulus comes before the conditioned stimulus, which generally produces weak or no conditioning. In delay and trace conditioning the CS comes first."
+    },
+    {
+      "q": "Smiling and complimenting students for good performance is a type of",
+      "options": [
+        "negative punishment",
+        "positive punishment",
+        "negative reinforcement",
+        "positive reinforcement"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Smiling and complimenting add a pleasant stimulus after good performance, which increases that behavior, so it is positive reinforcement. Negative reinforcement removes an unpleasant stimulus, and punishment decreases behavior."
+    },
+    {
+      "q": "Which of the following psychologists was instrumental in engendering the dramatic shift from behaviorism to cognitive theories?",
+      "options": [
+        "Tolman",
+        "Bruner",
+        "Gestalt",
+        "All of the above"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Tolman's cognitive maps, Bruner's work on cognition and discovery learning, and the Gestalt psychologists' work on insight and perception all emphasized internal mental processes, driving the shift from behaviorism to cognitive theories."
+    },
+    {
+      "q": "IQ is a typical measurement for",
+      "options": [
+        "intelligence",
+        "personality",
+        "emotions",
+        "classical learning"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "IQ (intelligence quotient) is a standardized score derived from intelligence tests, used to measure intelligence. It does not measure personality or emotions."
+    },
+    {
+      "q": "BBL deals with the concept of learning in a ____ context.",
+      "options": [
+        "neuro-physiological",
+        "cognitive",
+        "social",
+        "behavioral"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Brain-based learning (BBL) explains learning in terms of how the brain works, i.e., in a neuro-physiological context, and uses that knowledge to design instruction."
+    }
+  ]
+}

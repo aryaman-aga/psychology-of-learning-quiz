@@ -1,0 +1,135 @@
+{
+  "week": 11,
+  "questions": [
+    {
+      "q": "___ refers to a complex set of mental abilities underlying social stimulus perception, processing, interpretation, and response.",
+      "options": [
+        "social schema",
+        "emotional cognition",
+        "social cognition",
+        "emotional schema"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Social cognition is the set of mental abilities used to perceive, process, interpret and respond to social stimuli such as other people's behaviour. A social schema is only one knowledge structure used within it."
+    },
+    {
+      "q": "Piaget's conception of ___ views information inconsistent with an individual's cognitive structures as an initiator for assimilation and accommodation processes.",
+      "options": [
+        "assimilation and accommodation schema",
+        "cognitive determinism",
+        "reciprocal dynamism",
+        "cognitive conflict"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Piaget saw cognitive conflict (disequilibrium), the clash between new information and existing schemas, as the trigger for assimilation and accommodation. Reciprocal determinism is Bandura's concept, not Piaget's."
+    },
+    {
+      "q": "During the earliest stages of development, children see the world from their own perspective and struggle to think about how other people may view the world. This highlights that initially, children are",
+      "options": [
+        "egocentric",
+        "idiosyncratic",
+        "egoistic",
+        "egomaniac"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Piaget described young children as egocentric: they find it hard to take another person's point of view. This is a cognitive limitation, not selfishness (egoism)."
+    },
+    {
+      "q": "Which of the following is false regarding social cognition?",
+      "options": [
+        "It develops in childhood and adolescence",
+        "When looking at a social situation, any two people may have wildly different interpretations.",
+        "It includes complex abilities like theory of mind",
+        "There are no cultural differences in social cognition"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Social cognition is shaped by culture, so the same behaviour can be interpreted differently across cultural settings. Saying there are no cultural differences is therefore false."
+    },
+    {
+      "q": "Social processes influence how information is selected, organized, integrated, and retrieved. This highlights the ___ hypothesis.",
+      "options": [
+        "social cue",
+        "cognitive influence",
+        "schema influence",
+        "social mediation"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "The cognitive influence hypothesis proposes that social processes shape how information is selected, organised, integrated and later retrieved. The other options are not named hypotheses in this sense."
+    },
+    {
+      "q": "The social cognitive theory is developed by ___.",
+      "options": [
+        "Watson",
+        "Piaget",
+        "Bandura",
+        "Freud"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Albert Bandura developed social cognitive theory, which grew out of his social learning theory and stresses observational learning, self-efficacy and reciprocal determinism. Watson was a behaviorist and Piaget a cognitive-developmental theorist."
+    },
+    {
+      "q": "___ refers to the internal or external responses to a person's behavior that affect the likelihood of continuing or discontinuing the behavior.",
+      "options": [
+        "modeling",
+        "schemas",
+        "awards",
+        "reinforcements"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Reinforcements are internal or external responses to a behaviour that make it more or less likely to continue. Modeling is learning by observing others, not the consequences of behaviour."
+    },
+    {
+      "q": "Observational learning occurs through the sequence of ___ number of processes. One of those is attentional processes.",
+      "options": [
+        "four",
+        "five",
+        "six",
+        "seven"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Bandura described four processes in observational learning: attention, retention, reproduction (production) and motivation. Attentional processes come first."
+    },
+    {
+      "q": "The ___ model of observational learning involves an actual individual demonstrating or acting out a behavior.",
+      "options": [
+        "live",
+        "symbolic",
+        "verbal instructional",
+        "contextual"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "A live model is an actual person demonstrating the behaviour in front of the learner. Symbolic models appear in media such as films or books, and verbal instructional models describe the behaviour in words."
+    },
+    {
+      "q": "___ suggests that our behavior, personal factors, and environmental factors all influence each other.",
+      "options": [
+        "environmental dynamism",
+        "reciprocal determinism",
+        "collective determinism",
+        "reciprocal dynamism"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Bandura's reciprocal determinism holds that behaviour, personal factors and the environment all influence one another in both directions. The other options are not Bandura's terms."
+    }
+  ]
+}

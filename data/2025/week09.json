@@ -1,0 +1,136 @@
+{
+ "week": 9,
+ "questions": [
+  {
+   "q": "A ____ classroom is the changing face of learning.",
+   "options": [
+    "digital",
+    "closed",
+    "passive",
+    "none of the above"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "The digital classroom, using technology and online tools, reflects how learning is changing; closed or passive classrooms are what it moves away from."
+  },
+  {
+   "q": "Which of the following is not a feature of e-learning?",
+   "options": [
+    "accessibility",
+    "teacher-centeredness",
+    "social justice",
+    "personalization"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "E-learning is learner-centred, offering accessibility, personalization and wider access (social justice). Teacher-centeredness is not one of its features."
+  },
+  {
+   "q": "Which of the following is a synonym of e-learning?",
+   "options": [
+    "audio-visual learning",
+    "multimedia learning",
+    "distance learning",
+    "none of the above"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "E-learning overlaps with audio-visual, multimedia and distance learning but is not synonymous with any of them; each is a distinct concept, so 'none of the above' is correct."
+  },
+  {
+   "q": "In ____ e-learning course, the content is simple and comprises text, images, audio, powerpoint presentation and text questions.",
+   "options": [
+    "simulation-based",
+    "interactive",
+    "powerpoint-driven",
+    "text-driven"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "Text-driven e-learning courses are simple, made up of text, images, audio, presentations and test questions. Interactive and simulation-based courses add more engagement and realistic practice."
+  },
+  {
+   "q": "Recent thinking in cognitive psychology places the ____ firmly at the center of the learning experience.",
+   "options": [
+    "computer",
+    "parent",
+    "teacher",
+    "individual"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "Cognitive psychology views learning as the learner's own active mental construction, so the individual learner is placed at the centre of the learning experience."
+  },
+  {
+   "q": "Which of the following is true?",
+   "options": [
+    "Learning depends on self-awareness.",
+    "Learning is social",
+    "Learning is goal-oriented",
+    "All of the above"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "Learning depends on self-awareness (metacognition), is social (shaped by interaction with others) and is goal-oriented, so all the statements are true."
+  },
+  {
+   "q": "Learners may multitask when engaging in an online course, which could be resulting in ____.",
+   "options": [
+    "hyperfocus",
+    "better retrieval",
+    "shorter attention spans",
+    "None of the given"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "Multitasking splits attention across activities, which shortens attention spans and impairs encoding. It does not produce hyperfocus or better retrieval."
+  },
+  {
+   "q": "The brain can process ____ visual cues per hour!",
+   "options": [
+    "36",
+    "360",
+    "3600",
+    "36,000"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "The lecture cites the commonly quoted figure that the brain can process about 36,000 visual cues per hour, used to argue for visual design in online courses."
+  },
+  {
+   "q": "Our brain has approximately ____ neurons that send information to one another.",
+   "options": [
+    "85 billion",
+    "85 million",
+    "85 lakhs",
+    "85,000"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "The human brain contains roughly 85-86 billion neurons that communicate with one another through synapses."
+  },
+  {
+   "q": "____ is referring to learners' automatic performance on specific procedures with predetermined steps to be followed.",
+   "options": [
+    "chaining",
+    "automatization",
+    "framing",
+    "none of the above"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "The key treats chaining as learners' automatic performance of a fixed sequence of predetermined steps, where each step cues the next.",
+   "flag": "Ambiguous: the description ('automatic performance on specific procedures with predetermined steps') reads most naturally as automatization (option B); chaining is linking steps into a sequence. Key keeps chaining, presumably as worded in the lecture."
+  }
+ ]
+}

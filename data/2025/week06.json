@@ -1,0 +1,134 @@
+{
+  "week": 6,
+  "questions": [
+    {
+      "q": "____ is mainly responsible for popularizing emotional intelligence.",
+      "options": [
+        "John Watson",
+        "Daniel Goleman",
+        "Sigmund Freud",
+        "Albert Bandura"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Daniel Goleman's 1995 book 'Emotional Intelligence' made the concept widely popular. The term was earlier defined academically by Salovey and Mayer."
+    },
+    {
+      "q": "EQ is used to measure ____.",
+      "options": [
+        "cognitive intelligence",
+        "memory",
+        "emotional intelligence",
+        "attention"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "EQ (emotional quotient) is a measure of emotional intelligence, the ability to perceive, understand and manage emotions. IQ measures cognitive intelligence."
+    },
+    {
+      "q": "Experts suggest that EQ is more important than IQ.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Goleman and other proponents argue that EQ matters as much as or more than IQ for success at work and in relationships, and the course follows this view.",
+      "flag": "Contested claim: 'EQ is more important than IQ' is a popular claim (Goleman) rather than an established finding; research generally shows IQ remains a strong predictor of performance. Keyed True per the course."
+    },
+    {
+      "q": "Being able to put words to feelings refers to ____.",
+      "options": [
+        "emotional responsibility",
+        "emotional cognition",
+        "emotional attention",
+        "emotional literacy"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Emotional literacy is the ability to recognize, understand and put words to one's feelings. The other options are not standard terms."
+    },
+    {
+      "q": "The first step in emotional intelligence is ____.",
+      "options": [
+        "perceiving emotions accurately",
+        "reasoning with emotions",
+        "managing emotions",
+        "dismissing emotions"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "In the Mayer-Salovey model, the first and most basic branch is perceiving emotions accurately in oneself and others. Reasoning with, understanding and managing emotions build on this."
+    },
+    {
+      "q": "According to nine-layer model pyramid, ____ lies at the bottom of the pyramid.",
+      "options": [
+        "Emotional stimuli",
+        "Self awareness",
+        "Self management",
+        "Transcendence"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "In the nine-layer pyramid model of emotional intelligence, emotional stimuli form the base layer, followed by emotion recognition, self-awareness, self-management and so on up to transcendence and emotional unity at the top."
+    },
+    {
+      "q": "The mixed model by ____ claims that EQ is a combination of competencies, skills, and “facilitators” that contribute to how people express themselves, respond to challenges in their environment, and connect with others.",
+      "options": [
+        "Watson",
+        "Goleman",
+        "Salovey and Mayer",
+        "Bar-On"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Bar-On's mixed model describes EQ as interrelated emotional and social competencies, skills and facilitators that determine how people express themselves, cope with demands and relate to others. Salovey and Mayer proposed an ability model instead."
+    },
+    {
+      "q": "The transfer of emotions from one person to another is called ____.",
+      "options": [
+        "social effect",
+        "emotional effect",
+        "social contagion",
+        "emotional contagion"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Emotional contagion is the tendency for emotions to spread from one person to another, often through unconscious mimicry of expressions and tone. Social contagion refers more broadly to spreading behaviors or ideas."
+    },
+    {
+      "q": "Hochschild has given the concept of ____ using the example of flight attendants.",
+      "options": [
+        "emotional indifference",
+        "emotional difficulty",
+        "emotional labor",
+        "emotional literacy"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Arlie Hochschild, in 'The Managed Heart' (1983), introduced emotional labor: managing one's feelings and expressions as part of a job, illustrated by flight attendants required to stay cheerful."
+    },
+    {
+      "q": "Review of literature shows that ____ is associated with increasing levels of burnout.",
+      "options": [
+        "emotional intelligence",
+        "deep acting",
+        "surface acting",
+        "emotional literacy"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Surface acting means displaying emotions one does not actually feel, which creates emotional dissonance and is consistently linked to higher burnout. Deep acting, where one tries to actually feel the required emotion, is less harmful."
+    }
+  ]
+}

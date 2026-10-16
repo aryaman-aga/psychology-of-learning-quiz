@@ -1,0 +1,133 @@
+{
+  "week": 10,
+  "questions": [
+    {
+      "q": "The Readiness Model for New Normal in Education designed by many educational institutions caters to the following components except",
+      "options": [
+        "parent readiness",
+        "learner readiness",
+        "society readiness",
+        "teacher readiness"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "The readiness model for the new normal in education addresses learner readiness, teacher readiness, parent readiness and institutional readiness. Society readiness is not one of its components."
+    },
+    {
+      "q": "In 2018, Global Education and Skills Forum noted that the 'future' teacher would need some skills to thrive in the 21st century. Which of the following is not one of them?",
+      "options": [
+        "Being a facilitator",
+        "Internal focus",
+        "Strong social skills",
+        "Data analysis"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "The forum listed skills such as being a facilitator, strong social skills, data analysis and an external focus for the future teacher. 'Internal focus' is the reverse of the external focus it recommended."
+    },
+    {
+      "q": "Which of the following impacts student learning?",
+      "options": [
+        "Their perception about their intelligence and ability",
+        "Prior knowledge",
+        "Their context",
+        "All of the given"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Students' beliefs about their intelligence and ability, their prior knowledge and their context all affect learning, as reflected in APA's principles for teaching and learning. So 'all of the given' is correct."
+    },
+    {
+      "q": "Which of the following statements is not true?",
+      "options": [
+        "Techniques linked to self-control contribute to more effective learning if taught and applied correctly",
+        "Student creativity can be encouraged.",
+        "Clear, explanatory and timely feedback to students is important for learning",
+        "Students tend to enjoy learning and have better outcomes when their motivation is more extrinsic than intrinsic"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Research shows that students enjoy learning more and achieve better outcomes when their motivation is intrinsic rather than extrinsic. The other statements, on self-control, creativity and timely feedback, are true."
+    },
+    {
+      "q": "Both formative and summative assessment are important and useful, provided they are applied and interpreted appropriately.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Formative assessment guides ongoing teaching and learning, while summative assessment judges achievement at the end of a unit. Both are valuable when used and interpreted appropriately, so the statement is true."
+    },
+    {
+      "q": "Individual differences are the unique ways each human being differs from another. It can be handled through using different techniques. Which of the following is not one of them?",
+      "options": [
+        "observation",
+        "sociograms",
+        "rating scales",
+        "ignorance"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Teachers can identify and respond to individual differences using techniques such as observation, sociograms and rating scales. Ignoring the differences is not a technique for handling them."
+    },
+    {
+      "q": "Clapping is an example of ___ reward.",
+      "options": [
+        "tangible",
+        "financial",
+        "social",
+        "none of the given"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Clapping expresses approval from other people, so it is a social reward. Tangible rewards are physical objects, and financial rewards involve money."
+    },
+    {
+      "q": "___ is the process of judging the value or worth of an individual's achievements or characteristics.",
+      "options": [
+        "Goal-setting",
+        "Classroom conduct",
+        "Formation",
+        "Evaluation"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Evaluation is the process of judging the value or worth of a person's achievements or characteristics, usually against criteria. Goal-setting and classroom conduct are different activities."
+    },
+    {
+      "q": "___ refers to the frequent, interactive assessment of student progress to identify learning needs and shape teaching.",
+      "options": [
+        "Formative assessment",
+        "Summative assessment",
+        "Collective assessment",
+        "None of the given"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Formative assessment is frequent, interactive checking of student progress during instruction to identify needs and adjust teaching. Summative assessment comes at the end and judges overall achievement."
+    },
+    {
+      "q": "\"That is an intelligent response, well done\" is an example of a ___ level feedback.",
+      "options": [
+        "Task-level",
+        "Process-level",
+        "Facilitator-level",
+        "Personal-level"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "In Hattie and Timperley's model, praise directed at the person ('intelligent, well done') is personal or self-level feedback. It says little about the task or process, which is why it is considered the least useful for learning."
+    }
+  ]
+}

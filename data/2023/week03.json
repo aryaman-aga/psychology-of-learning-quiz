@@ -1,0 +1,145 @@
+{
+  "week": 3,
+  "questions": [
+    {
+      "q": "Researchers have long believed that memories form due to changes in the brain ___",
+      "options": [
+        "muscles",
+        "bones",
+        "blood",
+        "skull",
+        "neurons"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Memories are thought to be stored through changes in neurons, especially in the strength of synaptic connections between them (e.g., long-term potentiation). Muscles, bones and blood are not where memories are formed."
+    },
+    {
+      "q": "___ refers to calling back the stored information in response to some cue for use in a process or activity",
+      "options": [
+        "Encoding",
+        "Storage",
+        "Registration",
+        "Retrieval",
+        "Forgetting"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Retrieval is the process of accessing stored information in response to a cue so it can be used. Encoding converts information into a storable form, and storage keeps it over time."
+    },
+    {
+      "q": "The duration of the sensory register is ___",
+      "options": [
+        "1-3 seconds",
+        "1-3 minutes",
+        "15-30 seconds",
+        "15-30 minutes",
+        "1 hour"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "The sensory register holds a large amount of raw sensory information only very briefly, roughly up to 1-3 seconds (visual traces fade in under a second, auditory ones last a little longer). 15-30 seconds is the typical duration of unrehearsed short-term memory."
+    },
+    {
+      "q": "Maintenance rehearsal in the context of short term memory is also known as ___",
+      "options": [
+        "elaborative rehearsal",
+        "rote rehearsal",
+        "elaborative encoding",
+        "dual coding",
+        "visual imagery encoding"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Maintenance rehearsal, simply repeating information to keep it in short-term memory, is also called rote rehearsal. Elaborative rehearsal is different, as it links the information to meaning and existing knowledge."
+    },
+    {
+      "q": "Which of the following is not a component of the working memory model?",
+      "options": [
+        "Central executive",
+        "Visuo-spatial sketchpad",
+        "Language repository",
+        "Episodic buffer",
+        "Phonological loop"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Baddeley's working memory model has a central executive, phonological loop, visuo-spatial sketchpad and episodic buffer. There is no 'language repository' component; verbal material is handled by the phonological loop."
+    },
+    {
+      "q": "___ describes our implicit knowledge of tasks that usually do not require conscious recall to perform them",
+      "options": [
+        "Procedural memory",
+        "Declarative memory",
+        "Semantic memory",
+        "Episodic memory",
+        "Collective memory"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Procedural memory is implicit memory for skills and how to do things, such as riding a bicycle, performed without conscious recall. Declarative memory (semantic and episodic) is explicit memory for facts and events."
+    },
+    {
+      "q": "The Levels of Processing theory in memory is given by -",
+      "options": [
+        "Atkinson & Shiffrin",
+        "Craik & Lockhart",
+        "Baddley",
+        "Piaget",
+        "Freud"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Fergus Craik and Robert Lockhart proposed the levels of processing theory in 1972, arguing that deeper (semantic) processing produces more durable memories. Atkinson and Shiffrin proposed the multi-store model, and Baddeley the working memory model."
+    },
+    {
+      "q": "___ processing is when we encode only the physical qualities of something.",
+      "options": [
+        "Phonemic",
+        "Structural",
+        "Semantic",
+        "Deep",
+        "Elaborative"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Structural (shallow) processing encodes only physical features, such as what a word looks like. Phonemic processing encodes sound, and semantic processing encodes meaning, which is the deepest level."
+    },
+    {
+      "q": "___ refers to the cognitive capacity actually allocated to the task.",
+      "options": [
+        "Mental load",
+        "Mental effort",
+        "Performance",
+        "Capacity load",
+        "Task load"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "In cognitive load theory, mental effort is the cognitive capacity actually allocated to a task. Mental load is the load imposed by the task itself, and performance is the outcome achieved."
+    },
+    {
+      "q": "Which of the following is not a helpful way of improving memory?",
+      "options": [
+        "Writing it down",
+        "Repetition",
+        "Taking a mental picture",
+        "Over-exerting yourself",
+        "Attaching meaning to it"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Writing things down, repetition, visual imagery and attaching meaning are all well-supported memory aids. Over-exerting yourself causes fatigue and stress, which impair rather than improve memory."
+    }
+  ]
+}

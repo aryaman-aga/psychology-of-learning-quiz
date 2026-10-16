@@ -1,0 +1,143 @@
+{
+  "week": 7,
+  "questions": [
+    {
+      "q": "Which of the following is not a component of Benjamin S. Bloom's taxonomy of educational objectives?",
+      "options": [
+        "Cognitive",
+        "Affective",
+        "Psychomotor",
+        "Biological",
+        "None of the above"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Bloom's taxonomy of educational objectives has three domains: cognitive (knowledge), affective (attitudes and feelings) and psychomotor (physical skills). 'Biological' is not a domain."
+    },
+    {
+      "q": "Which of the following is not included in the major schools of learning theories?",
+      "options": [
+        "Behaviorist orientation",
+        "Cognitive orientation",
+        "Humanistic orientation",
+        "Social and social-constructivist orientations",
+        "Biological and evolutionary orientation"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "The major schools of learning theory covered are the behaviorist, cognitive, humanistic, and social/social-constructivist (situational) orientations. A biological and evolutionary orientation is not among them."
+    },
+    {
+      "q": "Which of the following affect learning?",
+      "options": [
+        "Task variables",
+        "Environmental variables",
+        "Individual variables",
+        "All of the above"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Learning is influenced by task variables (e.g. task demands, trainer, communication), environmental variables (e.g. ambience, space) and individual variables (e.g. abilities, motivation). So all of the above affect learning."
+    },
+    {
+      "q": "Which of the following is not a task variable?",
+      "options": [
+        "Trainer's competence",
+        "Communication gap",
+        "Rationality",
+        "Task overload",
+        "Learning capabilities"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Learning capabilities belong to the learner, so they are an individual variable. Trainer's competence, communication gap, rationality and task overload relate to the task and its delivery, so they are treated as task variables."
+    },
+    {
+      "q": "____ learning refers to learning that gets students to learn through doing; such as experimentation and play",
+      "options": [
+        "Active",
+        "Passive",
+        "Deep",
+        "Shallow",
+        "None of the above"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Active learning engages students directly through doing, such as experimentation, discussion and play, rather than passively receiving information. Passive learning is the opposite, as in simply listening to a lecture."
+    },
+    {
+      "q": "____ learners favor educational lessons that include peer work or participation.",
+      "options": [
+        "Social/linguistic",
+        "Solitary",
+        "Kinesthetic",
+        "Auditory",
+        "Visual"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Social (interpersonal) learners prefer learning with others, so they favor lessons involving peer work, group discussion and participation. Solitary learners, by contrast, prefer to work alone."
+    },
+    {
+      "q": "Which of the following is not true for effective instruction?",
+      "options": [
+        "It is interactive",
+        "It is eclectic",
+        "It is generative and dynamic",
+        "It incorporates components of core curriculum",
+        "It is independent of the success of the learning experience"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Effective instruction is judged by whether learning actually happens; it is interactive, eclectic, generative and dynamic, and tied to the core curriculum. Saying it is independent of the success of the learning experience is therefore untrue."
+    },
+    {
+      "q": "The following are principles of instruction given by Merrill, except ____",
+      "options": [
+        "Activation",
+        "Formation",
+        "Demonstration",
+        "Integration",
+        "Application"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Merrill's First Principles of Instruction are problem-centered (task-centered) learning, activation, demonstration, application and integration. 'Formation' is not one of them."
+    },
+    {
+      "q": "Which of the following is a principle of Instructional Systems Design (ISD)?",
+      "options": [
+        "It should move at an efficient pace",
+        "It should keep information outside of context",
+        "It should be independent of the community",
+        "It should create opportunities for learners to replicate past work and output"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "ISD principles call for instruction that moves at an efficient pace, presents information in meaningful context, connects to the learners' community and encourages new application rather than mere replication. Only 'it should move at an efficient pace' fits."
+    },
+    {
+      "q": "According to Ausubel, ____ occurs when new information is integrated into existing knowledge structures, also known as mental schemas.",
+      "options": [
+        "structural learning",
+        "mental learning",
+        "meaningful learning",
+        "integrative learning",
+        "None of the above"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Ausubel's meaningful learning occurs when new information is linked to and integrated with relevant concepts already present in the learner's cognitive structure (schemas). He contrasted this with rote learning, which is memorized without such links."
+    }
+  ]
+}

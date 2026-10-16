@@ -1,0 +1,137 @@
+{
+  "week": 7,
+  "questions": [
+    {
+      "q": "___ defined learning as 'a change in human disposition or capacity that persists over a period of time and is not simply ascribable to processes of growth.'",
+      "options": [
+        "Bloom",
+        "Dewey",
+        "Gagne",
+        "Kolb"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Robert Gagne defined learning as a change in human disposition or capability that persists over time and is not simply ascribable to processes of growth (maturation). Bloom is known for his taxonomy, Dewey for reflective learning and Kolb for the experiential learning cycle."
+    },
+    {
+      "q": "The principles of contiguity (how close in time two events must be for a bond to be formed) and reinforcement (any means of increasing the likelihood that an event will be repeated) are central to explaining the learning process in the ___ orientation to learning.",
+      "options": [
+        "Cognitive",
+        "Humanistic",
+        "Social and social-constructivist",
+        "Behaviorist"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Contiguity and reinforcement are the core mechanisms of the behaviorist orientation, which explains learning as stimulus-response bonds strengthened by their timing and consequences. Cognitive and humanistic orientations focus on mental processes and personal growth instead."
+    },
+    {
+      "q": "Which of the following is not true about humanistic orientations to learning?",
+      "options": [
+        "It has a quality of personal involvement",
+        "It is self-initiated",
+        "It is pervasive",
+        "The locus of evaluation resides definitely outside the learner"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "In Carl Rogers' humanistic view, learning involves personal involvement, is self-initiated, is pervasive, and is evaluated by the learner. The locus of evaluation lies within the learner, not outside, so that statement is not true."
+    },
+    {
+      "q": "The concept of situated learning is studied under which school of thought of learning theories?",
+      "options": [
+        "behaviorist",
+        "cognitive",
+        "humanistic",
+        "social"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Situated learning (Lave and Wenger) holds that learning happens through participation in communities of practice, so it belongs to the social (social-situational) orientation. Behaviorist and cognitive orientations locate learning in responses or individual minds rather than social participation."
+    },
+    {
+      "q": "Which of the following is not one of the individual variable factors affecting learning?",
+      "options": [
+        "ergonomics",
+        "interest",
+        "endurance",
+        "ego",
+        "perception"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Interest, endurance, ego and perception are characteristics of the individual learner that affect learning. Ergonomics concerns the design of the physical environment and equipment, so it is an environmental rather than an individual factor."
+    },
+    {
+      "q": "___ learners prefer maps, graphs, diagrams and charts to learn.",
+      "options": [
+        "Visual",
+        "Solitary",
+        "Kinesthetic",
+        "Auditory"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Visual (spatial) learners learn best through images, so they prefer maps, graphs, diagrams and charts. Auditory learners prefer listening, and kinesthetic learners prefer hands-on activity."
+    },
+    {
+      "q": "___ learners search for connections, causes, patterns, and results in their learning.",
+      "options": [
+        "linguistic",
+        "kinesthetic",
+        "visual",
+        "logical"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Logical (mathematical) learners use reasoning and systems, so they look for connections, causes, patterns and results. Linguistic learners prefer words, and visual learners prefer images."
+    },
+    {
+      "q": "Effective instruction is ___",
+      "options": [
+        "interactive, generative and dynamic",
+        "designed to accommodate student learning needs and styles",
+        "guided by general pedagogical approaches",
+        "eclectic",
+        "all of the given"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Effective instruction is interactive, generative and dynamic, accommodates learners' needs and styles, is guided by general pedagogical approaches and is eclectic in drawing on several methods. Since every statement applies, 'all of the given' is correct."
+    },
+    {
+      "q": "___ role of the trainer consists of transmitting information about a subject to the audience.",
+      "options": [
+        "expert",
+        "instructor",
+        "facilitator",
+        "co-learner"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "In the expert role, the trainer acts as a subject-matter authority who transmits information about the subject to the audience. Facilitators and co-learners guide or share learning rather than simply transmitting content."
+    },
+    {
+      "q": "Which of the following is not a component of the ADDIE model?",
+      "options": [
+        "analysis",
+        "integration",
+        "development",
+        "evaluation"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "ADDIE stands for Analysis, Design, Development, Implementation and Evaluation. 'Integration' is not one of its phases."
+    }
+  ]
+}

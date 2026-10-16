@@ -1,0 +1,145 @@
+{
+  "week": 1,
+  "questions": [
+    {
+      "q": "Psychologists agree that learning results from ___",
+      "options": [
+        "running",
+        "talking",
+        "experience",
+        "seeing",
+        "reacting"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Learning is a relatively permanent change in behavior or behavior potential that results from experience. Changes caused by maturation, fatigue or injury are not counted as learning."
+    },
+    {
+      "q": "Learning is defined as a ___ change in behavior",
+      "options": [
+        "temporary",
+        "large",
+        "small",
+        "easy",
+        "relatively permanent"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Learning is defined as a relatively permanent change in behavior (or behavior potential) resulting from experience. Temporary changes such as those due to fatigue or drugs do not count as learning."
+    },
+    {
+      "q": "___ definitions of learning refer to a specific change in mental constructs (e.g., knowledge, representations, associations) of an organism.",
+      "options": [
+        "Cognitive",
+        "Psychodynamic",
+        "Experimental",
+        "Anthropological",
+        "Humanistic"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Cognitive definitions treat learning as a change in mental constructs such as knowledge, representations and associations, which are then inferred from behavior. Behavioral definitions, by contrast, focus only on observable behavior change."
+    },
+    {
+      "q": "Who among the following was one of the first psychologists to study how learning influences behavior?",
+      "options": [
+        "Carl Jung",
+        "John B. Watson",
+        "Sigmund Freud",
+        "Albert Einstein",
+        "Abraham Maslow"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "John B. Watson, the founder of behaviorism, studied how learning (conditioning) shapes behavior, most famously in the Little Albert experiment. Freud and Jung focused on the unconscious, and Maslow on needs and humanistic psychology."
+    },
+    {
+      "q": "Which of the following is not an outcome of effective learning?",
+      "options": [
+        "more connected knowledge",
+        "more sad and anxious feelings",
+        "more reflective approach",
+        "more positive emotions",
+        "more developed vision of future self as a learner"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Effective learning leads to more connected knowledge, a more reflective approach, positive emotions and a stronger vision of oneself as a learner. Increased sadness and anxiety are signs of ineffective or stressful learning, not an outcome of effective learning."
+    },
+    {
+      "q": "Learning that consists of adding to existing student knowledge is known as",
+      "options": [
+        "conceptual growth",
+        "conceptual decline",
+        "conceptual change",
+        "conceptual decay",
+        "conceptual budding"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Conceptual growth means adding new information to an existing knowledge base without needing to restructure it. Conceptual change, in contrast, requires revising or replacing existing (often mistaken) beliefs."
+    },
+    {
+      "q": "What type of feedback to students is important for increasing learning?",
+      "options": [
+        "Clear, assertive, and delayed",
+        "Clear, explanatory, and timely",
+        "Ambiguous, explanatory, timely",
+        "Strict, assertive, delayed",
+        "Clear, harsh, timely"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Feedback improves learning most when it is clear, explains what was right or wrong and how to improve, and is given promptly. Delayed, ambiguous or harsh feedback is much less useful to the learner."
+    },
+    {
+      "q": "Getting used to of something like the ticking of a wall clock is an example of",
+      "options": [
+        "Sensitization",
+        "Conditioning",
+        "Meaningful learning",
+        "Habituation",
+        "Associative learning"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Habituation is a non-associative form of learning in which responding to a repeated, harmless stimulus (like a ticking clock) decreases over time. Sensitization is the opposite: increased responding after repeated or intense stimulation."
+    },
+    {
+      "q": "In ___ learning, special emphasis is placed on exchanges of information as a way of enriching work and the confluence of ideas",
+      "options": [
+        "associative",
+        "observational",
+        "emotional",
+        "non-associative",
+        "cooperative"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Cooperative learning has students work together in small groups, so exchanging information and combining ideas is central to how they learn. Observational learning, by contrast, is learning by watching a model."
+    },
+    {
+      "q": "___ is the process of gradually changing the quality of a response.",
+      "options": [
+        "Modeling",
+        "Cueing",
+        "Reinforcement",
+        "Shaping",
+        "Punishment"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Shaping reinforces successive approximations of a target behavior, gradually changing the response until the desired behavior is reached. Modeling involves learning by observing others."
+    }
+  ]
+}

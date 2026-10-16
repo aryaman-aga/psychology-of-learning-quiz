@@ -1,0 +1,136 @@
+{
+  "week": 3,
+  "questions": [
+    {
+      "q": "Which of the following is true?",
+      "options": [
+        "Human memory involves the ability to only preserve information",
+        "Human memory involves the ability to only recover information",
+        "Human memory involves the ability to neither preserve nor recover information",
+        "Human memory involves the ability to both preserve and recover information"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Human memory involves encoding and storing (preserving) information and also retrieving (recovering) it when needed. Memory without either part would be useless."
+    },
+    {
+      "q": "____ refers to connections between the nerve cells",
+      "options": [
+        "Storage",
+        "Synapses",
+        "Neuron",
+        "Blood"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Synapses are the junctions where one nerve cell communicates with another. Neurons are the nerve cells themselves, not the connections between them."
+    },
+    {
+      "q": "In order to create a new memory, information must be changed into ____",
+      "options": [
+        "a usable form",
+        "a long form",
+        "a short form",
+        "a visual form"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Encoding, the first stage of memory formation, transforms incoming information into a usable form that can be stored as a new memory."
+    },
+    {
+      "q": "The memory ____ process allows us to bring stored memories into conscious awareness.",
+      "options": [
+        "storage",
+        "retrieval",
+        "encoding",
+        "forgetting"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Retrieval is the process of bringing stored information back into conscious awareness. Encoding puts information in, storage keeps it, and forgetting is the failure of retrieval or storage."
+    },
+    {
+      "q": "Which of the following is not a major domain of cognition?",
+      "options": [
+        "Judgment",
+        "Attention",
+        "Aggression",
+        "Intelligence"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Major cognitive domains include attention, memory, perception, judgment/reasoning, language and intelligence. Aggression is a behavior or emotional disposition, not a domain of cognition."
+    },
+    {
+      "q": "Which of the following is not an assumption of the information processing view?",
+      "options": [
+        "Information is processed in steps or stages",
+        "There are limits on how much information can be processed",
+        "The human information processing system is interactive",
+        "Information processing is analogous to computer processing"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "The keyed answer treats the limited-capacity idea as not being an assumption of the information processing view.",
+      "flag": "Likely wrong key: limited capacity (e.g., 7 plus or minus 2 items in short-term memory) is a core assumption of the information processing view, and 2026 week03 states this as True. The computer analogy is more of a metaphor than an assumption and is probably the intended answer."
+    },
+    {
+      "q": "____ refers to rote rehearsal of repetition",
+      "options": [
+        "elaborative rehearsal",
+        "maintenance rehearsal",
+        "meaningful rehearsal",
+        "none of the above"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Maintenance rehearsal is simple rote repetition that keeps information active in short-term memory. Elaborative rehearsal links information to existing knowledge and is more effective for long-term retention."
+    },
+    {
+      "q": "____ presentations can enhance working memory capacity",
+      "options": [
+        "multimodal",
+        "unimodal",
+        "one by one",
+        "antimodal"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Presenting information through multiple modes (e.g., visual and auditory) spreads load across separate working-memory subsystems (visuo-spatial sketchpad and phonological loop), effectively increasing capacity (the modality effect)."
+    },
+    {
+      "q": "Episodic and semantic memories are categorized under ____ memory",
+      "options": [
+        "procedural",
+        "structural",
+        "phonemic",
+        "declarative"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Declarative (explicit) memory includes episodic memory for personal events and semantic memory for facts and general knowledge. Procedural memory is a non-declarative memory for skills."
+    },
+    {
+      "q": "According to the neural network model, memory capacity depends on ____",
+      "options": [
+        "complexity of the synapses",
+        "sparseness of representations",
+        "spatial and temporal correlations between memories",
+        "all of the above"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "In neural network models, how many memories can be stored depends on synaptic complexity, the sparseness of representations, and the spatial and temporal correlations among stored memories, so all options apply."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "week": 5,
+  "questions": [
+    {
+      "q": "Which of the following is not a causal factor for extrinsic motivation?",
+      "options": [
+        "rewards",
+        "social pressure",
+        "curiosity",
+        "financial gain",
+        "punishment"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Extrinsic motivation comes from outside the person, such as rewards, social pressure, money or punishment. Curiosity is an internal source, so it drives intrinsic motivation."
+    },
+    {
+      "q": "___ refers to realizing the value of developing a skill/behavior.",
+      "options": [
+        "Amotivation",
+        "Identified regulation",
+        "Introjected regulation",
+        "Motivational learning"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "In self-determination theory, identified regulation means a person consciously values a behavior or skill and accepts it as personally important. Introjected regulation is driven by guilt or ego, and amotivation is a lack of motivation."
+    },
+    {
+      "q": "Drive theory is a psychological concept that attempts to explain why and how people behave in the ways they do. It is given by",
+      "options": [
+        "Murray",
+        "Hull",
+        "Atkinson",
+        "Zajonc"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Clark Hull's drive-reduction theory explains behavior as an effort to reduce internal tension created by biological drives such as hunger and thirst. Murray is known for psychogenic needs and Atkinson for achievement motivation."
+    },
+    {
+      "q": "___ theory that suggests that people are motivated to take action in order to receive a reward and is based on the idea of operant conditioning.",
+      "options": [
+        "Incentive",
+        "Arousal",
+        "Goal setting",
+        "None of the given"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Incentive theory says people are pulled to act by external rewards, which links it to operant conditioning and reinforcement. Arousal theory concerns optimal stimulation levels."
+    },
+    {
+      "q": "The Yerkes Dodson law gives ___ relationship between arousal and performance.",
+      "options": [
+        "inverted U shaped",
+        "linear",
+        "no",
+        "parabolic"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "The Yerkes-Dodson law says performance rises with arousal up to an optimal point and then falls, giving an inverted U-shaped curve."
+    },
+    {
+      "q": "The expectancy theory is based on the assumption that ___.",
+      "options": [
+        "our behavior is based on making a conscious choice from a set of possible alternative behaviors",
+        "individuals are motivated to seek out stimulation when they have low levels of arousal, but will become bored and unmotivated when they become too highly aroused",
+        "biological needs produce unpleasant states of arousal which people seek to reduce",
+        "none of the given"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Vroom's expectancy theory assumes people consciously choose among alternative behaviors based on expected outcomes (expectancy, instrumentality, valence). The second option describes arousal theory and the third describes drive theory."
+    },
+    {
+      "q": "Valence, or the perceived value of reward, would have ___ value if one wants to avoid that reward.",
+      "options": [
+        "one",
+        "zero",
+        "positive",
+        "negative"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Valence is the value placed on an outcome: positive if wanted, zero if indifferent, and negative if the person would rather avoid it."
+    },
+    {
+      "q": "Which of the following is not true about Maslow's need hierarchy?",
+      "options": [
+        "Needs lower down in the hierarchy must be satisfied before individuals can attend to higher needs",
+        "Safety needs lie at the bottom of the pyramid",
+        "Deficiency needs are concerned with basic survival",
+        "Growth needs are more psychological needs",
+        "Motivation is seen as being not just concerned with tension reduction and survival but also with human growth and development"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "In Maslow's hierarchy, physiological needs lie at the bottom of the pyramid, with safety needs on the second level. So saying safety needs are at the bottom is not true."
+    },
+    {
+      "q": "Self-Determination Theory differentiates between ___ and ___ motivation types.",
+      "options": [
+        "autonomous and controlled",
+        "autonomous and intrinsic",
+        "controlled and extrinsic",
+        "introjected and extrinsic",
+        "introjected and intrinsic"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Self-determination theory contrasts autonomous motivation (acting from choice and personal value) with controlled motivation (acting from external pressure or internal guilt)."
+    },
+    {
+      "q": "In achievement motivation, the motive to avoid failure often consists of",
+      "options": [
+        "worries about the consequences of failing",
+        "self-criticism",
+        "accelerated heart rate",
+        "all of the given"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "The motive to avoid failure includes worries about the consequences of failing, self-criticism and bodily signs of anxiety such as a faster heart rate. So all of the given apply."
+    }
+  ]
+}

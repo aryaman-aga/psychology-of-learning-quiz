@@ -1,0 +1,145 @@
+{
+  "week": 2,
+  "questions": [
+    {
+      "q": "___ established the first psychological laboratory at the University of Leipzig in Germany.",
+      "options": [
+        "Sigmund Freud",
+        "Albert Einstein",
+        "Wilhelm Wundt",
+        "Aristotle",
+        "Carl Jung"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Wilhelm Wundt founded the first experimental psychology laboratory at the University of Leipzig in 1879, which is often treated as the start of psychology as a science. Freud and Jung were psychoanalysts working in Vienna and Zurich."
+    },
+    {
+      "q": "___ is a theory of learning that uses mind as an information processor, like a computer",
+      "options": [
+        "Behaviorism",
+        "Information Technology",
+        "Psychoanalysis",
+        "Cognitivism",
+        "Motivation"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Cognitivism views the mind as an information processor, like a computer, that takes in, stores and retrieves information. Behaviorism, in contrast, ignores internal mental processes and focuses on observable behavior."
+    },
+    {
+      "q": "According to Gardner's theory of multiple intelligences, ___ intelligence is about self-knowledge and the ability to act adaptively on the basis of that knowledge",
+      "options": [
+        "Interpersonal",
+        "Spatial",
+        "Intrapersonal",
+        "Linguistic",
+        "Musical"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "In Gardner's theory, intrapersonal intelligence is understanding oneself (one's feelings, strengths and goals) and using that self-knowledge to guide behavior. Interpersonal intelligence is about understanding other people."
+    },
+    {
+      "q": "In the PASS theory of intelligence, PASS stands for ___",
+      "options": [
+        "Practice, Attention, Selection, Sensation",
+        "Planning, Attention-Arousal, Simultaneous and Successive",
+        "Processing, Arousal, Simultaneous Selection",
+        "Problem solving, Attention, Sensation, Substitution",
+        "Perception, Attention, Selection, Sensation"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Das, Naglieri and Kirby's PASS theory names four cognitive processes: Planning, Attention-Arousal, Simultaneous processing and Successive processing. It is based on Luria's model of brain functioning."
+    },
+    {
+      "q": "Pre-assessment, group based initial instruction, regular formative assessments, corrective instruction, and parallel formative assessments are all components of ___",
+      "options": [
+        "Mastery learning",
+        "Structure of Intellect",
+        "Instructional learning",
+        "Positive learning",
+        "Intelligence"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "These are the components of Bloom's mastery learning: students are pre-assessed, taught, given formative tests, and those who have not mastered the unit get corrective instruction followed by a parallel test before moving on."
+    },
+    {
+      "q": "Which of the following is an approach to learning which suggests that reality is determined by the experiences of the learner?",
+      "options": [
+        "Constructivism",
+        "Cognitivism",
+        "Conceptualism",
+        "Instructionism",
+        "Conceptualization"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Constructivism holds that learners actively build their own understanding, so reality and knowledge are shaped by the learner's experiences. Cognitivism focuses on internal information processing rather than knowledge construction from experience."
+    },
+    {
+      "q": "___ constructivism is based on the work of Lev Vygotsky.",
+      "options": [
+        "Cognitive",
+        "Behavioral",
+        "Motivational",
+        "Positive",
+        "Social"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Social constructivism, based on Lev Vygotsky's work, holds that knowledge is built through social interaction, language and culture. Cognitive constructivism is mainly associated with Piaget."
+    },
+    {
+      "q": "Which of the following is not a stage of development as given by Piaget?",
+      "options": [
+        "Preoperational",
+        "Formal operational",
+        "Sensory-motor",
+        "Post operational",
+        "Concrete operational"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Piaget's four stages are sensorimotor, preoperational, concrete operational and formal operational. There is no 'post operational' stage in his theory."
+    },
+    {
+      "q": "According to Vygotsky, ___ is the gap between what a learner can do independently and what they can do with the help of a more knowledgeable other.",
+      "options": [
+        "knowledge gap",
+        "zone of proximal development",
+        "zone of intelligence",
+        "intelligence gap",
+        "zone of knowledge"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Vygotsky's zone of proximal development is the gap between what a learner can do alone and what they can achieve with guidance from a more knowledgeable other. Scaffolding is the support given within this zone."
+    },
+    {
+      "q": "___ teaching involves an interactive dialogue between a teacher and a small group of students.",
+      "options": [
+        "Reciprocal",
+        "Instructional",
+        "Reinforcing",
+        "Corrective",
+        "Restricted"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Reciprocal teaching (Palincsar and Brown) is a dialogue between a teacher and a small group of students in which they take turns leading discussion using four strategies: predicting, questioning, clarifying and summarizing."
+    }
+  ]
+}

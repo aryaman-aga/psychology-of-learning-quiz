@@ -1,0 +1,134 @@
+{
+  "week": 12,
+  "questions": [
+    {
+      "q": "Sustainable development is",
+      "options": [
+        "unidimensional",
+        "bidimensional",
+        "multidimensional",
+        "none of the given"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Sustainable development combines economic, social and environmental dimensions, so it is multidimensional. It cannot be reduced to one or two dimensions."
+    },
+    {
+      "q": "Revenue generation and resource use are components of",
+      "options": [
+        "environmental sustainability",
+        "social sustainability",
+        "financial sustainability",
+        "economic sustainability"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Revenue generation and resource use concern the economic pillar of sustainability, which is about maintaining economic value and productive capacity over time. Financial sustainability is not one of the standard pillars."
+    },
+    {
+      "q": "___ as a practice is defined as solving social problems using market based methods and can create both economic and social value.",
+      "options": [
+        "social entrepreneurship",
+        "economic entrepreneurship",
+        "social marketing",
+        "social economics"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Social entrepreneurship uses market-based methods to solve social problems, creating both economic and social value. Social marketing applies marketing techniques to change behaviour rather than building ventures."
+    },
+    {
+      "q": "In the context of sustainability, HESI highlights the role of ___ in building a better world for current and future generations.",
+      "options": [
+        "Financial stability",
+        "Higher education",
+        "Climate change",
+        "Natural resources"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "The Higher Education Sustainability Initiative (HESI) highlights the role of higher education in building a better, more sustainable world for present and future generations."
+    },
+    {
+      "q": "The following are the outcome targets of SDG 4, except.",
+      "options": [
+        "Relevant skills for decent work",
+        "Gender equality and inclusion",
+        "Privatization of institutes",
+        "Universal youth literacy"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "SDG 4 targets include relevant skills for decent work, gender equality and inclusion, and universal youth literacy and numeracy. Privatization of institutes is not an SDG 4 target."
+    },
+    {
+      "q": "One of the means to implement SDG 4 is exponentially increasing the number of scholarships available to developing contexts.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "One means of implementing SDG 4 (target 4.b) is to substantially expand the number of scholarships available to developing countries. So the statement is true in spirit.",
+      "flag": "Key 'True' is plausible but the wording is loose: SDG target 4.b says 'substantially expand' scholarships for developing countries, not 'exponentially increase'; a strict reading could make it False."
+    },
+    {
+      "q": "Successful implementation of ESD requires a shift in focus from",
+      "options": [
+        "feeling to thinking",
+        "learning to teaching",
+        "teaching to feeling",
+        "teaching to learning"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Education for Sustainable Development calls for learner-centred, action-oriented pedagogy, which moves the focus from teaching to learning."
+    },
+    {
+      "q": "___ refers to the ability to understand and evaluate multiple possible futures to deal with risks and changes.",
+      "options": [
+        "anticipatory competency",
+        "collaboration competency",
+        "normative competency",
+        "systems thinking competency"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Anticipatory competency is the ability to understand and evaluate multiple futures (possible, probable and desirable) and to deal with risks and change. Normative competency concerns values, and systems thinking concerns relationships within complex systems."
+    },
+    {
+      "q": "Fostering competencies requires integration of three interrelated dimensions of learning as described by UNESCO. Which of the following is not one of them?",
+      "options": [
+        "biological learning",
+        "cognitive learning",
+        "behavioral learning",
+        "social and emotional learning"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "UNESCO describes three dimensions of learning for ESD: cognitive, social-emotional and behavioural. 'Biological learning' is not one of them."
+    },
+    {
+      "q": "GAP in the context of Education for Sustainable Development stands for",
+      "options": [
+        "General Activity Priority",
+        "Global Action Programme",
+        "Global Achievement Programme",
+        "General Awareness Programme"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "GAP stands for the Global Action Programme on Education for Sustainable Development (2015-2019), UNESCO's follow-up to the UN Decade of ESD."
+    }
+  ]
+}

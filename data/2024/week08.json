@@ -1,0 +1,135 @@
+{
+  "week": 8,
+  "questions": [
+    {
+      "q": "The word 'pedagogy' has been derived from the Greek word \"pedagogue\" which stands for",
+      "options": [
+        "the science of learning",
+        "the art of observing",
+        "the art of teaching children",
+        "none of the given"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Pedagogy comes from the Greek paidagogos (pais, child + agogos, leader), and the term refers to the art of teaching children. It is not the science of learning in general or the art of observing."
+    },
+    {
+      "q": "Which of the following statements is not true about pedagogy?",
+      "options": [
+        "It assists both students and teachers in gaining an in-depth understanding of fundamental material.",
+        "It is about suppressing responses from learners",
+        "It enhances the student-teacher relationship",
+        "It enables teachers to influence student learning with an intention to capture the attention of students"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Pedagogy aims to draw out and engage learners' responses, deepen understanding and strengthen the student-teacher relationship. Suppressing learners' responses runs against good pedagogy, so that statement is not true."
+    },
+    {
+      "q": "Which of the following is not a pedagogical approach in teaching?",
+      "options": [
+        "reflective",
+        "collective",
+        "collaborative",
+        "integrative"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Commonly taught pedagogical approaches include constructivist, collaborative, reflective, integrative and inquiry-based approaches. 'Collective' is not one of them and is a distractor that sounds like 'collaborative'."
+    },
+    {
+      "q": "___ is a form of active learning that starts by posing questions, problems or scenarios rather than simply presenting established facts or portraying a smooth path to knowledge.",
+      "options": [
+        "constructivist learning",
+        "passive learning",
+        "inquiry-based learning",
+        "metalearning"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Inquiry-based learning starts from questions, problems or scenarios that learners investigate, instead of presenting finished facts. Passive learning is the opposite of this active approach."
+    },
+    {
+      "q": "Which of the following is a primary role of the instructor in experiential learning?",
+      "options": [
+        "posing problems",
+        "providing solutions",
+        "blurring boundaries",
+        "none of the given"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "In experiential learning the instructor sets up the experience by posing problems, setting boundaries and supporting learners, while learners work out solutions themselves. Providing solutions would undercut learning from experience."
+    },
+    {
+      "q": "The \"what is important?\" stage of the experiential learning process refers to the ___ stage",
+      "options": [
+        "processing",
+        "generalizing",
+        "application",
+        "reflecting"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "In the experiential learning cycle (experiencing, sharing, processing, generalizing, applying), the processing stage asks 'what is important?' by examining patterns in the shared experience. Generalizing asks 'so what?' and application asks 'now what?'."
+    },
+    {
+      "q": "The ___ learning style as given by Kolb suggests that these individuals prefer to look at things from multiple perspectives and prefer to watch rather than do.",
+      "options": [
+        "Assimilating",
+        "Accommodating",
+        "Converging",
+        "Diverging"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Kolb's diverging (feeling and watching) learners view situations from multiple perspectives and prefer to watch rather than do, often gathering information and brainstorming. Accommodating learners, by contrast, prefer hands-on doing."
+    },
+    {
+      "q": "The following factors influence preferred learning style except",
+      "options": [
+        "career choice",
+        "personality",
+        "educational specialization",
+        "genes"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Kolb noted that a person's preferred learning style is shaped by factors such as personality type, educational specialization, career choice and current job role. Genes are not listed among these influences."
+    },
+    {
+      "q": "Integrative learning often involves three steps. Which of the following is not one of them?",
+      "options": [
+        "collaboration",
+        "integrative enquiry",
+        "application and transfer",
+        "reflection"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Integrative learning typically involves integrative inquiry, application and transfer of learning to new settings, and reflection. Collaboration may support it but is not one of the three steps."
+    },
+    {
+      "q": "In transformative learning, ___ includes a student's habit of the mind, as well as a personal point of view.",
+      "options": [
+        "intentional content",
+        "frame of reference",
+        "frame of context",
+        "none of the given"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "In Mezirow's transformative learning theory, a frame of reference is made up of habits of mind and a point of view, which shape how a person interprets experience. Transformation happens when this frame of reference is revised."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "week": 5,
+  "questions": [
+    {
+      "q": "Which of the following is not a major component of motivation?",
+      "options": [
+        "Activation",
+        "Confusion",
+        "Persistence",
+        "Intensity",
+        "Direction"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Motivation is usually described in terms of activation (starting a behavior), persistence (continuing despite obstacles), intensity (vigor of effort) and direction (the goal being pursued). Confusion is not a component of motivation."
+    },
+    {
+      "q": "___ refers to doing something or behaving well because one feels an internal pressure to do so.",
+      "options": [
+        "Identified regulation",
+        "Amotivation",
+        "Introjected regulation",
+        "Curiosity",
+        "Motivational learning"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Introjected regulation is a partly internalized form of extrinsic motivation in which a person acts because of internal pressure such as guilt, anxiety or ego. Identified regulation means acting because one personally values the outcome."
+    },
+    {
+      "q": "___ drives are often referred to as 'tertiary drives'.",
+      "options": [
+        "Biological",
+        "Psychological",
+        "Social",
+        "Hunger",
+        "None of the above"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Drives are often grouped as primary (biological, such as hunger), secondary (learned or psychological) and tertiary (social drives such as affiliation and approval). This course refers to social drives as tertiary drives."
+    },
+    {
+      "q": "Incentive theory of motivation is based on the concept of ___",
+      "options": [
+        "Operant conditioning",
+        "Classical conditioning",
+        "Memory",
+        "Forgetting",
+        "Drive theory"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Incentive theory holds that behavior is pulled by external rewards and incentives, which comes from the operant conditioning idea that behavior is shaped by its consequences. Drive theory, by contrast, explains behavior as being pushed by internal tension."
+    },
+    {
+      "q": "The Yerkes Dodson law gives a relationship between ___ and ___",
+      "options": [
+        "arousal, performance",
+        "intelligence, stress",
+        "stress, happiness",
+        "learning, marks",
+        "None of the above"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "The Yerkes-Dodson law describes an inverted-U relationship between arousal and performance: performance is best at a moderate level of arousal and drops when arousal is too low or too high."
+    },
+    {
+      "q": "The letter 'M' in the acronym 'SMART' used in the context of goal setting stands for -",
+      "options": [
+        "measurable",
+        "microscopic",
+        "maintained",
+        "motivated",
+        "none of the above"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "In SMART goals, M stands for Measurable, meaning progress and success can be tracked with clear criteria. SMART is Specific, Measurable, Achievable, Relevant and Time-bound."
+    },
+    {
+      "q": "Maslow's need hierarchy has ___ number of stages.",
+      "options": [
+        "Two",
+        "Three",
+        "Seven",
+        "Four",
+        "Five"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Maslow's classic hierarchy has five levels: physiological, safety, love and belonging, esteem, and self-actualization. Later expanded versions add more levels, but the standard model has five."
+    },
+    {
+      "q": "What are the three psychological needs highlighted by the self determination theory?",
+      "options": [
+        "Autonomy, Comfort, Rationalization",
+        "Autonomy, Competence, Relatedness",
+        "Attention, Comfort, Relationship",
+        "Attention, Competence, Relationship",
+        "None of the above"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Self-determination theory (Deci and Ryan) identifies three basic psychological needs: autonomy, competence and relatedness. Meeting these needs supports intrinsic and autonomous motivation."
+    },
+    {
+      "q": "Which of the following is not an example of esteem needs in the context of Maslow's hierarchy?",
+      "options": [
+        "sleep",
+        "achievement",
+        "education",
+        "respect",
+        "competence"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Sleep is a physiological need at the base of Maslow's hierarchy. Achievement, respect and competence (and the recognition that education brings) relate to esteem needs.",
+      "flag": "'Education' is not a standard esteem need in Maslow's hierarchy, but 'sleep' is clearly physiological, so the key is still the only clear answer."
+    },
+    {
+      "q": "Achievement motivation stems from two needs: need to achieve and need to ___",
+      "options": [
+        "enjoy",
+        "relax",
+        "avoid failure",
+        "be respected",
+        "seek attention"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Atkinson's theory of achievement motivation says it results from the tension between the need to achieve success and the need to avoid failure. The balance between them influences how challenging a task a person chooses."
+    }
+  ]
+}

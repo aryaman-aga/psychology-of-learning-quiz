@@ -1,0 +1,140 @@
+{
+  "week": 10,
+  "questions": [
+    {
+      "q": "Which of the following is not an essential skill needed for today's teacher (post pandemic era)",
+      "options": [
+        "digital skills",
+        "communication",
+        "life skills",
+        "non-inclusive education",
+        "participative education"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Post-pandemic teachers need digital skills, communication, life skills and the ability to run participative, inclusive classrooms. Non-inclusive education is not a skill but a practice to avoid."
+    },
+    {
+      "q": "The following psychological principles about how students think and learn are true except",
+      "options": [
+        "Students' cognitive development and learning is not limited by the general stages of development",
+        "Students existing knowledge is not related to and does not impact their present learning",
+        "The beliefs or perceptions students have about their intelligence and ability affect their learning and cognitive functioning",
+        "Learning is context-based"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "According to the APA's principles for teaching and learning, students' prior knowledge strongly affects new learning, so saying it does not impact present learning is false. The other statements match the principles: development is not limited by general stages, beliefs about intelligence affect learning, and learning is context-based."
+    },
+    {
+      "q": "Which of the following is true regarding the social and emotional learning of students?",
+      "options": [
+        "Learning is situated in a single isolated social context",
+        "Interpersonal relationships are unimportant for development of students",
+        "Emotional well-being impacts students' educational performance",
+        "None of the above"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Social and emotional learning recognizes that emotional well-being strongly influences students' performance and learning. Learning is situated in multiple social contexts, and interpersonal relationships are important for students' development."
+    },
+    {
+      "q": "Learners who have a ____ believe that intelligence is malleable and success is related to effort level",
+      "options": [
+        "communication",
+        "academic intelligence",
+        "fixed mindset",
+        "intelligent mindset",
+        "growth mindset"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Dweck's growth mindset is the belief that intelligence can be developed and that success depends on effort and strategy. A fixed mindset treats intelligence as an unchangeable trait."
+    },
+    {
+      "q": "Acquiring long-term knowledge and skill is largely dependent on ____",
+      "options": [
+        "practice",
+        "good luck",
+        "genes",
+        "money",
+        "None of the above"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Long-term knowledge and skill depend largely on practice, especially deliberate, spaced practice with feedback. Luck, genes and money are not the main determinants in the APA principles."
+    },
+    {
+      "q": "Use of ____ goals increase self-efficacy and competency towards larger goals.",
+      "options": [
+        "ambiguous",
+        "extremely challenging",
+        "extremely non-challenging",
+        "proximal",
+        "none of the above"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Proximal (short-term, specific, moderately challenging) goals give learners frequent success experiences, which build self-efficacy and competence toward larger, distal goals. Ambiguous or extremely hard or easy goals do not have this effect."
+    },
+    {
+      "q": "The following are examples of formative assessment except ____",
+      "options": [
+        "anecdotal records",
+        "essays",
+        "lab reports",
+        "entrance tests"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Anecdotal records, essays and lab reports can be used during instruction to monitor progress and give feedback, which is formative assessment. Entrance tests are given before instruction for selection or placement, so they are not formative."
+    },
+    {
+      "q": "Summative assessment is conducted ____",
+      "options": [
+        "during instruction",
+        "before instruction",
+        "before and during instruction",
+        "after instruction"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Summative assessment is conducted after instruction (at the end of a unit, course or term) to evaluate what students have learned. Assessment during instruction is formative, and assessment before instruction is diagnostic."
+    },
+    {
+      "q": "Which of the following is not an appropriate principle of good feedback practice?",
+      "options": [
+        "Aims to hamper self-reflection",
+        "Provides opportunities to close the gap between current and desired performance",
+        "Helps clarify what good performance is",
+        "Provides information to teachers that can be used to help shape the teaching",
+        "Encourages positive motivational beliefs and self-esteem"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Good feedback practice (Nicol and Macfarlane-Dick) aims to facilitate self-assessment and reflection, clarify good performance, help close the performance gap, inform teaching and support motivation and self-esteem. Hampering self-reflection contradicts these principles."
+    },
+    {
+      "q": "Which of the following is not one of the levels of feedback?",
+      "options": [
+        "Task-level",
+        "Process-level",
+        "Facilitator-level",
+        "Personal-level"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Hattie and Timperley describe four levels of feedback: task, process, self-regulation and self (personal). 'Facilitator-level' is not one of them."
+    }
+  ]
+}

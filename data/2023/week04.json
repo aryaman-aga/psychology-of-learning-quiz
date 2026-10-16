@@ -1,0 +1,146 @@
+{
+  "week": 4,
+  "questions": [
+    {
+      "q": "When there are many possible answers to a solution, we rely on ___ to help us choose the best solution, like trying to answer or solve an open-ended question",
+      "options": [
+        "luck",
+        "divergent thinking",
+        "remembering",
+        "sensory memory",
+        "symbolic thinking"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Divergent thinking generates many possible ideas or solutions to an open-ended problem, which is why it is used when there is no single correct answer. Convergent thinking narrows down to one correct answer.",
+      "flag": "Wording mixes ideas: generating many possible answers is divergent thinking, but 'choose the best solution' describes convergent thinking. Key (divergent) fits the open-ended framing."
+    },
+    {
+      "q": "___ are representative items within each concept.",
+      "options": [
+        "Imaginations",
+        "Focuses",
+        "Architectures",
+        "Prototypes",
+        "Images"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "A prototype is the most typical or representative member of a concept or category, and new items are categorized by how closely they resemble it. For example, a robin is a prototypical bird."
+    },
+    {
+      "q": "Cognitive, affective, and psychomotor are three learning domains as given by -",
+      "options": [
+        "Cognitive architectures",
+        "Maslow's hierarchy",
+        "Bloom's Taxonomy",
+        "Propositions",
+        "Working memory theory"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Bloom's taxonomy classifies learning objectives into three domains: cognitive (knowledge and thinking), affective (feelings and attitudes) and psychomotor (physical skills). Maslow's hierarchy concerns motivation and needs."
+    },
+    {
+      "q": "___ knowledge defines knowledge about own knowledge or self-knowledge",
+      "options": [
+        "Factual",
+        "Metacognitive",
+        "Cognitive",
+        "Procedural",
+        "Conceptual"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Metacognitive knowledge is knowledge about one's own cognition, such as awareness of one's strengths, weaknesses and strategies. In the revised Bloom's taxonomy it is listed alongside factual, conceptual and procedural knowledge."
+    },
+    {
+      "q": "___ is the ability to collect and analyze information to come to a conclusion.",
+      "options": [
+        "Critical thinking",
+        "Metacognition",
+        "Intuition",
+        "Affective thinking",
+        "Learning"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Critical thinking is the ability to gather and analyze information objectively and evaluate it to reach a reasoned conclusion. Metacognition is thinking about one's own thinking, and intuition reaches conclusions without deliberate analysis."
+    },
+    {
+      "q": "'Think out of the box' refers to which of the following?",
+      "options": [
+        "Creative thinking",
+        "Critical thinking",
+        "Reflective thinking",
+        "Analytical thinking",
+        "Metacognition"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "'Thinking out of the box' means going beyond conventional ways of thinking to produce novel, original ideas, which is creative thinking. Critical and analytical thinking evaluate and break down existing information."
+    },
+    {
+      "q": "Which of the following is not a stage of the creative thinking process?",
+      "options": [
+        "Elaboration",
+        "Evaluation",
+        "Preparation",
+        "Insight",
+        "Information"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "The creative process is usually described as preparation, incubation, insight, evaluation and elaboration. Gathering information happens within the preparation stage, but 'information' is not itself a stage."
+    },
+    {
+      "q": "___ is a method of problem solving in which possible solutions are tried until one is successful.",
+      "options": [
+        "Analogy",
+        "Trial and error",
+        "Chance",
+        "Algorithm",
+        "Creativity"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Trial and error means trying possible solutions one after another until one works. An algorithm, in contrast, is a step-by-step procedure that guarantees a solution."
+    },
+    {
+      "q": "In the traditional approach to learning, a student's role is ___",
+      "options": [
+        "passive",
+        "active",
+        "experiential",
+        "absent",
+        "unrecognized"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "In the traditional, teacher-centered approach, the teacher transmits knowledge and the student passively receives it. Active and experiential roles are features of constructivist, learner-centered approaches."
+    },
+    {
+      "q": "___ are versatile graphic organizers that can represent many different forms of relationships between concepts.",
+      "options": [
+        "Prototypes",
+        "Concepts",
+        "Emotional maps",
+        "Cognitive aids",
+        "Cognitive maps"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Cognitive maps (including concept maps and mind maps) are flexible graphic organizers that visually show relationships between concepts. Prototypes are typical examples of a category, not diagrams."
+    }
+  ]
+}

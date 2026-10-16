@@ -1,0 +1,133 @@
+{
+  "week": 6,
+  "questions": [
+    {
+      "q": "Daniel Goleman's work in emotional intelligence (EI) has outlined ___ main areas of this intelligence.",
+      "options": [
+        "three",
+        "four",
+        "five",
+        "six"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Goleman's model has five components: self-awareness, self-regulation, motivation, empathy and social skills."
+    },
+    {
+      "q": "Which of the following statements is not true?",
+      "options": [
+        "Experts even suggested that emotional intelligence/ EQ, is more important than IQ/academic intelligence",
+        "An individual with high EI is not only aware of what emotions they are feeling but can put words to their feelings",
+        "Studies show that EI does not impact aspects of one's life like academic performance",
+        "Peter Salovey and John Mayer were the first to develop a psychological theory of emotional intelligence."
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Studies show that emotional intelligence does affect academic performance, work, relationships and health, so the third statement is false. The others are accurate, including that Salovey and Mayer first theorized EI."
+    },
+    {
+      "q": "___ refers to how tuned to the emotions of others a person is.",
+      "options": [
+        "Empathy",
+        "Motivation",
+        "Emotional literacy",
+        "Self regulation"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Empathy is the ability to sense and understand others' emotions. Self-regulation concerns managing one's own emotions, and emotional literacy concerns naming them."
+    },
+    {
+      "q": "The following are advantages of developing emotional intelligence, except ____",
+      "options": [
+        "Being able to accept criticism and responsibility",
+        "Knowing why we do the things we do",
+        "Being able to say no when we need to",
+        "Being able to hide our feelings from others"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Emotional intelligence helps us accept criticism, understand our motives and set boundaries. Hiding our feelings from others is suppression, not a benefit of EI, which favors appropriate expression."
+    },
+    {
+      "q": "The Pyramid of Emotional Intelligence is also known as the ___ layer model.",
+      "options": [
+        "nine",
+        "five",
+        "seven",
+        "eleven"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "The Pyramid of Emotional Intelligence (Drigas and Papoutsis) has nine layers, from emotional stimuli at the base up to emotional unity at the top."
+    },
+    {
+      "q": "EI can be developed at any stage of life through self-effort & training.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Unlike largely stable IQ, emotional intelligence consists of skills that can be learned and improved at any age through self-effort, practice and training."
+    },
+    {
+      "q": "When someone engages in ___, they can regulate their emotions to ensure that others feel more comfortable.",
+      "options": [
+        "emotional exhaustion",
+        "emotional literacy",
+        "empathy",
+        "emotional labor"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Emotional labor (Hochschild) is the regulation of one's emotional expressions to meet role demands, such as staying calm and pleasant so customers feel comfortable."
+    },
+    {
+      "q": "The management of emotions is ___",
+      "options": [
+        "a private act",
+        "influenced by cultural and social norms",
+        "done by actively shaping and directing feelings",
+        "all of the given"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Managing emotions is partly a private act, shaped by cultural and social display rules, and involves actively shaping and directing one's feelings. So all of the given are correct."
+    },
+    {
+      "q": "___ is seen when workers change their outward emotional expressions but do not attempt to feel the emotions that they are displaying.",
+      "options": [
+        "deep acting",
+        "emotional contagion",
+        "surface acting",
+        "emotional literacy"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Surface acting means changing outward expressions (for example, a fake smile) without trying to feel the emotion. Deep acting involves trying to actually feel the emotion that is displayed."
+    },
+    {
+      "q": "The concept of emotional contagion can be linked to biological basis of ___",
+      "options": [
+        "emotional neurons",
+        "mirror neurons",
+        "contagious neurons",
+        "None of the given"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Mirror neurons fire both when we act and when we observe others acting, which is thought to underlie automatically 'catching' others' emotions, i.e., emotional contagion."
+    }
+  ]
+}

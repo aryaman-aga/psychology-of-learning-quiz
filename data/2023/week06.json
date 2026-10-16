@@ -1,0 +1,143 @@
+{
+  "week": 6,
+  "questions": [
+    {
+      "q": "Who among the following is given major credit for the popularization of the term 'Emotional Intelligence'?",
+      "options": [
+        "Dr. Abraham Maslow",
+        "Dr. Carl Jung",
+        "Dr. Daniel Goleman",
+        "Dr. John Mayer",
+        "Dr. Sigmund Freud"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Daniel Goleman's 1995 bestseller 'Emotional Intelligence' brought the term to a mass audience, so he gets major credit for popularizing it. John Mayer (with Peter Salovey) coined and formally defined the concept earlier, but did not popularize it."
+    },
+    {
+      "q": "Which of the following is not a component of emotional intelligence?",
+      "options": [
+        "Self-awareness",
+        "Self-regulation",
+        "Knowledge",
+        "Motivation",
+        "Empathy"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Goleman's model has five components: self-awareness, self-regulation, motivation, empathy and social skills. Knowledge is a cognitive attribute, not a component of emotional intelligence."
+    },
+    {
+      "q": "____ refers to the ability of putting words to feelings.",
+      "options": [
+        "Emotional literacy",
+        "Emotional testing",
+        "Social knowledge",
+        "Emotional ability",
+        "Emotional aptitude"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Emotional literacy is the ability to recognize, understand and name one's feelings, i.e. to put words to emotions. It is a foundation for expressing and regulating emotions appropriately."
+    },
+    {
+      "q": "The following are signs of emotional intelligence, except",
+      "options": [
+        "The ability to let go of mistakes",
+        "Feelings of empathy and concern for others",
+        "An awareness of personal strengths and limitations",
+        "Self-confidence and self-acceptance",
+        "Not taking responsibility for one's mistakes"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Emotionally intelligent people own their mistakes, learn from them and then let them go. Refusing to take responsibility for one's mistakes is the opposite of emotional intelligence, while the other options are typical signs of it."
+    },
+    {
+      "q": "According to Hochschild, the ____ are attempts by organizations to control employees' inner lives or thoughts and feelings; e.g. in the case of flight attendants.",
+      "options": [
+        "feeling rules",
+        "emotional syntax",
+        "emotional norms",
+        "feeling norms",
+        "None of the above"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Arlie Hochschild, in her study of flight attendants, described feeling rules as the organization's expectations about which emotions employees should feel and display. Through such rules organizations try to manage workers' inner feelings, which is the basis of emotional labor."
+    },
+    {
+      "q": "____ occurs when someone's emotions and related behaviors lead to similar emotions and behaviors in others.",
+      "options": [
+        "Deep acting",
+        "Emotional domino",
+        "Surface acting",
+        "Emotional contagion",
+        "Emotional norms"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Emotional contagion is the spread of emotions and related behaviors from one person to others, as when one person's cheerfulness or anxiety 'catches on' in a group. Surface and deep acting are emotional labor strategies, not contagion."
+    },
+    {
+      "q": "The biological explanation of emotional contagion can be through the existence of ____",
+      "options": [
+        "emotional neurons",
+        "emotional nerves",
+        "feeling neurons",
+        "heart",
+        "mirror neurons"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Mirror neurons fire both when we perform an action and when we observe someone else performing it, so they are thought to underlie automatic mimicry of others' expressions and emotions. This offers a biological basis for emotional contagion."
+    },
+    {
+      "q": "Which of the following is not one of three main areas of general creativity?",
+      "options": [
+        "nonverbal and verbal creativity",
+        "biological creativity",
+        "creativity in problem solving",
+        "emotional creativity"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "The three main areas of general creativity discussed are nonverbal and verbal creativity, creativity in problem solving, and emotional creativity. 'Biological creativity' is not one of them."
+    },
+    {
+      "q": "'A breakup gives rise to song lyrics' is an example of how ____",
+      "options": [
+        "emotions can inspire creativity",
+        "heartbreak can inspire emotional intelligence",
+        "emotional intelligence is lowered",
+        "none of the above"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Writing song lyrics after a breakup shows strong emotions acting as fuel for creative expression. It illustrates that emotions can inspire creativity, not anything about emotional intelligence rising or falling."
+    },
+    {
+      "q": "Which of the following is false?",
+      "options": [
+        "Emotional intelligence can predict academic performance and workplace success",
+        "Meditation or journal keeping can be effective strategies to improve self-awareness",
+        "Emotional intelligence cannot be learnt or improved through training; it is genetic.",
+        "Improving communication skills aids in improving conflict resolution.",
+        "None of the above"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Emotional intelligence is not fixed by genes; skills such as self-awareness, empathy and self-regulation can be learned and improved through training and practice. The other statements are true, so the genetic claim is the false one."
+    }
+  ]
+}

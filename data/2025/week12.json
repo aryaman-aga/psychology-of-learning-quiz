@@ -1,0 +1,137 @@
+{
+ "week": 12,
+ "questions": [
+  {
+   "q": "Sustainability in the context of environmental sustainability is ____.",
+   "options": [
+    "multidimensional",
+    "bidimensional",
+    "unidimensional",
+    "none of the given"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "The key treats environmental sustainability as unidimensional, focusing on a single dimension: protecting natural systems and resources.",
+   "flag": "Questionable: sustainability, including environmental sustainability, is usually described as multidimensional (option A). The key (unidimensional) matches the 2026 version of this question but is counter-intuitive."
+  },
+  {
+   "q": "As discussed by the Brundtland commission, sustainable development was the solution to the problems of ____.",
+   "options": [
+    "poor health",
+    "recession",
+    "poverty",
+    "environmental degradation"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "The Brundtland Commission (Our Common Future, 1987) proposed sustainable development as the answer to growing environmental degradation alongside development needs.",
+   "flag": "The Brundtland report addressed both environmental degradation and poverty/development, so 'poverty' (C) is a plausible distractor; key D follows the common framing."
+  },
+  {
+   "q": "Environmental sustainability focuses on the impacts of processes, products and services on ____.",
+   "options": [
+    "biodiversity",
+    "ocean environment",
+    "air",
+    "all of the above"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "Environmental sustainability looks at the impacts of processes, products and services on all parts of the environment, including biodiversity, oceans and air, so all the options apply."
+  },
+  {
+   "q": "Social entrepreneurship is defined as solving social problems using ____.",
+   "options": [
+    "generational wealth",
+    "market-based methods",
+    "bank loans",
+    "magical methods"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "Social entrepreneurship addresses social problems with market-based, business-like methods, combining social mission with financial sustainability."
+  },
+  {
+   "q": "HESI stands for.",
+   "options": [
+    "Health and Education Sustainability Initiative",
+    "Higher Education Systematic Initiative",
+    "Higher Education Sustainability Initiative",
+    "none of the above"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "HESI is the Higher Education Sustainability Initiative, a UN partnership that links higher education institutions with sustainable development."
+  },
+  {
+   "q": "Universal primary and secondary education is an outcome target of ____.",
+   "options": [
+    "SDG 1",
+    "SDG 2",
+    "SDG 3",
+    "SDG 4"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "SDG 4 (Quality Education) includes targets for universal, free primary and secondary education. SDGs 1, 2 and 3 cover poverty, hunger and health."
+  },
+  {
+   "q": "____ is a target group for ESD for 2030 framework.",
+   "options": [
+    "policymakers",
+    "parents",
+    "institutional leaders",
+    "all of the above"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "The ESD for 2030 framework targets a wide range of stakeholders, including policymakers, institutional leaders, educators, parents and youth, so all the options apply."
+  },
+  {
+   "q": "Successful implementation of ESD requires a shift in focus to ____.",
+   "options": [
+    "learning",
+    "teaching",
+    "exploiting",
+    "reading"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "ESD calls for learner-centred, action-oriented pedagogy, shifting the focus from teaching to learning."
+  },
+  {
+   "q": "____ competency refers to the ability to reflect on one's own role in community and society.",
+   "options": [
+    "self-awareness",
+    "emotional",
+    "normative",
+    "anticipatory"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "In UNESCO's key sustainability competencies, self-awareness competency is the ability to reflect on one's own role in the local community and global society. Normative competency concerns norms and values; anticipatory concerns future scenarios."
+  },
+  {
+   "q": "In 2021, the European Centre for the Development of Vocational Training published a skills forecast scenario on the likely employment and skills implications of the ____.",
+   "options": [
+    "European Greenhouse Initiative",
+    "European Green Deal",
+    "European Green Agreement",
+    "none of the above"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "In 2021 Cedefop published a skills forecast scenario examining the employment and skills effects of the European Green Deal, the EU's plan for a climate-neutral economy."
+  }
+ ]
+}

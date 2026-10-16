@@ -1,0 +1,135 @@
+{
+ "week": 7,
+ "questions": [
+  {
+   "q": "Which of the following is false about learning according to Gagne’s definition?",
+   "options": [
+    "It is a change in human disposition",
+    "It persists over a period of time",
+    "It is simply ascribable to processes of growth",
+    "None of the above"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "Gagne defined learning as a change in human disposition or capability that persists over a period of time and is not simply ascribable to processes of growth. Attributing it simply to growth (maturation) is therefore the false statement."
+  },
+  {
+   "q": "Manual or physical skills come under ____ component of Bloom’s taxonomy.",
+   "options": [
+    "Cognitive",
+    "Affective",
+    "Psychomotor",
+    "Physical"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "Bloom's taxonomy has three domains: cognitive (knowledge), affective (attitudes and feelings) and psychomotor (manual or physical skills). 'Physical' is not one of the named domains."
+  },
+  {
+   "q": "Reflection, learning and education was explored by ____.",
+   "options": [
+    "Carl Rogers",
+    "John Watson",
+    "Benjamin Bloom",
+    "John Dewey"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "John Dewey wrote extensively on reflective thinking and its place in learning and education (e.g., How We Think, Democracy and Education). Watson was a behaviorist, Rogers a humanistic psychologist and Bloom is known for his taxonomy."
+  },
+  {
+   "q": "The principles of ____ refer to how close in time two events must be for a bond to be formed.",
+   "options": [
+    "behavior",
+    "reinforcement",
+    "repetition",
+    "contiguity"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "Contiguity is the principle that events occurring close together in time become associated. Reinforcement concerns consequences that strengthen a response, not the timing between paired events."
+  },
+  {
+   "q": "____ gives information to learners about their success or failure concerning the task at hand.",
+   "options": [
+    "Cognitive feedback",
+    "Emotional feedback",
+    "Reinforcement",
+    "Physical feedback"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "Cognitive feedback tells learners whether they succeeded or failed on the task, helping them correct their understanding. Reinforcement strengthens behavior through consequences rather than conveying task information."
+  },
+  {
+   "q": "The ____ orientation to learning has a quality of personal involvement—the whole person in both feeling and cognitive aspects being in the learning event.",
+   "options": [
+    "behavioral",
+    "cognitive",
+    "humanistic",
+    "social"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "The humanistic orientation (Carl Rogers) emphasises whole-person, self-initiated learning involving both feelings and cognition. The cognitive orientation focuses mainly on mental processes rather than the whole person."
+  },
+  {
+   "q": "Learning through play is ____ learning.",
+   "options": [
+    "primary",
+    "secondary",
+    "passive",
+    "active"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "In play, learners explore, manipulate and engage directly with materials and ideas, which makes it active learning rather than passive reception of information."
+  },
+  {
+   "q": "People with ____ learning style are prone to sorting their ideas after speaking, rather than thinking ideas through before.",
+   "options": [
+    "logical",
+    "solitary",
+    "visual",
+    "auditory"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "Auditory (aural/verbal) learners process information by hearing and talking, so they often sort out their ideas by speaking them aloud. Solitary learners, by contrast, prefer to think things through alone first."
+  },
+  {
+   "q": "Which of the following statements is false?",
+   "options": [
+    "Effective instruction is static",
+    "Effective instruction is eclectic",
+    "Effective instruction is generative",
+    "Effective instruction is interactive"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "Effective instruction is dynamic: it draws on multiple approaches (eclectic), encourages learners to generate knowledge (generative) and involves interaction. Calling it static is therefore false."
+  },
+  {
+   "q": "In ADDIE model, I stand for ____.",
+   "options": [
+    "instruction",
+    "implementation",
+    "integration",
+    "induction"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "ADDIE stands for Analysis, Design, Development, Implementation and Evaluation, a common instructional design model. 'Instruction' is a tempting guess but is not part of the acronym."
+  }
+ ]
+}

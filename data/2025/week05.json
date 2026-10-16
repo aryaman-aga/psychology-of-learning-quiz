@@ -1,0 +1,136 @@
+{
+  "week": 5,
+  "questions": [
+    {
+      "q": "Motivation is seen as a ____ that drives and directs human behavior.",
+      "options": [
+        "hormonal impulse",
+        "mental impulse",
+        "attention deficit",
+        "judgment delay"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Motivation is an internal (mental) impulse or force that energizes and directs behavior toward goals. It is not a hormonal impulse, an attention deficit or a judgment delay."
+    },
+    {
+      "q": "Which of the following is false regarding motivation?",
+      "options": [
+        "Motivation is an internal process",
+        "Motivation can be directly observed",
+        "Motivation activates people's actions",
+        "None of the above"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Motivation is an internal process that activates and directs behavior, but it cannot be directly observed; it is inferred from behavior such as effort and persistence."
+    },
+    {
+      "q": "Which of the following does not come under intrinsic motivation?",
+      "options": [
+        "interests",
+        "social pressure",
+        "curiosity",
+        "self-satisfaction"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Intrinsic motivation comes from within, such as interests, curiosity and self-satisfaction. Social pressure is an external source, so it belongs to extrinsic motivation."
+    },
+    {
+      "q": "Doing something/behaving well because one feels pressure from within is called ____.",
+      "options": [
+        "introjected regulation",
+        "amotivation",
+        "identified motivation",
+        "None of the given"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "In self-determination theory, introjected regulation is behavior driven by internal pressure such as guilt, anxiety or ego, i.e., partially internalized but still controlled. Identified regulation involves valuing the behavior, and amotivation is a lack of motivation."
+    },
+    {
+      "q": "Which of the following is not a biological need/drive?",
+      "options": [
+        "love",
+        "food",
+        "water",
+        "oxygen"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Food, water and oxygen are basic biological (physiological) needs for survival. Love is a psychological or social need (belonging in Maslow's hierarchy), not a biological drive."
+    },
+    {
+      "q": "____ theory suggests that people are motivated to take action in order to receive a reward",
+      "options": [
+        "incentive",
+        "biological",
+        "arousal",
+        "goal setting"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Incentive theory holds that people are pulled toward behavior by external rewards (incentives) and away from negative outcomes. Drive and arousal theories focus on internal states."
+    },
+    {
+      "q": "The Arousal Theory of Motivation was first proposed by ____.",
+      "options": [
+        "Hall",
+        "Watson",
+        "Bandura",
+        "Murray"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "The course credits Murray with first proposing the arousal theory of motivation.",
+      "flag": "Questionable key: arousal theory is usually traced to Yerkes and Dodson (1908) and Hebb, while Henry Murray is known for his theory of psychogenic needs; none of the options is the standard attribution ('Hall' may be a misspelling of Hull, the drive theorist)."
+    },
+    {
+      "q": "____ theory is based on the assumption that our behavior is based on making a conscious choice from a set of possible alternative behaviors.",
+      "options": [
+        "arousal",
+        "expectancy",
+        "drive",
+        "goal setting"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Vroom's expectancy theory assumes people consciously choose among alternative behaviors based on expectancy, instrumentality and valence. Drive and arousal theories focus on internal states, not conscious choice."
+    },
+    {
+      "q": "Which of the following is not an attribute of effective goal setting?",
+      "options": [
+        "unrealistic goals",
+        "specific goals",
+        "time based goals",
+        "assignable goals"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Effective goals are SMART: specific, measurable, achievable/assignable, realistic and time-based. Unrealistic goals lead to frustration and lower motivation, so they are not an attribute of effective goal setting."
+    },
+    {
+      "q": "Maslow's hierarchy of needs consists of ____ tiers.",
+      "options": [
+        "four",
+        "three",
+        "six",
+        "five"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Maslow's classic hierarchy has five tiers: physiological, safety, love and belonging, esteem, and self-actualization. Later expanded versions add more levels, but the standard model has five."
+    }
+  ]
+}

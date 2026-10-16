@@ -1,0 +1,144 @@
+{
+  "week": 8,
+  "questions": [
+    {
+      "q": "Which of the following is not a pedagogical approach in teaching?",
+      "options": [
+        "Collaborative approach",
+        "Inquiry-based approach",
+        "Constructivist approach",
+        "Refractive approach",
+        "Integrative approach"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Collaborative, inquiry-based, constructivist and integrative approaches are recognized pedagogical approaches in teaching. A 'refractive approach' is not one; refraction is a physics term."
+    },
+    {
+      "q": "Constructivism with respect to learning suggests that ____",
+      "options": [
+        "the role of learners is passive",
+        "learners are the makers of meaning and knowledge",
+        "facilitators are the makers of meaning and knowledge",
+        "internet is the maker of meaning and knowledge",
+        "none of the above"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Constructivism holds that learners actively construct their own meaning and knowledge by connecting new experiences to what they already know. Learners are not passive recipients, and the teacher acts as a facilitator rather than the source of meaning."
+    },
+    {
+      "q": "Which of the following is false about pedagogy in education and learning?",
+      "options": [
+        "Effective pedagogies are an amalgamation of various teaching techniques",
+        "Pedagogy is based on a facilitator-centered approach",
+        "Pedagogy allows teachers to evaluate individual students' performance regularly",
+        "Pedagogy allows students to meet like-minded people and learn from their peers",
+        "None of the above"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Modern pedagogy is learner-centered: it puts students' needs, participation and construction of knowledge at the center, with the teacher as facilitator. Describing it as facilitator-centered is therefore false, while the other statements are true."
+    },
+    {
+      "q": "Which of the following is not a major component of the experiential learning process?",
+      "options": [
+        "Generalizing",
+        "Experiencing",
+        "Analyzing",
+        "Sharing",
+        "Overthinking",
+        "Applying"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "The experiential learning process is commonly described as experiencing, sharing, analyzing (processing), generalizing and applying. 'Overthinking' is not a component."
+    },
+    {
+      "q": "David Kolb's experiential learning style theory typically suggests ____ number of stages in the experiential learning cycle.",
+      "options": [
+        "Four",
+        "Nine",
+        "Fifteen",
+        "Seven",
+        "None of the above"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Kolb's experiential learning cycle has four stages: concrete experience, reflective observation, abstract conceptualization and active experimentation. Learners move around this cycle as they learn."
+    },
+    {
+      "q": "The stages of the experiential learning cycle given by Kolb are dissected by two continuums relating to perception and ____",
+      "options": [
+        "emotion",
+        "motivation",
+        "processing",
+        "perseveration",
+        "none of the above"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Kolb's cycle is organized by two continuums: the perception continuum (feeling versus thinking, how we grasp experience) and the processing continuum (doing versus watching, how we transform it). Combining them yields the four learning styles."
+    },
+    {
+      "q": "The ____ learning style as given by Kolb suggests that these individuals prefer technical tasks and like to be left alone to solve them.",
+      "options": [
+        "Assimilating",
+        "Accommodating",
+        "Diverging",
+        "Converging"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Converging (thinking and doing) learners like to apply ideas to practical problems and prefer technical tasks over interpersonal ones. They are happy to work out solutions on their own, unlike accommodators, who rely on others and gut feeling."
+    },
+    {
+      "q": "The model of multimedia learning is based upon some primary assumptions as given by Mayer that are mentioned below. Which of the following is false?",
+      "options": [
+        "Visual and auditory experiences/information are processed through separate and distinct information processing 'channels'",
+        "Each information processing channel is limited in its ability to process experience/information",
+        "Processing experience/information in channels is an active cognitive process designed to construct coherent mental representations",
+        "None of the above"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Mayer's cognitive theory of multimedia learning rests on three assumptions: dual channels (separate visual and auditory channels), limited capacity of each channel, and active processing to build coherent mental representations. All three statements are true, so none is false."
+    },
+    {
+      "q": "The ____ principle of multimedia learning suggests that students learn better when corresponding words and pictures are presented simultaneously rather than successively",
+      "options": [
+        "temporal contiguity",
+        "spatial contiguity",
+        "modality",
+        "coherence",
+        "redundancy"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Mayer's temporal contiguity principle states that people learn better when corresponding words and pictures are presented at the same time rather than one after the other. Spatial contiguity, by contrast, concerns placing words near the pictures they describe on the page or screen."
+    },
+    {
+      "q": "Mezirow(1978) identified ____ number of steps that are required for transformative learning to occur.",
+      "options": [
+        "Four",
+        "Five",
+        "Seven",
+        "Ten",
+        "Thirteen"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Jack Mezirow described ten phases of transformative learning, starting with a disorienting dilemma and moving through self-examination, critical assessment of assumptions and planning, to reintegrating the new perspective into one's life."
+    }
+  ]
+}

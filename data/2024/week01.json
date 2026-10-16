@@ -1,0 +1,136 @@
+{
+  "week": 1,
+  "questions": [
+    {
+      "q": "Which of the following is true regarding learning in psychology?",
+      "options": [
+        "The psychology of learning focuses on how people learn and how they interact with the environments in which they have not learnt",
+        "Learning does not involve any changes in the organism",
+        "Learning is a relatively temporary change in behavior",
+        "none of the given"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Each statement is false: learning is a relatively permanent (not temporary) change, it does involve changes in the organism, and the psychology of learning studies how people interact with the environments in which they do learn. So none of the given is correct."
+    },
+    {
+      "q": "In order to say that learning has occurred, a/an ___ must occur during the lifetime of the organism.",
+      "options": [
+        "hidden change in behavior",
+        "small change in personality",
+        "visible change in emotions",
+        "observable change in behavior"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Learning is inferred from an observable (overt) change in behavior or performance during the organism's lifetime. A hidden change cannot be used to establish that learning has occurred."
+    },
+    {
+      "q": "Learning changes the ___ through the process of continuous interactions between the learner and the external environment.",
+      "options": [
+        "physical structure of the brain",
+        "chemical structure of neurons",
+        "physical structure of the heart",
+        "chemical structure of the spinal cord"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Learning physically alters the brain (neuroplasticity), for example by forming and strengthening synaptic connections through ongoing interaction with the environment."
+    },
+    {
+      "q": "Watson, one of the first psychologists to study learning and behavior is known for the",
+      "options": [
+        "Little Albert experiment",
+        "Little John experiment",
+        "Little Robert experiment",
+        "Little Johnny experiment"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Watson and Rayner (1920) conditioned an infant, Little Albert, to fear a white rat by pairing it with a loud noise, demonstrating classical conditioning of emotions. The other names are not real experiments."
+    },
+    {
+      "q": "Which of the following is not explored and described by the psychology of learning?",
+      "options": [
+        "principles of motivation",
+        "principles of forgetting",
+        "principles of genetic disorders",
+        "principles of memory",
+        "principles of retention"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "The psychology of learning explains motivation, memory, retention and forgetting. Genetic disorders belong to genetics and medicine, not to the principles of learning."
+    },
+    {
+      "q": "The state of ___ may be valuable at the start of a learning experience.",
+      "options": [
+        "conscious incompetence",
+        "unconscious incompetence",
+        "conscious over-competence",
+        "unconscious over-competence"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "In the conscious competence model, realizing what you do not yet know (conscious incompetence) creates the motivation to learn, so it is useful at the start. Unconscious incompetence means you do not even see the gap."
+    },
+    {
+      "q": "___ is the decrease in the response that an organism gives to a stimulus to which it is exposed in numerous trials or occasions.",
+      "options": [
+        "Habituation",
+        "Sensitization",
+        "Forgetting",
+        "Meaningful learning"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Habituation is a non-associative form of learning in which response to a repeated, harmless stimulus decreases. Sensitization is the opposite, an increased response after repeated or intense stimulation."
+    },
+    {
+      "q": "Cooperative learning is shaped by three crucial elements. Which of the following is one of them?",
+      "options": [
+        "formation of heterogeneous groups",
+        "positive interdependence",
+        "individual responsibility",
+        "all of the given"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Cooperative learning rests on forming heterogeneous groups, positive interdependence among members, and individual responsibility (accountability). Since all three are listed, all of the given is correct."
+    },
+    {
+      "q": "Which of the following psychologists is an important contributor to the concept of observational learning?",
+      "options": [
+        "Watson",
+        "Dewey",
+        "Bruner",
+        "Bandura"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Albert Bandura's social learning theory and Bobo doll studies showed that people learn by observing and imitating models. Watson was a behaviorist, Dewey a pragmatist educator, and Bruner a cognitive/constructivist theorist."
+    },
+    {
+      "q": "Which of the following is not considered a pioneer of the behaviorism school of thought in psychology?",
+      "options": [
+        "Watson",
+        "Skinner",
+        "Freud",
+        "Pavlov"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Watson, Pavlov and Skinner are pioneers of behaviorism. Freud founded psychoanalysis, which focuses on unconscious mental processes rather than observable behavior."
+    }
+  ]
+}

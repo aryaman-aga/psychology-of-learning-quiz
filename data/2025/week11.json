@@ -1,0 +1,131 @@
+{
+ "week": 11,
+ "questions": [
+  {
+   "q": "Social cognition is the cognitive processes that influence ____.",
+   "options": [
+    "social schema",
+    "social behavior",
+    "social media",
+    "none of the above"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "Social cognition refers to the cognitive processes (perceiving, interpreting, remembering information about others) that influence social behavior."
+  },
+  {
+   "q": "Smooth and adaptive social interactions depend on the recruitment of ____.",
+   "options": [
+    "perception",
+    "attention",
+    "language",
+    "all of the above"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "Smooth and adaptive social interaction draws on several cognitive processes at once, including perception, attention and language, so all the options apply."
+  },
+  {
+   "q": "Which of the following abilities does not come under social cognition?",
+   "options": [
+    "rote memory",
+    "face processing",
+    "joint attention",
+    "moral reasoning"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "Face processing, joint attention and moral reasoning are social-cognitive abilities. Rote memory is a general memory function, not specifically social cognition."
+  },
+  {
+   "q": "Social cognition develops primarily in old age.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "False. Social cognition develops from infancy through childhood and adolescence into adulthood; it does not primarily develop in old age."
+  },
+  {
+   "q": "A theory of mind refers to a person’s ability to understand and think about the ____ of other people.",
+   "options": [
+    "biological states",
+    "mental states",
+    "physical traits",
+    "none of the above"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "Theory of mind is the ability to attribute mental states (beliefs, desires, intentions, knowledge) to others and to understand that these may differ from one's own."
+  },
+  {
+   "q": "The ____ theory details the processes of observational learning and modeling, and the influence of self-efficacy on the production of behavior.",
+   "options": [
+    "behavioral",
+    "socio-emotional",
+    "social-cognitive",
+    "cognitive-emotional"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "Bandura's social-cognitive theory explains learning through observation and modeling, and stresses self-efficacy as a key influence on whether behavior is produced."
+  },
+  {
+   "q": "____ processes account for the information that is selected for observation in the environment.",
+   "options": [
+    "motivational",
+    "production",
+    "retention",
+    "attentional"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "In Bandura's model, attentional processes determine what is selected for observation in the environment. Retention, production and motivational processes come after attention."
+  },
+  {
+   "q": "Children become more aggressive when they observe aggressive or violent models.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "True. Bandura's Bobo doll studies showed that children who observed aggressive models were more likely to imitate aggressive behavior."
+  },
+  {
+   "q": "The ____ model of observational learning involves real or fictional characters displaying behaviors in books, films, television programs, or online media.",
+   "options": [
+    "symbolic",
+    "live",
+    "verbal instructional",
+    "contextual"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "A symbolic model is a real or fictional character shown in books, films, television or online media. A live model is a person physically present, and a verbal instructional model describes the behavior in words."
+  },
+  {
+   "q": "____ refers to the anticipated consequences of a person’s behavior.",
+   "options": [
+    "self-efficacy",
+    "expectations",
+    "intrinsic reinforcement",
+    "extrinsic reinforcement"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "Outcome expectations are the anticipated consequences of a person's behavior. Self-efficacy, by contrast, is the belief in one's ability to perform the behavior."
+  }
+ ]
+}

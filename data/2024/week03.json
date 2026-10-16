@@ -1,0 +1,136 @@
+{
+  "week": 3,
+  "questions": [
+    {
+      "q": "Which of the following is not one of the three major processes involved in memory?",
+      "options": [
+        "encoding",
+        "retrieval",
+        "storage",
+        "imagination"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "The three major memory processes are encoding, storage and retrieval. Imagination is a separate cognitive activity, not a stage of memory."
+    },
+    {
+      "q": "___ refers to changing information into a usable form.",
+      "options": [
+        "Storage",
+        "Recall",
+        "Encoding",
+        "Recollection",
+        "Forgetting"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Encoding is the first stage of memory, transforming incoming information into a form that can be stored. Storage keeps it and recall/recollection bring it back."
+    },
+    {
+      "q": "___ refers to a range of mental processes relating to the acquisition, storage, manipulation and retrieval of information.",
+      "options": [
+        "Cognition",
+        "Construction",
+        "Encoding",
+        "Thinking"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Cognition is the umbrella term for mental processes involved in acquiring, storing, manipulating and retrieving information, such as perception, memory, reasoning and thinking."
+    },
+    {
+      "q": "Which of the following is a challenge faced by people with social cognition deficits?",
+      "options": [
+        "talking too much to people",
+        "responding too well to people",
+        "difficulty in reading facial expressions",
+        "difficulty in getting good academic scores"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Social cognition covers how people perceive and interpret social information. People with social cognition deficits, as in some autism spectrum conditions, often struggle to read facial expressions and know how to respond."
+    },
+    {
+      "q": "Which of the following is not true about the assumptions underlying the Information Processing View of Learning?",
+      "options": [
+        "Information processing is analogous to computer processing",
+        "The human information processing system is interactive",
+        "There is no limit on how much information can be processed at each stage",
+        "Information is processed in steps"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "The information processing view assumes that processing happens in steps, is interactive, and is like computer processing, but with limited capacity at each stage (e.g., short-term memory holds about 7 plus or minus 2 items). So saying there is no limit is not true."
+    },
+    {
+      "q": "___ prevents the quick disappearance from short term memory of information",
+      "options": [
+        "Rehearsal",
+        "Encoding",
+        "Retrieval",
+        "None of the given"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Rehearsal, especially maintenance rehearsal (repeating information), keeps information active in short-term memory and stops it from fading within about 20 seconds."
+    },
+    {
+      "q": "The Multicomponent Model of Working Memory is largely attributed to the work by",
+      "options": [
+        "Atkinson & Shiffrin",
+        "Baddeley",
+        "Piaget",
+        "Craik & Lockhart"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Alan Baddeley (with Hitch, 1974) proposed the multicomponent model of working memory, with a central executive, phonological loop, visuo-spatial sketchpad and later the episodic buffer. Atkinson and Shiffrin gave the multi-store model and Craik and Lockhart the levels-of-processing model."
+    },
+    {
+      "q": "___ memory refers to the events that can be reported from a person's life.",
+      "options": [
+        "Episodic",
+        "Semantic",
+        "Procedural",
+        "None of the given"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Episodic memory stores personally experienced events that can be reported with their time and place. Semantic memory holds general facts, and procedural memory holds skills."
+    },
+    {
+      "q": "The memory capacity depends on which of the following?",
+      "options": [
+        "complexity of the synapses",
+        "spatial and temporal correlations between memories",
+        "specific way memories are retrieved",
+        "all of the given"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Memory capacity is thought to depend on synaptic complexity, on how memories overlap in space and time, and on how they are retrieved. Since all three are factors, all of the given is correct."
+    },
+    {
+      "q": "Which of the following is not one of the three measurable dimensions of cognitive load?",
+      "options": [
+        "mental effort",
+        "mental load",
+        "physical effort",
+        "performance"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Cognitive load is commonly measured through mental load, mental effort and performance. Physical effort is not a dimension of cognitive load."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "week": 4,
+  "questions": [
+    {
+      "q": "Creative thinking is the ability to generate ____ ideas.",
+      "options": [
+        "innovative",
+        "unconventional",
+        "useful",
+        "all of the above"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Creative thinking involves generating ideas that are novel or unconventional and also useful or appropriate, so innovative, unconventional and useful all describe creative ideas."
+    },
+    {
+      "q": "____ are representative items within each concept.",
+      "options": [
+        "Constructs",
+        "Symbols",
+        "Prototypes",
+        "Categories"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "A prototype is the most typical or best example of a concept, against which new items are compared to decide category membership."
+    },
+    {
+      "q": "A mental representation can take the form of a ____.",
+      "options": [
+        "word",
+        "image",
+        "sound",
+        "all of the given"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Mental representations can be verbal (words), visual or other images, and sounds, among other forms, so all of the given apply."
+    },
+    {
+      "q": "Which of the following is true?",
+      "options": [
+        "Thinking is a lower mental process",
+        "Thinking is a sub-vocal talking",
+        "Thinking is unrelated to problem solving",
+        "We can only think in numbers or words"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Watson, a behaviorist, described thinking as sub-vocal talking, i.e., inner speech involving small movements of the speech organs. Thinking is actually a higher mental process closely tied to problem solving and can use images as well as words."
+    },
+    {
+      "q": "Cognitive architecture is a theory about the ____ that create a mind in natural or artificial systems.",
+      "options": [
+        "structures",
+        "facts",
+        "images",
+        "sounds"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Cognitive architecture is a theory of the fixed structures (memory stores, processing modules and their organization) that give rise to a mind, whether natural or artificial, such as ACT-R or Soar."
+    },
+    {
+      "q": "Bloom's Taxonomy is a system of hierarchical models (arranged in a hierarchical rank,) used to categorize ____ into varying levels of complexity.",
+      "options": [
+        "learning objectives",
+        "attention goals",
+        "prototypes",
+        "none of the above"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Bloom's taxonomy classifies educational learning objectives into hierarchical levels of complexity, from remembering up to creating in the revised version."
+    },
+    {
+      "q": "____ knowledge refers to knowledge of terminology and specific details.",
+      "options": [
+        "Metacognitive",
+        "Conceptual",
+        "Kinesthetic",
+        "Factual"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "In the revised Bloom's taxonomy, factual knowledge is the basic elements a learner must know: terminology and specific details. Conceptual knowledge concerns relationships, and metacognitive knowledge concerns awareness of one's own cognition."
+    },
+    {
+      "q": "Choosing to skim subheadings of unimportant information to get to the information we need as a metacognitive skill is called ____.",
+      "options": [
+        "skimming",
+        "rehearsing",
+        "self-monitoring",
+        "modifying"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Skimming means quickly scanning headings and subheadings to skip unimportant material and locate needed information, which is a deliberate, strategic metacognitive reading skill."
+    },
+    {
+      "q": "____ refers to the ability to regulate your thoughts and set aside any personal biases to come to the best conclusion.",
+      "options": [
+        "Self-regulation",
+        "Openmindedness",
+        "Observation",
+        "Interpretation",
+        "elaboration"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "In lists of critical thinking skills, self-regulation is described as monitoring and regulating one's own thinking and setting aside personal biases to reach the best conclusion. Open-mindedness is related but refers to being receptive to different viewpoints."
+    },
+    {
+      "q": "____ method of solving problems refers to a rule that guarantees the solution to a problem",
+      "options": [
+        "imagination",
+        "trial and error",
+        "analogy",
+        "algorithm"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "An algorithm is a step-by-step rule or procedure that guarantees a correct solution if followed, though it may be slow. Heuristics, analogies and trial and error do not guarantee a solution."
+    }
+  ]
+}

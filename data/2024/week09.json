@@ -1,0 +1,135 @@
+{
+  "week": 9,
+  "questions": [
+    {
+      "q": "E-learning implies ___ learning.",
+      "options": [
+        "mentor assisted",
+        "teacher enhanced",
+        "computer enhanced",
+        "electricity enhanced"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "E-learning means learning enhanced or delivered through computers and electronic technology. It is not defined by mentor or teacher assistance, and 'electricity enhanced' is a playful distractor."
+    },
+    {
+      "q": "___ type of e-learning is highly interactive, which includes graphics, video, audio and games too.",
+      "options": [
+        "text driven",
+        "simulation",
+        "interactive",
+        "none of the given"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Simulation-based e-learning is the most highly interactive type, using graphics, video, audio and even games to recreate real situations. Text-driven courses are the least interactive."
+    },
+    {
+      "q": "Which of the following is not true about e-learning?",
+      "options": [
+        "one can have access to the content any number of times",
+        "it helps in developing new policies",
+        "it saves time for the students, they don't need to travel to the institution",
+        "it is targeted to cater to the needs of students specifically"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "E-learning benefits include unlimited access to content, saving travel time and easy roll-out of new policies, and it serves many groups such as working professionals and homemakers. It is not targeted only at students, so that statement is not true."
+    },
+    {
+      "q": "As learning depends on the learner's prior experience, and no two learners will have the same experiences, new information will be dealt with in different ways by different learners. This statement means that learning is",
+      "options": [
+        "goal-oriented",
+        "dependent on self-awareness",
+        "social",
+        "idiosyncratic"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Because each learner brings different prior experience, each processes new information in their own unique way, so learning is idiosyncratic. Goal-oriented and social describe other characteristics of learning."
+    },
+    {
+      "q": "Which of the following is a way of facilitating the social dimension to learning?",
+      "options": [
+        "e-mails",
+        "online discussions",
+        "virtual communities",
+        "all of the given"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "E-mails, online discussions and virtual communities all let learners interact with peers and instructors, supporting the social dimension of online learning. Hence 'all of the given' is correct."
+    },
+    {
+      "q": "We can say that when we're good at something after practice, it's usually because",
+      "options": [
+        "our brain has become automated",
+        "our brain has released better chemicals",
+        "our brain has made stronger connections with this information",
+        "our brain has prioritized this information over others"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Practice repeatedly activates the same neural pathways, strengthening the connections that represent the information or skill. This stronger connectivity is why practised skills become easier and more reliable."
+    },
+    {
+      "q": "Learners may multitask when engaging in an online course, which could be resulting in",
+      "options": [
+        "hyperfocus",
+        "better retrieval",
+        "shorter attention spans",
+        "None of the given"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Multitasking splits attention across activities, which shortens attention spans and impairs encoding. It does not produce hyperfocus or better retrieval."
+    },
+    {
+      "q": "The cognitive load theory suggests that when we overload our ___ we are unable to acquire and process new information.",
+      "options": [
+        "sensory memory",
+        "encoding",
+        "retrieval",
+        "working memory"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Cognitive load theory (Sweller) holds that working memory has limited capacity, and overloading it prevents new information from being processed and stored. Sensory memory, encoding and retrieval are not the limited resource the theory centres on."
+    },
+    {
+      "q": "There are five critical aspects of psychology which are needed to guarantee the implementation of successful eLearning. Which of the following is not one of them?",
+      "options": [
+        "evolution",
+        "self-discipline",
+        "stress",
+        "emotion"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "The psychological aspects that support successful e-learning include factors such as motivation, emotion, stress and self-discipline. Evolution is not one of them."
+    },
+    {
+      "q": "___ is a learning tool, because the explicit navigation of the topic and association types might enable meaningful learning and it helps to reduce the cognitive loads caused by E-learning content and constant attention.",
+      "options": [
+        "topic map",
+        "schema",
+        "prototype",
+        "instructional map"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "A topic map organises content as topics and the explicit associations between them, so learners can navigate meaningfully. This structure reduces the cognitive load of e-learning content."
+    }
+  ]
+}

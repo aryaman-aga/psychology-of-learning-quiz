@@ -1,0 +1,136 @@
+{
+  "week": 1,
+  "questions": [
+    {
+      "q": "Which of the following is true regarding learning in psychology?",
+      "options": [
+        "Learning has not been an important topic in psychology",
+        "Learning involves no change in the organism",
+        "Learning focuses on how humans speak",
+        "Learning can be defined in many ways"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Learning has been defined in many ways, for example as a relatively permanent change in behavior due to experience, or as acquiring knowledge and skills. The other statements are false: learning is central to psychology and always involves some change in the organism."
+    },
+    {
+      "q": "Learning is seen as an effect attributed to an element in",
+      "options": [
+        "blood",
+        "environment",
+        "hormones",
+        "none of the above"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Learning is attributed to experience with the environment: it is a change in behavior caused by interaction with environmental events, not by blood, hormones or other biological factors such as maturation."
+    },
+    {
+      "q": "Non-associative learning refers to ____ in the intensity of a response as the result of the repeated presentation of a stimulus.",
+      "options": [
+        "a decrease",
+        "an increase",
+        "no change",
+        "none of the above"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "The keyed answer reflects habituation, the most basic form of non-associative learning, where repeated presentation of a stimulus weakens the response.",
+      "flag": "Ambiguous: non-associative learning covers both habituation (decrease) and sensitization (increase), so 'a decrease' describes only habituation; Q10 of this same set acknowledges sensitization as an increase."
+    },
+    {
+      "q": "Which of the following is a type of learning style?",
+      "options": [
+        "visual",
+        "auditory",
+        "kinesthetic",
+        "all of the above"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Visual, auditory and kinesthetic (VAK) are the commonly described learning styles, referring to learning through seeing, hearing and doing/movement respectively."
+    },
+    {
+      "q": "'Psychology as the Behaviorist Views It' is the famous work of",
+      "options": [
+        "Sigmund Freud",
+        "John Watson",
+        "Albert Bandura",
+        "Ivan Pavlov"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "John B. Watson's 1913 paper 'Psychology as the Behaviorist Views It' is known as the behaviorist manifesto, arguing psychology should study only observable behavior."
+    },
+    {
+      "q": "The state of conscious incompetence may be valuable ____ of a learning experience.",
+      "options": [
+        "at the start",
+        "at the end",
+        "in the middle",
+        "throughout the process"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "In the conscious competence model, realizing what you do not know (conscious incompetence) motivates learning, so it is valuable at the start. Ending a learning experience still in this stage would indicate the learning was not completed."
+    },
+    {
+      "q": "Adding to existing student knowledge is known as",
+      "options": [
+        "conceptual change",
+        "conceptual pattern",
+        "conceptual exploration",
+        "conceptual growth"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Conceptual growth means adding new information to what students already know without restructuring it. Conceptual change, by contrast, involves revising or replacing existing (often mistaken) ideas."
+    },
+    {
+      "q": "Deliberate practice involves the following, except",
+      "options": [
+        "attention",
+        "rehearsal",
+        "repetition",
+        "forgetting"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Deliberate practice is focused, effortful practice that requires attention, rehearsal and repetition with feedback. Forgetting is not a component of practice; practice works against it."
+    },
+    {
+      "q": "Students persist in the face of challenging tasks and process information more deeply when they adopt ____ goals.",
+      "options": [
+        "performance",
+        "insignificant",
+        "mastery",
+        "repetitive"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Mastery goals focus on understanding and improving competence, which leads learners to persist and use deep processing. Performance goals focus on appearing able relative to others and are linked to more surface-level strategies."
+    },
+    {
+      "q": "____ refers to a decrease in response rate while ____ refers to an increase in response rate.",
+      "options": [
+        "sensitization, habituation",
+        "meaningful learning, association",
+        "habituation, sensitization",
+        "association, meaningful learning"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Habituation is a decrease in responding to a repeated stimulus, while sensitization is an increase in responding, often after an intense or noxious stimulus. Both are forms of non-associative learning."
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "week": 0,
+  "questions": [
+    {
+      "q": "What is Psychology?",
+      "options": [
+        "A Science subject",
+        "Is objective perception",
+        "An art of living",
+        "A thought process",
+        "A study of cognitive processes & behavior"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Psychology is the scientific study of mind (cognitive processes) and behavior. It is more than an art of living or a thought process, which describe only parts of it."
+    },
+    {
+      "q": "A broad field of study that explores a variety of questions about thoughts, feelings and actions is ____?",
+      "options": [
+        "Society",
+        "Globalization",
+        "Psychology",
+        "Social Science",
+        "Human Development"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Psychology specifically investigates thoughts, feelings and actions of individuals. Social science is a broader umbrella that also covers economics, sociology and politics, so it is less precise."
+    },
+    {
+      "q": "A systematic assessment that provides information on political views, consumer buying habits and many other topics is called ____?",
+      "options": [
+        "Standardized test.",
+        "Projects",
+        "Experiments",
+        "Survey",
+        "Psychological tests"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "A survey systematically collects self-reported information from many people, which is how opinions on politics or buying habits are gathered. Experiments manipulate variables, and standardized or psychological tests measure abilities or traits."
+    },
+    {
+      "q": "The word Psyche means ____?",
+      "options": [
+        "Body or physique",
+        "Mind or soul",
+        "Science & spirituality",
+        "Mental health",
+        "Neuropsychology"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Psychology comes from the Greek words psyche (mind or soul) and logos (study). Hence psychology originally meant the study of the mind or soul."
+    },
+    {
+      "q": "Who established psychology laboratory in Germany?",
+      "options": [
+        "B.F. Skinner",
+        "J. Thorndike",
+        "Sigmund Freud",
+        "David Kolb",
+        "Wilhelm Wundt"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Wilhelm Wundt set up the first experimental psychology laboratory at Leipzig, Germany, in 1879. Skinner and Thorndike worked in the USA, and Freud developed psychoanalysis in Vienna rather than a lab."
+    },
+    {
+      "q": "To help people to function effectively and fulfill their own unique potential\" is the aim of ____",
+      "options": [
+        "Humanistic psychology",
+        "Social Psychiatry",
+        "Philosophy",
+        "Development studies",
+        "Sustainable development"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Humanistic psychology (Maslow, Rogers) emphasizes personal growth, free will and self-actualization, i.e., helping people fulfill their unique potential."
+    },
+    {
+      "q": "Behaviorists use a learning process to change abnormal behavior is called ____?",
+      "options": [
+        "Rationalism",
+        "Experiential intervention",
+        "Gestalt mechanism",
+        "Hypotheses verification",
+        "Conditioning"
+      ],
+      "answer": [
+        4
+      ],
+      "explanation": "Behaviorists treat abnormal behavior as learned, so they use conditioning (classical and operant techniques such as desensitization or reinforcement) to change it. Gestalt and rationalism are not behaviorist learning processes."
+    },
+    {
+      "q": "The study of changes in behavior during life time is called",
+      "options": [
+        "Behaviorism",
+        "Individual difference",
+        "Developmental Psychology",
+        "Maturational theory",
+        "Genetics or Heredity"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Developmental psychology studies how behavior, cognition and emotion change across the lifespan, from infancy through old age. Maturation is only one factor within that study."
+    },
+    {
+      "q": "The study of differences and similarities in the behavior of animals of different species is called",
+      "options": [
+        "Sociology",
+        "Social work",
+        "Rehabilitation studies",
+        "Comparative Psychology",
+        "Cultural Psychology"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Comparative psychology compares behavior across species to understand evolutionary and functional similarities and differences. Cultural psychology compares human cultures, not species."
+    }
+  ]
+}

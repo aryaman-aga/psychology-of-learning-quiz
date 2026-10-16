@@ -1,0 +1,135 @@
+{
+  "week": 2,
+  "questions": [
+    {
+      "q": "___ is known as the father of modern psychology.",
+      "options": [
+        "Sigmund Freud",
+        "Wilhelm Wundt",
+        "John Watson",
+        "Lev Vygotsky"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Wilhelm Wundt is called the father of modern (experimental) psychology because he founded the first psychology laboratory in Leipzig in 1879. Freud founded psychoanalysis and Watson founded behaviorism."
+    },
+    {
+      "q": "Cognitivists objected to behaviorists because they felt that behaviorists ignored the important role of ___.",
+      "options": [
+        "genetics",
+        "emotions",
+        "thinking",
+        "stimulus reaction"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Cognitivists argued that behaviorists ignored internal mental processes such as thinking, memory and problem solving, focusing only on observable stimulus-response links."
+    },
+    {
+      "q": "___ is viewed as the mainstream for all research on learning designs.",
+      "options": [
+        "Psychoanalysis",
+        "Positive psychology",
+        "Cognitivism",
+        "Evolutionary psychology"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Cognitivism, with its focus on how information is processed, stored and retrieved, became the mainstream framework for research on learning and instructional design after the cognitive revolution."
+    },
+    {
+      "q": "___ is a perspective in psychology focusing on the belief that human consciousness cannot be broken down into its elements and is based on the concept of a 'whole'.",
+      "options": [
+        "Cognitivism",
+        "Behaviorism",
+        "Gestalt psychology",
+        "Positive psychology"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Gestalt psychology holds that the whole is different from the sum of its parts, so experience and consciousness should be studied as organized wholes rather than broken into elements."
+    },
+    {
+      "q": "Theory of multiple intelligences is given by",
+      "options": [
+        "Howard Gardner",
+        "Edward Tolman",
+        "German Gestalt",
+        "Robert J. Sternberg"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Howard Gardner proposed the theory of multiple intelligences in 1983 (Frames of Mind). Sternberg proposed the triarchic theory, and Tolman is known for cognitive maps."
+    },
+    {
+      "q": "The general intelligence factor, also known as g, is what intelligence tests typically measure and refers only to ___ intelligence.",
+      "options": [
+        "academic",
+        "practical",
+        "linguistic",
+        "kinesthetic"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Critics such as Sternberg and Gardner argue that g, as measured by standard IQ tests, captures only academic (analytical) intelligence and misses practical, creative and other abilities."
+    },
+    {
+      "q": "Cognitive evaluation for planning, attention, simultaneous, and successive processing of individuals can be done through CAS based on PASS theory. CAS here stands for ___.",
+      "options": [
+        "Cognitive Achievement System",
+        "Cognitive Ability System",
+        "Cognitive Appraisal System",
+        "Cognitive Assessment System"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "The Cognitive Assessment System (Das and Naglieri) operationalizes PASS theory by measuring Planning, Attention, Simultaneous and Successive processing."
+    },
+    {
+      "q": "BBL is a new science that shapes the learning process and is an approach that is based on the structure and function of the human brain. BBL stands for ___.",
+      "options": [
+        "Biological based learning",
+        "Brain based learning",
+        "Biological battery learning",
+        "Brain biology learning"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "BBL stands for brain-based learning, an approach that designs teaching around how the brain naturally learns, using findings from neuroscience."
+    },
+    {
+      "q": "Gagne's Conditions of Learning is also known as ___ Events of Instruction.",
+      "options": [
+        "nine",
+        "five",
+        "ten",
+        "seven"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Gagne's Conditions of Learning gives nine events of instruction, from gaining attention to enhancing retention and transfer."
+    },
+    {
+      "q": "Which of the following is not a type of constructivism?",
+      "options": [
+        "biological",
+        "cognitive",
+        "social",
+        "radical"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Common types of constructivism are cognitive (Piaget), social (Vygotsky) and radical (von Glasersfeld). Biological constructivism is not one of the recognized types."
+    }
+  ]
+}
