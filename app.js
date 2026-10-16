@@ -3,7 +3,11 @@
 
   const QS = window.QUESTIONS || [];
   const BY_ID = Object.fromEntries(QS.map(q => [q.id, q]));
-  const WEEKS = [...new Set(QS.map(q => q.week))].sort((a, b) => a - b);
+  // week ids are strings ("0" … "7A", "7B" … "12"); questions.js is already in course order
+  const WEEKS = [...new Set(QS.map(q => q.week))];
+  const WIDX = Object.fromEntries(WEEKS.map((w, i) => [w, i]));
+  const QIDX = Object.fromEntries(QS.map((q, i) => [q.id, i]));
+  const byWeek = (a, b) => WIDX[a] - WIDX[b];
   const LETTERS = "ABCDEFGHIJ";
   const AUTO_NEXT_MS = 650;
 
@@ -44,7 +48,7 @@
   };
 
   const settings = Object.assign({ shuffleQ: true, shuffleO: true, mix: [] }, store.get("settings", {}));
-  settings.mix = settings.mix.filter(w => WEEKS.includes(w));
+  settings.mix = settings.mix.map(String).filter(w => WEEKS.includes(w));
   let stats = Object.assign({ correct: 0, wrong: 0 }, store.get("stats", {}));
   let sessions = store.get("sessions", {});
   for (const k in sessions) if (!sessions[k].order.every(id => BY_ID[id])) delete sessions[k];
@@ -68,7 +72,7 @@
   const sameSet = (a, b) => a.length === b.length && a.every(x => b.includes(x));
   const isMulti = q => q.answer.length > 1;
   const haptic = p => { try { navigator.vibrate && navigator.vibrate(p); } catch {} };
-  const byOrder = (a, b) => BY_ID[a].week - BY_ID[b].week || BY_ID[a].n - BY_ID[b].n;
+  const byOrder = (a, b) => QIDX[a] - QIDX[b];
   const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
 
   const ICON = {
@@ -88,10 +92,10 @@
 
   /* ---------- Sets & sessions ---------- */
   function validKey(k) {
-    return k === "all" || (k === "mix" && settings.mix.length > 0) || (/^w\d+$/.test(k) && WEEKS.includes(+k.slice(1)));
+    return k === "all" || (k === "mix" && settings.mix.length > 0) || (k[0] === "w" && WEEKS.includes(k.slice(1)));
   }
   function idsFor(k) {
-    const weeks = k === "all" ? WEEKS : k === "mix" ? settings.mix : [+k.slice(1)];
+    const weeks = k === "all" ? WEEKS : k === "mix" ? settings.mix : [k.slice(1)];
     return QS.filter(q => weeks.includes(q.week)).map(q => q.id).sort(byOrder);
   }
   function labelFor(k) {
@@ -301,7 +305,7 @@
     const skipped = s.order.length - answered;
     const pct = answered ? Math.round((t.c / answered) * 100) : 0;
     const wrongIds = s.order.filter(id => s.res[id] && !s.res[id].ok);
-    const weeks = [...new Set(s.order.map(id => BY_ID[id].week))].sort((a, b) => a - b);
+    const weeks = [...new Set(s.order.map(id => BY_ID[id].week))].sort(byWeek);
     const msg = !answered ? "Nothing answered yet" : pct >= 90 ? "Outstanding." : pct >= 75 ? "Great work." : pct >= 50 ? "Good effort." : "Keep practising.";
 
     $app.innerHTML = `
@@ -380,7 +384,7 @@
         <h1 class="h2" style="margin-top:0">Mix weeks</h1>
         <p class="lead">Pick any weeks to practise together. It shows up as the “Mix” tab.</p>
         <div class="wgrid">
-          ${WEEKS.map(w => `<button class="wbox" data-week="${w}" aria-pressed="${draft.includes(w)}">Week ${w}<small>10 Qs</small></button>`).join("")}
+          ${WEEKS.map(w => `<button class="wbox" data-week="${w}" aria-pressed="${draft.includes(w)}">Week ${w}<small>${QS.filter(q => q.week === w).length} Qs</small></button>`).join("")}
         </div>
         <div class="row-btns">
           <button class="textbtn" data-act="mixAll">Select all</button>
@@ -426,7 +430,7 @@
     if (!b) return;
     haptic(5);
     if (mode === "study") {
-      studyWeek = b.dataset.tab === "all" ? "all" : +b.dataset.tab.slice(1);
+      studyWeek = b.dataset.tab === "all" ? "all" : b.dataset.tab.slice(1);
       return go("study");
     }
     key = b.dataset.tab;
@@ -443,8 +447,8 @@
 
     const wb = e.target.closest(".wbox[data-week]");
     if (wb) {
-      const w = +wb.dataset.week;
-      settings.mix = settings.mix.includes(w) ? settings.mix.filter(x => x !== w) : [...settings.mix, w].sort((a, b) => a - b);
+      const w = wb.dataset.week;
+      settings.mix = settings.mix.includes(w) ? settings.mix.filter(x => x !== w) : [...settings.mix, w].sort(byWeek);
       delete sessions.mix;
       if (key === "mix" && !settings.mix.length) key = "all";
       saveSettings(); saveSessions(); haptic(5);

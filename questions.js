@@ -2,7 +2,7 @@
 window.QUESTIONS = [
  {
   "id": "w0q1",
-  "week": 0,
+  "week": "0",
   "n": 1,
   "q": "What is Psychology?",
   "options": [
@@ -18,7 +18,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w0q2",
-  "week": 0,
+  "week": "0",
   "n": 2,
   "q": "A broad field of study that explores a variety of questions about thoughts, feelings and actions is ____?",
   "options": [
@@ -34,7 +34,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w0q3",
-  "week": 0,
+  "week": "0",
   "n": 3,
   "q": "Learning has been a central topic of research in ____.",
   "options": [
@@ -50,7 +50,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w0q4",
-  "week": 0,
+  "week": "0",
   "n": 4,
   "q": "The word Psyche means ____?",
   "options": [
@@ -66,7 +66,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w0q5",
-  "week": 0,
+  "week": "0",
   "n": 5,
   "q": "The ____ of learning focuses on how people learn.",
   "options": [
@@ -82,7 +82,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w0q6",
-  "week": 0,
+  "week": "0",
   "n": 6,
   "q": "To help people to function effectively and fulfill their own unique potential\" is the aim of ____?",
   "options": [
@@ -98,7 +98,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w0q7",
-  "week": 0,
+  "week": "0",
   "n": 7,
   "q": "Psychology is not an independent science, but dependent on other fields.",
   "options": [
@@ -112,7 +112,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w0q8",
-  "week": 0,
+  "week": "0",
   "n": 8,
   "q": "The study of changes in an individual's behavior during his/her lifetime is called ____.",
   "options": [
@@ -128,7 +128,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w0q9",
-  "week": 0,
+  "week": "0",
   "n": 9,
   "q": "The study of differences and similarities in the behavior of animals of different species is called ____.",
   "options": [
@@ -144,7 +144,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w0q10",
-  "week": 0,
+  "week": "0",
   "n": 10,
   "q": "Humans are incapable of learning.",
   "options": [
@@ -158,7 +158,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w1q1",
-  "week": 1,
+  "week": "1",
   "n": 1,
   "q": "Learning is often seen as the contiguous causal effect of ____ on behavior.",
   "options": [
@@ -174,7 +174,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w1q2",
-  "week": 1,
+  "week": "1",
   "n": 2,
   "q": "In order to say that learning has occurred, a hidden change in behavior must occur.",
   "options": [
@@ -188,7 +188,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w1q3",
-  "week": 1,
+  "week": "1",
   "n": 3,
   "q": "Which of the following is not a mental construct?",
   "options": [
@@ -204,7 +204,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w1q4",
-  "week": 1,
+  "week": "1",
   "n": 4,
   "q": "Learning changes the ____ structure of the brain through the process of continuous interactions between the learner and the external environment.",
   "options": [
@@ -220,7 +220,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w1q5",
-  "week": 1,
+  "week": "1",
   "n": 5,
   "q": "____ shapes the learning process.",
   "options": [
@@ -236,7 +236,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w1q6",
-  "week": 1,
+  "week": "1",
   "n": 6,
   "q": "Watson's work included the famous Little Albert experiment in which he conditioned a small child to ____ a white rat.",
   "options": [
@@ -252,7 +252,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w1q7",
-  "week": 1,
+  "week": "1",
   "n": 7,
   "q": "Behaviorism dominated psychology for much of the early ____ century.",
   "options": [
@@ -268,7 +268,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w1q8",
-  "week": 1,
+  "week": "1",
   "n": 8,
   "q": "The state of \"conscious incompetence\" may be valuable ____ of a learning experience.",
   "options": [
@@ -284,7 +284,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w1q9",
-  "week": 1,
+  "week": "1",
   "n": 9,
   "q": "Which of the following is not an outcome of effective e-learning?",
   "options": [
@@ -300,7 +300,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w1q10",
-  "week": 1,
+  "week": "1",
   "n": 10,
   "q": "Instrumental conditioning is an example of ____ learning.",
   "options": [
@@ -316,7 +316,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w2q1",
-  "week": 2,
+  "week": "2",
   "n": 1,
   "q": "The three major types of learning described by ____ psychology are classical conditioning, operant conditioning and observational learning.",
   "options": [
@@ -332,7 +332,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w2q2",
-  "week": 2,
+  "week": "2",
   "n": 2,
   "q": "According to the view of Watson, psychology is ____.",
   "options": [
@@ -348,7 +348,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w2q3",
-  "week": 2,
+  "week": "2",
   "n": 3,
   "q": "____ is given by Ivan Pavlov.",
   "options": [
@@ -364,7 +364,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w2q4",
-  "week": 2,
+  "week": "2",
   "n": 4,
   "q": "The process by which organisms learn to respond to certain stimuli but not to others is known as ____.",
   "options": [
@@ -380,7 +380,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w2q5",
-  "week": 2,
+  "week": "2",
   "n": 5,
   "q": "Higher-order conditioning is intrinsically weaker than its first-order counterpart.",
   "options": [
@@ -394,7 +394,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w2q6",
-  "week": 2,
+  "week": "2",
   "n": 6,
   "q": "____ is the process of gradually changing the quality of a response.",
   "options": [
@@ -410,7 +410,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w2q7",
-  "week": 2,
+  "week": "2",
   "n": 7,
   "q": "The works of ____ were instrumental in engendering the dramatic shift from behaviorism to cognitive theories.",
   "options": [
@@ -426,7 +426,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w2q8",
-  "week": 2,
+  "week": "2",
   "n": 8,
   "q": "____ intelligence is the ability to perceive the visual-spatial world accurately and involves sensitivity to color, line, shape, form, space, and the potential for recognizing and manipulating the patterns of spaces.",
   "options": [
@@ -442,7 +442,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w2q9",
-  "week": 2,
+  "week": "2",
   "n": 9,
   "q": "Sternberg proposed his theory in 1985 as an alternative to the idea of the ____.",
   "options": [
@@ -458,7 +458,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w2q10",
-  "week": 2,
+  "week": "2",
   "n": 10,
   "q": "Which of the following is not a kind of product in the structure of intellect model?",
   "options": [
@@ -474,7 +474,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w3q1",
-  "week": 3,
+  "week": "3",
   "n": 1,
   "q": "The connections between nerves cells are called ____.",
   "options": [
@@ -490,7 +490,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w3q2",
-  "week": 3,
+  "week": "3",
   "n": 2,
   "q": "In order to create a ____, information must be changed into a usable form, which occurs through a process known as encoding.",
   "options": [
@@ -506,7 +506,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w3q3",
-  "week": 3,
+  "week": "3",
   "n": 3,
   "q": "Calling back the stored information in response to some cue for use in a process or activity is called ____.",
   "options": [
@@ -522,7 +522,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w3q4",
-  "week": 3,
+  "week": "3",
   "n": 4,
   "q": "For many with ____ deficits, reading facial expressions and knowing how to respond are confusing daily challenges.",
   "options": [
@@ -538,7 +538,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w3q5",
-  "week": 3,
+  "week": "3",
   "n": 5,
   "q": "The Information Processing View of Learning assumes that there are limits to how much information can be processed at each stage.",
   "options": [
@@ -552,7 +552,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w3q6",
-  "week": 3,
+  "week": "3",
   "n": 6,
   "q": "The Information Processing View of Learning assumes that information process is involved in ____",
   "options": [
@@ -568,7 +568,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w3q7",
-  "week": 3,
+  "week": "3",
   "n": 7,
   "q": "The capacity of the sensory register is ____.",
   "options": [
@@ -584,7 +584,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w3q8",
-  "week": 3,
+  "week": "3",
   "n": 8,
   "q": "Most children do not begin to engage in the process of rehearsal on their own until about age ____.",
   "options": [
@@ -600,7 +600,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w3q9",
-  "week": 3,
+  "week": "3",
   "n": 9,
   "q": "____ provides an interface between the sub-systems of working memory and the part of long term memory specialized for episodic memory.",
   "options": [
@@ -616,7 +616,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w3q10",
-  "week": 3,
+  "week": "3",
   "n": 10,
   "q": "Memories of specific episodes of one's life refers to ____.",
   "options": [
@@ -632,7 +632,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w4q1",
-  "week": 4,
+  "week": "4",
   "n": 1,
   "q": "____ thinking is the ability to create mental representations of objects, places, events, or people in your mind.",
   "options": [
@@ -648,7 +648,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w4q2",
-  "week": 4,
+  "week": "4",
   "n": 2,
   "q": "We compare new information to our ____ of the person, place, or thing, so we know how to categorize the new information mentally.",
   "options": [
@@ -664,7 +664,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w4q3",
-  "week": 4,
+  "week": "4",
   "n": 3,
   "q": "Which of the following is not true?",
   "options": [
@@ -680,7 +680,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w4q4",
-  "week": 4,
+  "week": "4",
   "n": 4,
   "q": "Mental images are ____.",
   "options": [
@@ -696,7 +696,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w4q5",
-  "week": 4,
+  "week": "4",
   "n": 5,
   "q": "____ organize complex phenomena into simpler, easily understandable, and usable categories and help to solve our problems.",
   "options": [
@@ -712,7 +712,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w4q6",
-  "week": 4,
+  "week": "4",
   "n": 6,
   "q": "The lowermost level of Bloom's taxonomy is ____.",
   "options": [
@@ -728,7 +728,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w4q7",
-  "week": 4,
+  "week": "4",
   "n": 7,
   "q": "The psychomotor domain of the Bloom's taxonomy is concerned with ____.",
   "options": [
@@ -744,7 +744,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w4q8",
-  "week": 4,
+  "week": "4",
   "n": 8,
   "q": "Which of the following is an example of meta-cognition skills?",
   "options": [
@@ -760,7 +760,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w4q9",
-  "week": 4,
+  "week": "4",
   "n": 9,
   "q": "____ critical thinking skill helps you analyze and process information to come to an unbiased conclusion.",
   "options": [
@@ -776,7 +776,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w4q10",
-  "week": 4,
+  "week": "4",
   "n": 10,
   "q": "The inspiration phase of the creative thinking process refers to the ____ stage.",
   "options": [
@@ -793,7 +793,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w5q1",
-  "week": 5,
+  "week": "5",
   "n": 1,
   "q": "Which of the following is true about motivation?",
   "options": [
@@ -809,7 +809,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w5q2",
-  "week": 5,
+  "week": "5",
   "n": 2,
   "q": "The term \"motivation\" comes from a ____ word.",
   "options": [
@@ -825,7 +825,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w5q3",
-  "week": 5,
+  "week": "5",
   "n": 3,
   "q": "It is called extrinsic motivation if causal factor is ____.",
   "options": [
@@ -841,7 +841,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w5q4",
-  "week": 5,
+  "week": "5",
   "n": 4,
   "q": "____ motivation is considered to be more crucial for students as it is associated with deep learning, better performance and self-efficacy.",
   "options": [
@@ -857,7 +857,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w5q5",
-  "week": 5,
+  "week": "5",
   "n": 5,
   "q": "____ proposed that there are three primary drives that drive human behavior.",
   "options": [
@@ -873,7 +873,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w5q6",
-  "week": 5,
+  "week": "5",
   "n": 6,
   "q": "Expectancy Theory of Motivation was developed by ____.",
   "options": [
@@ -889,7 +889,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w5q7",
-  "week": 5,
+  "week": "5",
   "n": 7,
   "q": "An example of ____ is thinking, \"If I work hard I can achieve the targets my boss has set for me\".",
   "options": [
@@ -905,7 +905,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w5q8",
-  "week": 5,
+  "week": "5",
   "n": 8,
   "q": "In SMART goals, T stands for ____.",
   "options": [
@@ -921,7 +921,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w5q9",
-  "week": 5,
+  "week": "5",
   "n": 9,
   "q": "Friendship is a ____ need in Maslow's hierarchy.",
   "options": [
@@ -937,7 +937,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w5q10",
-  "week": 5,
+  "week": "5",
   "n": 10,
   "q": "____ theory differentiates between autonomous motivation and controlled motivation.",
   "options": [
@@ -953,7 +953,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w6q1",
-  "week": 6,
+  "week": "6",
   "n": 1,
   "q": "According to Daniel Goleman, ____ component of emotional intelligence focuses on how we handle relationships with others.",
   "options": [
@@ -970,7 +970,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w6q2",
-  "week": 6,
+  "week": "6",
   "n": 2,
   "q": "Emotional intelligence can be considered a type of ____ intelligence.",
   "options": [
@@ -986,7 +986,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w6q3",
-  "week": 6,
+  "week": "6",
   "n": 3,
   "q": "Noticing a difficult emotion and slowing down or resisting any impulsive action that may follow highlights ____ component of emotional intelligence.",
   "options": [
@@ -1002,7 +1002,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w6q4",
-  "week": 6,
+  "week": "6",
   "n": 4,
   "q": "The following are signs of emotional intelligence, except ____.",
   "options": [
@@ -1018,7 +1018,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w6q5",
-  "week": 6,
+  "week": "6",
   "n": 5,
   "q": "Perceiving emotions means ____.",
   "options": [
@@ -1034,7 +1034,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w6q6",
-  "week": 6,
+  "week": "6",
   "n": 6,
   "q": "____ suggests that 10 distinct components provide the scaffolding of emotionally and socially intelligent behaviors:",
   "options": [
@@ -1050,7 +1050,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w6q7",
-  "week": 6,
+  "week": "6",
   "n": 7,
   "q": "Which of the following is a facilitator of EQ?",
   "options": [
@@ -1067,7 +1067,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w6q8",
-  "week": 6,
+  "week": "6",
   "n": 8,
   "q": "____ is a strategy for improving one's self-awareness.",
   "options": [
@@ -1083,7 +1083,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w6q9",
-  "week": 6,
+  "week": "6",
   "n": 9,
   "q": "Having students create autobiographies is an example of creating opportunities for ____.",
   "options": [
@@ -1099,7 +1099,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w6q10",
-  "week": 6,
+  "week": "6",
   "n": 10,
   "q": "Which of the following is not true about management of emotions?",
   "options": [
@@ -1114,8 +1114,8 @@ window.QUESTIONS = [
   "explanation": "Emotion management is essentially carried out by the individual, though shaped by cultural and social display rules about what is appropriate to feel and express. It is influenced by others but not directly regulated by them, so that statement is the false one."
  },
  {
-  "id": "w7q1",
-  "week": 7,
+  "id": "w7Aq1",
+  "week": "7A",
   "n": 1,
   "q": "Which of the following is false about learning according to Gagne’s definition?",
   "options": [
@@ -1130,8 +1130,8 @@ window.QUESTIONS = [
   "explanation": "Gagne defined learning as a change in human disposition or capability that persists over time and is NOT simply ascribable to processes of growth (maturation). So saying it is simply due to growth is the false statement."
  },
  {
-  "id": "w7q2",
-  "week": 7,
+  "id": "w7Aq2",
+  "week": "7A",
   "n": 2,
   "q": "Manual or physical skills come under ____ component of Bloom’s taxonomy.",
   "options": [
@@ -1146,8 +1146,8 @@ window.QUESTIONS = [
   "explanation": "Bloom's taxonomy has three domains: cognitive (knowledge), affective (attitudes and feelings) and psychomotor (manual or physical skills). 'Physical' is not one of the named domains."
  },
  {
-  "id": "w7q3",
-  "week": 7,
+  "id": "w7Aq3",
+  "week": "7A",
   "n": 3,
   "q": "Reflection, learning and education was explored by ____.",
   "options": [
@@ -1162,8 +1162,8 @@ window.QUESTIONS = [
   "explanation": "John Dewey wrote extensively on reflective thinking and its role in learning and education (e.g., How We Think, Democracy and Education). Watson was a behaviorist and Rogers a humanistic psychologist."
  },
  {
-  "id": "w7q4",
-  "week": 7,
+  "id": "w7Aq4",
+  "week": "7A",
   "n": 4,
   "q": "The principles of ____ refer to how close in time two events must be for a bond to be formed.",
   "options": [
@@ -1178,8 +1178,8 @@ window.QUESTIONS = [
   "explanation": "Contiguity is the principle that events occurring close together in time (and space) become associated. Reinforcement concerns consequences that strengthen a response, not timing between paired events."
  },
  {
-  "id": "w7q5",
-  "week": 7,
+  "id": "w7Aq5",
+  "week": "7A",
   "n": 5,
   "q": "____ gives information to learners about their success or failure concerning the task at hand.",
   "options": [
@@ -1194,8 +1194,8 @@ window.QUESTIONS = [
   "explanation": "Cognitive feedback informs learners about whether they succeeded or failed on a task, helping them correct their understanding. Reinforcement strengthens behavior through consequences rather than conveying task information."
  },
  {
-  "id": "w7q6",
-  "week": 7,
+  "id": "w7Aq6",
+  "week": "7A",
   "n": 6,
   "q": "The ____ orientation to learning has a quality of personal involvement—the whole person in both feeling and cognitive aspects being in the learning event.",
   "options": [
@@ -1210,8 +1210,8 @@ window.QUESTIONS = [
   "explanation": "The humanistic orientation (Carl Rogers) emphasises whole-person, self-initiated learning involving both feelings and cognition. The cognitive orientation focuses mainly on mental processes rather than the whole person."
  },
  {
-  "id": "w7q7",
-  "week": 7,
+  "id": "w7Aq7",
+  "week": "7A",
   "n": 7,
   "q": "Learning through play is ____ learning.",
   "options": [
@@ -1226,8 +1226,8 @@ window.QUESTIONS = [
   "explanation": "In play, learners explore, manipulate and engage directly with materials and ideas, which makes it a form of active learning rather than passive reception of information."
  },
  {
-  "id": "w7q8",
-  "week": 7,
+  "id": "w7Aq8",
+  "week": "7A",
   "n": 8,
   "q": "People with ____ learning style are prone to sorting their ideas after speaking, rather than thinking ideas through before.",
   "options": [
@@ -1242,8 +1242,8 @@ window.QUESTIONS = [
   "explanation": "Auditory (aural/verbal) learners process information by hearing and talking, so they often work out their ideas by speaking them aloud. Solitary learners, by contrast, prefer to think things through alone."
  },
  {
-  "id": "w7q9",
-  "week": 7,
+  "id": "w7Aq9",
+  "week": "7A",
   "n": 9,
   "q": "Which of the following statements is false?",
   "options": [
@@ -1258,8 +1258,8 @@ window.QUESTIONS = [
   "explanation": "Effective instruction is dynamic, drawing on multiple approaches (eclectic), encouraging learners to generate knowledge, and involving interaction. Describing it as static is therefore false."
  },
  {
-  "id": "w7q10",
-  "week": 7,
+  "id": "w7Aq10",
+  "week": "7A",
   "n": 10,
   "q": "In ADDIE model, I stand for ____.",
   "options": [
@@ -1274,8 +1274,164 @@ window.QUESTIONS = [
   "explanation": "ADDIE stands for Analysis, Design, Development, Implementation and Evaluation, a common instructional design model. 'Instruction' is a tempting guess but is not part of the acronym."
  },
  {
+  "id": "w7Bq1",
+  "week": "7B",
+  "n": 1,
+  "q": "Simon defined learning as changes in a system that result in ____ over time on tasks similar to those done previously.",
+  "options": [
+   "boredom",
+   "decreased anxiety",
+   "improved performance",
+   "reduced performance"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Herbert Simon defined learning as changes in a system that make it perform the same or similar tasks more effectively the next time, i.e. improved performance over time."
+ },
+ {
+  "id": "w7Bq2",
+  "week": "7B",
+  "n": 2,
+  "q": "Robert Gagne defined learning as ____.",
+  "options": [
+   "a change in human disposition or capacity",
+   "a change that persists over a period of time",
+   "a change not simply ascribable to processes of growth",
+   "all of the given"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Gagne's definition has all three parts: learning is a change in human disposition or capability, it persists over a period of time, and it is not simply ascribable to processes of growth."
+ },
+ {
+  "id": "w7Bq3",
+  "week": "7B",
+  "n": 3,
+  "q": "Psychomotor skills are ____ skills.",
+  "options": [
+   "cognitive",
+   "spiritual",
+   "mental",
+   "physical"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "The psychomotor domain of Bloom's taxonomy covers physical (manual or motor) skills such as movement, coordination and manipulation; cognitive and mental skills belong to the cognitive domain."
+ },
+ {
+  "id": "w7Bq4",
+  "week": "7B",
+  "n": 4,
+  "q": "Returning to experience refers to ____.",
+  "options": [
+   "attending to feelings",
+   "re-examining experience in the light of one's intent and existing knowledge",
+   "using helpful feelings and removing obstructive ones",
+   "recalling or detailing salient events"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "In Boud, Keogh and Walker's reflection model, returning to experience means recalling or detailing the salient events. Attending to feelings (using helpful ones, removing obstructive ones) and re-evaluating the experience are the later stages."
+ },
+ {
+  "id": "w7Bq5",
+  "week": "7B",
+  "n": 5,
+  "q": "Which of the following assumptions does not come under the behaviorist orientation to learning?",
+  "options": [
+   "Differences between individuals are important as they will affect learning",
+   "Observable behavior rather than internal thought processes are the focus of study.",
+   "Environment shapes one's behavior",
+   "The principle of contiguity is central"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Behaviorism focuses on observable behavior, holds that the environment shapes behavior, and treats contiguity (and reinforcement) as central. Emphasising individual differences is not one of its core assumptions."
+ },
+ {
+  "id": "w7Bq6",
+  "week": "7B",
+  "n": 6,
+  "q": "Reinforcement can come through sharing of results rather than a reward.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "True. Reinforcement does not have to be a tangible reward: sharing results or giving feedback on performance can also strengthen the desired behavior."
+ },
+ {
+  "id": "w7Bq7",
+  "week": "7B",
+  "n": 7,
+  "q": "____ has contributed to the humanistic orientations to learning.",
+  "options": [
+   "linguistic",
+   "kinesthetic",
+   "visual",
+   "Carl Rogers"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Carl Rogers, together with Abraham Maslow, is a key figure of the humanistic orientation, which stresses self-directed, experiential learning and personal growth. The other options are learning styles, not contributors."
+ },
+ {
+  "id": "w7Bq8",
+  "week": "7B",
+  "n": 8,
+  "q": "In the process of learning, which of the following is not a component of output?",
+  "options": [
+   "certification",
+   "attitude change",
+   "knowledge enhancement",
+   "training plan"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Outputs are the results of learning, such as certification, attitude change and knowledge enhancement. A training plan is an input or part of the process, not an output."
+ },
+ {
+  "id": "w7Bq9",
+  "week": "7B",
+  "n": 9,
+  "q": "Ambience, space and decorum do not affect learning.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "False. The physical learning environment, including ambience, space and decorum, affects attention, comfort and motivation, and therefore affects learning."
+ },
+ {
+  "id": "w7Bq10",
+  "week": "7B",
+  "n": 10,
+  "q": "Role-playing can motivate ____ type of learners effectively.",
+  "options": [
+   "solitary",
+   "social",
+   "reading/writing",
+   "logical/analytical"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Role-play is an interactive, group-based activity, so it suits social (interpersonal) learners who learn best by working with others."
+ },
+ {
   "id": "w8q1",
-  "week": 8,
+  "week": "8",
   "n": 1,
   "q": "The word ‘pedagogy’ has been derived from the ____ word “pedagogue”.",
   "options": [
@@ -1291,7 +1447,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w8q2",
-  "week": 8,
+  "week": "8",
   "n": 2,
   "q": "Which of the following statements is not true about pedagogy?",
   "options": [
@@ -1307,7 +1463,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w8q3",
-  "week": 8,
+  "week": "8",
   "n": 3,
   "q": "Pedagogy can enhance the student-teacher relationship.",
   "options": [
@@ -1321,7 +1477,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w8q4",
-  "week": 8,
+  "week": "8",
   "n": 4,
   "q": "____ learning is based on the model that knowledge can be created within a population where members actively interact by sharing experiences and take on asymmetry roles.",
   "options": [
@@ -1337,7 +1493,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w8q5",
-  "week": 8,
+  "week": "8",
   "n": 5,
   "q": "The Pedagogical Model provides an overview of the learning cycle and breaks it down into ____ domains or phases of instruction.",
   "options": [
@@ -1353,7 +1509,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w8q6",
-  "week": 8,
+  "week": "8",
   "n": 6,
   "q": "Which of the following is not a type of inquiry-based approach?",
   "options": [
@@ -1369,7 +1525,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w8q7",
-  "week": 8,
+  "week": "8",
   "n": 7,
   "q": "In experiential learning, students are engaged ____.",
   "options": [
@@ -1385,7 +1541,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w8q8",
-  "week": 8,
+  "week": "8",
   "n": 8,
   "q": "____ stage of experiential theory by Kolb focuses on planning.",
   "options": [
@@ -1401,7 +1557,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w8q9",
-  "week": 8,
+  "week": "8",
   "n": 9,
   "q": "People with a ____ learning style can often act on “gut feeling” and will rely on others' analysis rather than their own.",
   "options": [
@@ -1417,7 +1573,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w8q10",
-  "week": 8,
+  "week": "8",
   "n": 10,
   "q": "According to the ____ principle, students learn better from animation and narration than from animation and on-screen text.",
   "options": [
@@ -1433,7 +1589,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w9q1",
-  "week": 9,
+  "week": "9",
   "n": 1,
   "q": "E-learning is any form of ____.",
   "options": [
@@ -1449,7 +1605,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w9q2",
-  "week": 9,
+  "week": "9",
   "n": 2,
   "q": "____ is a feature of e-learning.",
   "options": [
@@ -1465,7 +1621,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w9q3",
-  "week": 9,
+  "week": "9",
   "n": 3,
   "q": "E-learning is a synonym of audio-visual learning, multimedia learning, and distance learning.",
   "options": [
@@ -1479,7 +1635,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w9q4",
-  "week": 9,
+  "week": "9",
   "n": 4,
   "q": "Which of the following is not a type of e-learning?",
   "options": [
@@ -1495,7 +1651,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w9q5",
-  "week": 9,
+  "week": "9",
   "n": 5,
   "q": "Which of the following is not a benefit of e-learning?",
   "options": [
@@ -1511,7 +1667,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w9q6",
-  "week": 9,
+  "week": "9",
   "n": 6,
   "q": "Good learners know ____.",
   "options": [
@@ -1527,7 +1683,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w9q7",
-  "week": 9,
+  "week": "9",
   "n": 7,
   "q": "Learners may multitask when engaging in an online course, which could be resulting in ____.",
   "options": [
@@ -1543,7 +1699,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w9q8",
-  "week": 9,
+  "week": "9",
   "n": 8,
   "q": "____ learning is the crucial determinant of successful e-learning.",
   "options": [
@@ -1559,7 +1715,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w9q9",
-  "week": 9,
+  "week": "9",
   "n": 9,
   "q": "The brain can process 36,000 visual cues per____.",
   "options": [
@@ -1575,7 +1731,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w9q10",
-  "week": 9,
+  "week": "9",
   "n": 10,
   "q": "For effective learning, online courses should ____.",
   "options": [
@@ -1591,7 +1747,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w10q1",
-  "week": 10,
+  "week": "10",
   "n": 1,
   "q": "During Covid-19 the world was busy in preparing 1.5 billion learners for the new normal, i.e., ____ learning.",
   "options": [
@@ -1607,7 +1763,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w10q2",
-  "week": 10,
+  "week": "10",
   "n": 2,
   "q": "To develop learner readiness for online learning, training sessions on ____ are helpful.",
   "options": [
@@ -1623,7 +1779,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w10q3",
-  "week": 10,
+  "week": "10",
   "n": 3,
   "q": "The typical picture of a teacher being a dispenser of knowledge to the students has been replaced by that of a ____.",
   "options": [
@@ -1639,7 +1795,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w10q4",
-  "week": 10,
+  "week": "10",
   "n": 4,
   "q": "In 2018, Global Education and Skills Forum noted that the 'future' teacher would need the 5 skills to thrive in the 21st century. Which of the following is not one of them?",
   "options": [
@@ -1655,7 +1811,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w10q5",
-  "week": 10,
+  "week": "10",
   "n": 5,
   "q": "Participatory education demands ____ so as to build a needs-based approach to teaching.",
   "options": [
@@ -1671,7 +1827,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w10q6",
-  "week": 10,
+  "week": "10",
   "n": 6,
   "q": "Students who consider intelligence as a malleable entity tend to focus on their obstacles instead of goals.",
   "options": [
@@ -1685,7 +1841,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w10q7",
-  "week": 10,
+  "week": "10",
   "n": 7,
   "q": "Which of the following is not a principle to enhance student learning.",
   "options": [
@@ -1701,7 +1857,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w10q8",
-  "week": 10,
+  "week": "10",
   "n": 8,
   "q": "____ feedback to students is important for learning.",
   "options": [
@@ -1717,7 +1873,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w10q9",
-  "week": 10,
+  "week": "10",
   "n": 9,
   "q": "Mastery goals are those that are geared towards the acquisition or improvement of____.",
   "options": [
@@ -1733,7 +1889,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w10q10",
-  "week": 10,
+  "week": "10",
   "n": 10,
   "q": "The vast majority of formative assessment is____.",
   "options": [
@@ -1749,7 +1905,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w11q1",
-  "week": 11,
+  "week": "11",
   "n": 1,
   "q": "Social cognition has a protracted development through infancy to ____.",
   "options": [
@@ -1765,7 +1921,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w11q2",
-  "week": 11,
+  "week": "11",
   "n": 2,
   "q": "Which of the following abilities comes under social cognition?",
   "options": [
@@ -1781,7 +1937,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w11q3",
-  "week": 11,
+  "week": "11",
   "n": 3,
   "q": "Under social cognition, abilities involved in affective processing are often called ____.",
   "options": [
@@ -1797,7 +1953,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w11q4",
-  "week": 11,
+  "week": "11",
   "n": 4,
   "q": "Social schemas refer to people's mental representations of social ____.",
   "options": [
@@ -1813,7 +1969,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w11q5",
-  "week": 11,
+  "week": "11",
   "n": 5,
   "q": "During the earliest stages of development, children are very ____-centric. They see the world from their own perspective and struggle to think about how other people may view the world.",
   "options": [
@@ -1829,7 +1985,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w11q6",
-  "week": 11,
+  "week": "11",
   "n": 6,
   "q": "A theory of mind refers to a person's ability to understand and think about the ____ of other people.",
   "options": [
@@ -1845,7 +2001,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w11q7",
-  "week": 11,
+  "week": "11",
   "n": 7,
   "q": "The same social behavior in one cultural setting might have a very different meaning and interpretation if it were to occur or be observed in another culture.",
   "options": [
@@ -1859,7 +2015,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w11q8",
-  "week": 11,
+  "week": "11",
   "n": 8,
   "q": "Social cognitive theory by Bandura focuses on concepts of ____.",
   "options": [
@@ -1875,7 +2031,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w11q9",
-  "week": 11,
+  "week": "11",
   "n": 9,
   "q": "The central tenet of Bandura's social-cognitive theory is that people seek to develop a sense of ____ over the important events in their lives.",
   "options": [
@@ -1891,7 +2047,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w11q10",
-  "week": 11,
+  "week": "11",
   "n": 10,
   "q": "____ hypothesis suggests that social processes influence how information is selected, organized, integrated, and retrieved.",
   "options": [
@@ -1907,7 +2063,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w12q1",
-  "week": 12,
+  "week": "12",
   "n": 1,
   "q": "Sustainability in economic sustainability is ____.",
   "options": [
@@ -1924,7 +2080,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w12q2",
-  "week": 12,
+  "week": "12",
   "n": 2,
   "q": "The term \"sustainable development\" was first mentioned in a book related to the 1972 UN Stockholm conference on ____.",
   "options": [
@@ -1940,7 +2096,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w12q3",
-  "week": 12,
+  "week": "12",
   "n": 3,
   "q": "Environmental sustainability focuses on impacts of processes, products and services on ____.",
   "options": [
@@ -1956,7 +2112,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w12q4",
-  "week": 12,
+  "week": "12",
   "n": 4,
   "q": "Which of the following does not come under social sustainability?",
   "options": [
@@ -1972,7 +2128,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w12q5",
-  "week": 12,
+  "week": "12",
   "n": 5,
   "q": "SDG ____ focuses on clean water and sanitation.",
   "options": [
@@ -1988,7 +2144,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w12q6",
-  "week": 12,
+  "week": "12",
   "n": 6,
   "q": "SDG 16 focuses on ____.",
   "options": [
@@ -2004,7 +2160,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w12q7",
-  "week": 12,
+  "week": "12",
   "n": 7,
   "q": "On 20 October 2020, the Higher Education Sustainability Initiative (HESI) raised the flag of higher education as a driver for sustainable development and inclusive societies on the first day of the ____ 2020.",
   "options": [
@@ -2020,7 +2176,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w12q8",
-  "week": 12,
+  "week": "12",
   "n": 8,
   "q": "Education is related to all SDGs.",
   "options": [
@@ -2034,7 +2190,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w12q9",
-  "week": 12,
+  "week": "12",
   "n": 9,
   "q": "Successful implementation of ESD requires a shift in focus from ____.",
   "options": [
@@ -2050,7 +2206,7 @@ window.QUESTIONS = [
  },
  {
   "id": "w12q10",
-  "week": 12,
+  "week": "12",
   "n": 10,
   "q": "____ competency is the ability to reflect on one's own role in the local community and (global) society.",
   "options": [

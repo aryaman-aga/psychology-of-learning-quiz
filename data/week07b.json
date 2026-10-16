@@ -1,0 +1,132 @@
+{
+  "week": 7,
+  "label": "7B",
+  "questions": [
+    {
+      "q": "Simon defined learning as changes in a system that result in ____ over time on tasks similar to those done previously.",
+      "options": [
+        "boredom",
+        "decreased anxiety",
+        "improved performance",
+        "reduced performance"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Herbert Simon defined learning as changes in a system that make it perform the same or similar tasks more effectively the next time, i.e. improved performance over time."
+    },
+    {
+      "q": "Robert Gagne defined learning as ____.",
+      "options": [
+        "a change in human disposition or capacity",
+        "a change that persists over a period of time",
+        "a change not simply ascribable to processes of growth",
+        "all of the given"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Gagne's definition has all three parts: learning is a change in human disposition or capability, it persists over a period of time, and it is not simply ascribable to processes of growth."
+    },
+    {
+      "q": "Psychomotor skills are ____ skills.",
+      "options": [
+        "cognitive",
+        "spiritual",
+        "mental",
+        "physical"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "The psychomotor domain of Bloom's taxonomy covers physical (manual or motor) skills such as movement, coordination and manipulation; cognitive and mental skills belong to the cognitive domain."
+    },
+    {
+      "q": "Returning to experience refers to ____.",
+      "options": [
+        "attending to feelings",
+        "re-examining experience in the light of one's intent and existing knowledge",
+        "using helpful feelings and removing obstructive ones",
+        "recalling or detailing salient events"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "In Boud, Keogh and Walker's reflection model, returning to experience means recalling or detailing the salient events. Attending to feelings (using helpful ones, removing obstructive ones) and re-evaluating the experience are the later stages."
+    },
+    {
+      "q": "Which of the following assumptions does not come under the behaviorist orientation to learning?",
+      "options": [
+        "Differences between individuals are important as they will affect learning",
+        "Observable behavior rather than internal thought processes are the focus of study.",
+        "Environment shapes one's behavior",
+        "The principle of contiguity is central"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Behaviorism focuses on observable behavior, holds that the environment shapes behavior, and treats contiguity (and reinforcement) as central. Emphasising individual differences is not one of its core assumptions."
+    },
+    {
+      "q": "Reinforcement can come through sharing of results rather than a reward.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "True. Reinforcement does not have to be a tangible reward: sharing results or giving feedback on performance can also strengthen the desired behavior."
+    },
+    {
+      "q": "____ has contributed to the humanistic orientations to learning.",
+      "options": [
+        "linguistic",
+        "kinesthetic",
+        "visual",
+        "Carl Rogers"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Carl Rogers, together with Abraham Maslow, is a key figure of the humanistic orientation, which stresses self-directed, experiential learning and personal growth. The other options are learning styles, not contributors."
+    },
+    {
+      "q": "In the process of learning, which of the following is not a component of output?",
+      "options": [
+        "certification",
+        "attitude change",
+        "knowledge enhancement",
+        "training plan"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Outputs are the results of learning, such as certification, attitude change and knowledge enhancement. A training plan is an input or part of the process, not an output."
+    },
+    {
+      "q": "Ambience, space and decorum do not affect learning.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "False. The physical learning environment, including ambience, space and decorum, affects attention, comfort and motivation, and therefore affects learning."
+    },
+    {
+      "q": "Role-playing can motivate ____ type of learners effectively.",
+      "options": [
+        "solitary",
+        "social",
+        "reading/writing",
+        "logical/analytical"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Role-play is an interactive, group-based activity, so it suits social (interpersonal) learners who learn best by working with others."
+    }
+  ]
+}
