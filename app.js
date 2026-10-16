@@ -411,6 +411,15 @@
     </button>`;
   }
 
+  /* ---------- Theme ---------- */
+  document.getElementById("themeBtn").addEventListener("click", () => {
+    const dark = root.dataset.theme !== "dark";
+    if (dark) root.dataset.theme = "dark"; else delete root.dataset.theme;
+    document.getElementById("themeColor").content = dark ? "#8E0D19" : "#B3101F";
+    store.set("theme", dark ? "dark" : "light");
+    haptic(5);
+  });
+
   /* ---------- Events ---------- */
   $tabs.addEventListener("click", e => {
     const b = e.target.closest("[data-tab]");

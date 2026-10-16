@@ -24,6 +24,33 @@
   color-scheme: light;
 }
 
+/* Dark theme: only when chosen with the header toggle (never automatic) */
+:root[data-theme="dark"] {
+  --frame: #8E0D19;
+  --tab: #A51F2C;
+  --tab-hover: #B32C39;
+  --frame-text: #FFECEC;
+  --sheet: #1F1B1C;
+  --opt: #2D2728;
+  --opt-hover: #362F30;
+  --opt-press: #403738;
+  --ink: #FF9EA5;
+  --ink-2: #E9CACC;
+  --muted: #A8908F;
+  --line: rgba(255, 158, 165, .16);
+  --good: #2C8A55;
+  --good-soft: #1F3A2A;
+  color-scheme: dark;
+}
+/* solid red fills read better than pink in dark mode */
+:root[data-theme="dark"] .opt.wrong,
+:root[data-theme="dark"] .btn-solid,
+:root[data-theme="dark"] .sq li.picked,
+:root[data-theme="dark"] .wbox[aria-pressed="true"],
+:root[data-theme="dark"] .toast { background: #C42634; color: #FFFFFF; }
+:root[data-theme="dark"] .toggle[aria-checked="true"] .switch { background: #C42634; }
+:root[data-theme="dark"] .progress i { background: #E2414F; }
+
 /* ---------- Base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
 html {
@@ -104,6 +131,9 @@ input { font: inherit; color: inherit; }
   transition: opacity .15s;
 }
 .modes button svg { width: 20px; height: 20px; }
+.theme-btn .sun { display: none; }
+:root[data-theme="dark"] .theme-btn .sun { display: block; }
+:root[data-theme="dark"] .theme-btn .moon { display: none; }
 .modes .lbl { display: none; }
 .modes button[aria-current="true"] { opacity: 1; }
 .modes button[aria-current="true"]::after {
